@@ -3243,9 +3243,18 @@ height: 116px;
 
 }
 
+#nuestronegocio7 .imgciconohabi {
+  
+ width: 90%;
+ display: block;
+ margin: 20px 0;
+ 
+ 
+ }
+
 #nuestronegocio7 .imgicowoman {
   
- width: 62%;
+ width: 50%;
  height: auto;
  display: block;
  margin: auto;
