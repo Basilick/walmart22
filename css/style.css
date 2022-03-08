@@ -308,6 +308,19 @@ strong {
 
 }
 
+.bluelitxt {
+
+  color: #6caddf;
+
+}
+
+.bluedarktxt {
+
+  color: #00539b;
+
+}
+
+
 .orangee9txt {
  color: #e97119;
 }
@@ -2241,6 +2254,15 @@ align-items: flex-start;
   margin: auto;
 }
 
+
+#mensajedirs .btnreadmore {
+
+  color: #4A5B6D;
+  text-decoration: underline;
+}
+
+
+
 #contdatgraf {
   overflow: hidden;
 }
@@ -2974,6 +2996,8 @@ font-size: 12px;
 #nuestronegocio0 .txtprinban {
   width: 768px;
 margin: 60px;
+margin-left: 10%;
+    margin-top: 8%;
 }
 
 
@@ -3080,12 +3104,9 @@ height: 116px;
 }
 
 
-#nuestronegocio3 .bgimgbodeemplo {
-  background-image: url(../img/nuestro-negocio/imgbodegaemplyee.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: left top;
-  height: 83vh;
+#nuestronegocio3 .bgimgbodeemplo img {
+  margin-top: 30px;
+  
   
 }
 
@@ -3149,11 +3170,20 @@ height: 116px;
 
  #nuestronegocio5 {
   
-  height: 90vh;
-  background-image: url(../img/nuestro-negocio/imgbgbodegaurera.jpg);
-  background-size:cover;
+  height: auto;
+ 
+
+
+}
+
+#nuestronegocio5 .bgbodega{
+  
+  height: 240px;
+  background-image: url(../img/nuestro-negocio/imgmamalucha.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position:center;
+  background-position: top center;
+ 
 
 
 }
@@ -3386,72 +3416,159 @@ height: 116px;
 }
 
 #nuestronegocio12 .contborblu {
-   border: 1px solid #00539b;
-   margin-top: 20px;
+  border: 1px solid #00539b;
+  margin-top: 20px;
+
+}
+#nuestronegocio12 .owl-carousel .owl-stage-outer {
+  height: 100%;
+}
+
+
+#nuestronegocio12 .owl-carousel .owl-stage {
+  height: 100%;
+}
+
+#nuestronegocio12 .owl-wrapper-outer {
+   width: 100%;
+   overflow: hidden;
+   height: auto;
 
 }
 
-#nuestronegocio12 .contborblu .bgwhite {
-  border-left: 8px solid #00539b;
- 
-    
+#nuestronegocio12 .owl-dots {
+  display: none;
+}
+
+#nuestronegocio12 .owl-theme .owl-nav {
+  position: absolute;
+  top: 57px;
+  width: 97%;
+}
+
+#nuestronegocio12 .owl-theme .owl-nav .owl-prev span{
+  position: relative;
+    font-size: 2em;
+    top: -13px;
+}
+
+#nuestronegocio12 .owl-theme .owl-nav .owl-prev:hover{
+  color: #00339F;
+}
+
+#nuestronegocio12 .owl-theme .owl-nav .owl-next span{
+  position: relative;
+    font-size: 2em;
+    top: -13px;
+}
+#nuestronegocio12 .owl-theme .owl-nav .owl-next:hover{
+  color: #00339F;
+}
+
+
+
+#nuestronegocio12 .owl-theme .owl-nav .owl-prev {
+  float: left;
+  width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 100%;
+    border: 1px #898989 solid;
+}
+
+#nuestronegocio12 .owl-theme .owl-nav .owl-next {
+  float: right;
+  width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 100%;
+    border: 1px #898989 solid;
+}
+
+#nuestronegocio12 .owl-carousel .owl-item {
+
+
+  height: 100%;
+}
+
+#nuestronegocio12 .contborblu {
+  
+  border: 1px solid #00539b;
+  margin-top: 20px;
+  border-top: 8px solid #00539b;
+  height: 96%;
+  padding: 0 10px;
 
 }
+
+#nuestronegocio12 .contborbluli {
+  
+  border: 1px solid #6caddf;
+  margin-top: 20px;
+  border-top: 8px solid #6caddf;
+  height: 96%;
+  padding: 0 10px;
+
+}
+
+#nuestronegocio12 .contborbludark {
+  
+  border: 1px solid #00539b;
+  margin-top: 20px;
+  border-top: 8px solid #00539b;
+  height: 96%;
+  padding: 0 10px;
+
+}
+
+
+
 
 #nuestronegocio12 .contbororang {
   border: 1px solid #e97119;
   margin-top: 20px;
+  border-top: 8px solid #e97119;
+  height: 96%;
+  padding: 0 10px;
 
 }
 
-#nuestronegocio12 .contbororang .bgwhite {
- border-left: 8px solid #e97119;
 
-   
-
-}
 
 #nuestronegocio12 .contboryelo {
   border: 1px solid #fdb71a;
   margin-top: 20px;
+  border-top: 8px solid #fdb71a;
+  height: 96%;
+  padding: 0 10px;
 
 }
 
-#nuestronegocio12 .contboryelo .bgwhite {
- border-left: 8px solid #fdb71a;
-
-   
-
-}
 
 #nuestronegocio12 .contborgree {
   border: 1px solid #7cc04b;
   margin-top: 20px;
-
+  height: 96%;
+  border-top: 8px solid #7cc04b;
+  padding: 0 10px;
 }
 
-#nuestronegocio12 .contborgree .bgwhite {
- border-left: 8px solid #7cc04b;
 
-
-}
 
 #nuestronegocio12 .contborgreyb {
   border: 1px solid #4a5b6d;
   margin-top: 20px;
+  height: 96%;
+  border-top: 8px solid #4a5b6d;
+  padding: 0 10px;
 
 }
 
-#nuestronegocio12 .contborgreyb .bgwhite {
- border-left: 8px solid #4a5b6d;
-
-
-}
 
 #nuestronegocio12  .icosimgs {
-  width: 70px;
+  width: 75%;
   display: block;
-  margin: 15px auto 5px;
+  margin: 15px auto 15px;
   height: auto;
 }
 
@@ -3476,6 +3593,55 @@ height: 116px;
 margin: auto;
 
 }
+
+#nuestronegocio13 {
+  height: auto;
+}
+
+#nuestronegocio13 .contimghisico {
+  overflow-x: scroll; 
+   overflow-y: hidden;  
+   white-space: nowrap;
+
+}
+
+  
+
+#nuestronegocio13 .contimghisico .imgtime {
+  
+  width: 1440px;
+  height: auto;
+  display: inline-block;
+
+}
+
+#nuestronegocio13 .contimghisico .imgtime2 {
+  
+  position: absolute;
+  display: inline-block;
+  height: auto;
+  width: 1440px;
+
+}
+
+#nuestronegocio13 .contimghisico .imgtime3 {
+  display: inline-block;
+  left: 2880px;
+  height: auto;
+  position: absolute;
+  width: 1440px;
+
+}
+
+#nuestronegocio13 .contimghisico .imgtime4 {
+  display: inline-block;
+  left: 4320px;
+  height: auto;
+  position: absolute;
+  width: 1807px;
+
+}
+
 
 #nuestronegocio14 {
   overflow: hidden;
