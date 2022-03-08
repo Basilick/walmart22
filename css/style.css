@@ -422,6 +422,24 @@ a.btnprincipal {
   
 }
 
+a.btnprincipalwhite {
+  display: block;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  color:#FFFFFF;
+  border: #ffffff 1px solid;
+  text-decoration: none;
+  width:fit-content;
+  height: fit-content;
+  text-align: center;
+  font-family: Bogle-Regular;
+}
+
+a.btnprincipalwhite:hover {
+ font-family: Bogle-Bold;
+ color: #FFFFFF;
+}
+
 a.btnprincipaldark {
   display: block;
   padding: 5px 15px;
@@ -2216,9 +2234,9 @@ align-items: flex-start;
  align-items: flex-start;
 }
 
-#mensajedirs .subtitle1 {
+#mensajedirs h2 {
 
-  margin-top: 30px;
+  margin-top: 40px;
 
 
 }
@@ -2248,7 +2266,7 @@ align-items: flex-start;
   margin: auto;
 }
 
-#mensajedirs .btnprincipaldark {
+#mensajedirs a {
   
   
   margin: auto;
@@ -2257,7 +2275,7 @@ align-items: flex-start;
 
 #mensajedirs .btnreadmore {
 
-  color: #4A5B6D;
+  color: #ffffff;
   text-decoration: underline;
 }
 
@@ -3596,6 +3614,12 @@ margin: auto;
 
 #nuestronegocio13 {
   height: auto;
+}
+
+#nuestronegocio13 .imgindica {
+  width: 120px;
+  height: 120px;
+ 
 }
 
 #nuestronegocio13 .contimghisico {
