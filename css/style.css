@@ -2881,7 +2881,6 @@ font-size: 12px;
 #seccionvvid .pulse:before {
   content: '';
   display: block;
-  
   width: 100%;
   height: 100%;
   top: 0;
@@ -4530,8 +4529,83 @@ background-repeat: no-repeat;
 
 }/*-END  MOBILE-*/
 
+/*--------------------------------------------------------------
+# COMUNIDADES 
+---------------------------------------------------
+----------*/
+  #comunidades1{
+  background: #FCBA42;
+}
+#comunidades0 {
+    background-image: url(../img/home/iniciativas-comunidades.jpg);
+    background-size: cover;
+    background-color: #5377ee;
+    height: 100vh;
+}
+#comunidades6{background-color: #263b80;}
+.box__comunidades{background-color: #263b80; min-height: 360px;display: inline-block;  width: 100%;}
+.list__comunidades {padding: 10px;border-top: 1px solid #fff;}
+.box__comunidades ul{padding-left: 20px;}
+.box__comunidades ul li{color: #fff;font-size: 15px;}
+.box__background{background-position: center;background-size: cover;background-repeat: no-repeat;}
+.box__head__comunidades{padding: 10%;}
+.icon__svg__comunidad{width: 40px;height: 40px; margin: 20px 0;}
+.icon__svg__link{position: absolute;width: 60px;height: 60px; left: 30%;top: 30%;}
+.svg__yellow{fill: #000;}
+.icon__comunidades{width: 30px; height: 30px; margin: 10px auto;display: block;}
+.date__map{position: absolute;right: 10%;color: #263b80;width: 110px;  line-height: 1;}
+.date__map h3{font-size: 62px;}
+.comunidades__products{margin-bottom: 30px;}
+#comunidades__seguridad{border-right: 30px solid #f7b844;}
+.box__head__comunidades h3{font-size: 42px;line-height: 1;}
+.box__comunidad{margin-bottom: 30px;}
+.box__comunidad h3{font-size: 16px;line-height: 1.2;}
+.map__comunidades{padding: 10%;}
+.pontebien__comunidades{max-width: 350px; text-align: justify;margin-top: 15%;margin-bottom: 10%;}
+.padding__portadas{padding: 10%;}
+.font__28{font-size: 28px;line-height: 1.2;}
+.padding__5{padding-top: 5%;padding-bottom: 5%;}
+.padding__10{padding-top: 10%;padding-bottom: 10%;}
+.padding__30{padding-top: 30%;padding-bottom: 30%;}
+.padding__60{padding-top: 60%;padding-bottom: 60%;}
+.padding__90{padding-top: 90%;padding-bottom: 90%;}
+.text__justify{text-align: justify;}
+.text__center{text-align: center;}
+.date__comunidades{padding-top: 60%;}
+.date__comunidades h3{color: #a6bdd1}
+.comunidades__box__circle{background-color: #fff;width: 500px;height: 500px;border-radius: 50%;padding: 45% 20px;}
+.comunidades__box__circle p{font-size: 22px;}
+.color__blue{color: #263b80;}
+.color__blue2{color: #60b3c3;}
+.color__blue3{color: #263b80;}
+.font__size__large{font-size: 42px;}
+.text__large{font-size: 24px;}
 
 
+/*--------------------------------------------------------------
+# INTEGRIDAD 
+---------------------------------------------------
+----------*/
+
+.integridadGray{background-color: #939091;}
+#integridad01{background-color: #939091;}
+#eticasvg{width: 80px;margin-bottom: 20px;}
+#integridad02 ul.list__integridad {display: flex;padding: 0;list-style: none;margin: 0;}
+#integridad02 ul.list__integridad li{width: 12.5%;}
+#integridad03 .box__integridad{background-color: #297dc4; padding:15px 30px;min-height: 280px;border-right: 1px solid #fff;border-bottom: 1px solid #fff;}
+.img__integridad{background-image: url('../img/integridad/Etica_integridad_03.jpg');background-position: center;background-size: cover;
+    min-height: 560px;}
+a.btnintegridad{font-size: 12px !important;
+    width: 100%;
+    border: 1px solid #fff;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+  }
+  a.btnintegridad:hover{
+    background-color: #fff;
+    color: #00539b;
+  }
 /*--------------------------------------------------------------
 # Innovacion02 
 ---------------------------------------------------
