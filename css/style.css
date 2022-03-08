@@ -3753,6 +3753,28 @@ margin: auto;
  height: auto;
 }
 
+#nuestronegocio16 .btnsvgsus:hover #btnsvgsusten .bgbtnsus {
+
+  fill: #6aab1a !important;
+ }
+
+ #nuestronegocio16 .btnsvgoport:hover #btnsvgoport .bgsvgport {
+
+  fill: #5a90be !important;
+ }
+ 
+ #nuestronegocio16 .btnsvgetic:hover #btnsvgetica .bgsvgetic {
+
+  fill: #2c3842 !important;
+ }
+
+ #nuestronegocio16 .btnsvgcomu:hover #btnsvgcomuni .bgsvgcomu {
+
+  fill: #da8342 !important;
+ }
+
+
+
 #nuestronegocio16 .col-lg-6 {
 
   padding: 25px 25px;
@@ -4333,7 +4355,7 @@ background-repeat: no-repeat;
   margin-top: 20px;
 }
 
-#nuestronegocio26 .bgbluetopdark {
+#nuestronegocio26 .bgblueligh {
  padding:  20px 5%;
 }
 
@@ -4345,7 +4367,51 @@ background-repeat: no-repeat;
   margin-top: 20px;
 }
 
-#nuestronegocio27 .bgyellow{
+
+#nuestronegocio27 .conbordott {
+  
+  
+  padding: 15px;
+  border: #0071CE dotted 1px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#nuestronegocio27 .conbordott2 {
+  
+  
+  padding: 15px;
+  border-top: #0071CE solid 1px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#nuestronegocio27 .conbordott .icobtn{
+  display: block;
+  width: 110px;
+  height: 110px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+#nuestronegocio27 .conbordott2 .icobtn{
+  display: block;
+  width: 110px;
+  height: 110px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+#nuestronegocio27 .conbordott a:hover p {
+  color: #1173CB;
+}
+
+#nuestronegocio27 .conbordott2:hover p {
+  color: #1173CB;
+}
+
+#nuestronegocio27 .bgbluesky{
  padding:  20px 5%;
 }
 
