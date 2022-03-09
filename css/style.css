@@ -2905,7 +2905,7 @@ font-size: 12px;
 --------------------------------------------------------------*/
 
 #subportas {
-  height: 86vh;
+  height: auto;
   padding-top: 3%;
   
 }
@@ -4616,17 +4616,100 @@ background-repeat: no-repeat;
 # COMUNIDADES 
 ---------------------------------------------------
 ----------*/
-  #comunidades1{
-  background: #FCBA42;
+#comunidades {
+  
+  height: 100vh;
+  
+  background-size: cover;
+  background-color:#626262;
+  
+  
 }
+
+
+#comunidades .pad95 {
+ padding-top: 95px;
+  
+}
+
+
+#comunidades  {
+  background-image: url(../img/home/slidebgprin1.jpg);
+  background-size: cover;
+  background-color: #3688bc;
+  height: 100vh;
+ }
+
+#comunidades  .vh100 {
+  
+  height: 100vh;
+ }
+
+#comunidades .slideprintext {
+  min-height: 635px;
+}
+
+#comunidades .txtprinban {
+  width: 768px;
+margin: 60px;
+margin-left: 10%;
+    margin-top: 8%;
+}
+
+
+
+#comunidades .navsarrows {
+  position: absolute;
+    top: 502px;
+    right: 77px;
+    margin-top: 0;
+    width: 45px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#comunidades .bncifras {
+  display: flex;
+  width: 65%;
+  height: 120px;
+  float: left;
+}
+
+#comunidades .bncifras .mbesp{
+  margin-bottom: 0;
+  line-height: 1;
+}
+
+#comunidades .bgdarkgreyblue {
+  
+height: 120px;
+}
+
+
+#comunidades .imgdowninf {
+  width: 80px;
+  height: fit-content;
+}
+
+
+#comunidades .txtnumbg {
+  font-family: Bogle-Bold;
+  font-size: 46px;
+  margin-bottom: 0;
+  line-height: 58px;
+}
+.comunidadesRespuesta{padding: 10px 0;}
+.widthSvg{width: 50px;float: right;}
+  #comunidades1{  background: #FCBA42;}
+.comunidades{height: auto !important;padding-bottom: 10%;}
 #comunidades0 {
     background-image: url(../img/home/iniciativas-comunidades.jpg);
     background-size: cover;
-    background-color: #5377ee;
+    background-color: #e17636;
     height: 100vh;
 }
 #comunidades6{background-color: #263b80;}
-.box__comunidades{background-color: #263b80; min-height: 360px;display: inline-block;  width: 100%;}
+.box__comunidades{background-color: #263b80; min-height: 360px;display: inline-block;  width: 100%;margin-bottom: 20px;}
 .list__comunidades {padding: 10px;border-top: 1px solid #fff;}
 .box__comunidades ul{padding-left: 20px;}
 .box__comunidades ul li{color: #fff;font-size: 15px;}
@@ -4646,7 +4729,7 @@ background-repeat: no-repeat;
 .map__comunidades{padding: 10%;}
 .pontebien__comunidades{max-width: 350px; text-align: justify;margin-top: 15%;margin-bottom: 10%;}
 .padding__portadas{padding: 10%;}
-.font__28{font-size: 28px;line-height: 1.2;}
+.font__24{font-size: 24px;line-height: 1.2;}
 .padding__5{padding-top: 5%;padding-bottom: 5%;}
 .padding__10{padding-top: 10%;padding-bottom: 10%;}
 .padding__30{padding-top: 30%;padding-bottom: 30%;}
@@ -4657,7 +4740,6 @@ background-repeat: no-repeat;
 .date__comunidades{padding-top: 60%;}
 .date__comunidades h3{color: #a6bdd1}
 .comunidades__box__circle{background-color: #fff;width: 500px;height: 500px;border-radius: 50%;padding: 45% 20px;}
-.comunidades__box__circle p{font-size: 22px;}
 .color__blue{color: #263b80;}
 .color__blue2{color: #60b3c3;}
 .color__blue3{color: #263b80;}
@@ -4680,7 +4762,8 @@ background-repeat: no-repeat;
 #integridad03 .box__integridad{background-color: #297dc4; padding:15px 30px;min-height: 280px;border-right: 1px solid #fff;border-bottom: 1px solid #fff;}
 .img__integridad{background-image: url('../img/integridad/Etica_integridad_03.jpg');background-position: center;background-size: cover;
     min-height: 560px;}
-.integridad{height: 100% !important;}
+.subportasIntegridad,
+.integridad{height: auto !important;padding-bottom: 10%;}
 a.btnintegridad{font-size: 12px !important;
     width: 100%;
     border: 1px solid #fff;
@@ -5579,6 +5662,7 @@ a.btnintegridad{font-size: 12px !important;
   .btn-tabz{
     padding: 8px 48px;
   }
+
 }
 @media screen and (min-width:1279px){
   .odsmobile{
@@ -6659,6 +6743,10 @@ margin-right: 8px;
  
 }
 
+@media (max-width: 767px){
+  .date__comunidades{padding-top: 5%;}
+  .comunidades__box__circle{margin: auto;padding: 30% 20px}
+}
 
 /*--------------------------------------------------------------
 # MOBILE
@@ -6695,7 +6783,11 @@ display: none;
 #footer .txt6{
   float:right ;
 } 
-
+.text__large{font-size: 22px;}
+/* COMUNIDADES */
+.date__comunidades{padding-top: 10%;text-align: center;}
+.comunidades__box__circle{margin: auto; width: 340px;height: 340px; border-radius: 50%;padding: 25% 20px;}
+.box__comunidades{min-height: auto;}
 
 /* INTEGRIDAD */
 #integridad02 ul.list__integridad li{width: 24%;display: inline-block;}
