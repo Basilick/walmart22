@@ -2939,14 +2939,9 @@ font-size: 12px;
 }
 
 
-
-
-
-
 #nuestronegocio0 {
   
   height: 100vh;
-  
   background-size: cover;
   background-color:#626262;
   
@@ -4409,6 +4404,91 @@ background-repeat: no-repeat;
 }
 
 
+/*--------------------------------------------------------------
+# MOBILE
+--------------------------------------------------------------*/
+
+#omnicanal0 {
+  
+  height: 100vh;
+  background-size: cover;
+  background-color:#626262;
+  
+  
+}
+
+
+#omnicanal0 .pad95 {
+ padding-top: 95px;
+  
+}
+
+
+#omnicanal0  {
+  background-image: url(../img/home/slidebgprin3.jpg);
+  background-size: cover;
+  background-color: #2870b5;
+  height: 100vh;
+ }
+
+#omnicanal0  .vh100 {
+  
+  height: 100vh;
+ }
+
+#omnicanal0 .slideprintext {
+  min-height: 635px;
+}
+
+#omnicanal0 .txtprinban {
+  width: 768px;
+margin: 60px;
+margin-left: 10%;
+    margin-top: 8%;
+}
+
+
+
+#omnicanal0 .navsarrows {
+  position: absolute;
+    top: 502px;
+    right: 77px;
+    margin-top: 0;
+    width: 45px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#omnicanal0 .bncifras {
+  display: flex;
+  width: 65%;
+  height: 120px;
+  float: left;
+}
+
+#omnicanal0 .bncifras .mbesp{
+  margin-bottom: 0;
+  line-height: 1;
+}
+
+#omnicanal0 .bgdarkgreyblue {
+  
+height: 120px;
+}
+
+
+#omnicanal0 .imgdowninf {
+  width: 80px;
+  height: fit-content;
+}
+
+
+#omnicanal0 .txtnumbg {
+  font-family: Bogle-Bold;
+  font-size: 46px;
+  margin-bottom: 0;
+  line-height: 58px;
+}
 
 /*--------------------------------------------------------------
 # MOBILE
