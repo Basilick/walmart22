@@ -4596,10 +4596,13 @@ background-repeat: no-repeat;
 #integridad01{background-color: #939091;}
 #eticasvg{width: 80px;margin-bottom: 20px;}
 #integridad02 ul.list__integridad {display: flex;padding: 0;list-style: none;margin: 0;}
-#integridad02 ul.list__integridad li{width: 12.5%;}
+#integridad02 ul.list__integridad li{width: 12.5%;border-bottom: 1px solid #fff;border-right: 1px solid #fff;}
+#integridad02 ul.list__integridad li img{opacity: 1;}
+#integridad02 ul.list__integridad li img:hover{opacity: .8;}
 #integridad03 .box__integridad{background-color: #297dc4; padding:15px 30px;min-height: 280px;border-right: 1px solid #fff;border-bottom: 1px solid #fff;}
 .img__integridad{background-image: url('../img/integridad/Etica_integridad_03.jpg');background-position: center;background-size: cover;
     min-height: 560px;}
+.integridad{height: 100% !important;}
 a.btnintegridad{font-size: 12px !important;
     width: 100%;
     border: 1px solid #fff;
@@ -6615,6 +6618,10 @@ display: none;
   float:right ;
 } 
 
+
+/* INTEGRIDAD */
+#integridad02 ul.list__integridad li{width: 24%;display: inline-block;}
+#integridad02 ul.list__integridad{display: block;}
 
 
   
