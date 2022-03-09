@@ -30,7 +30,70 @@ $(document).ready(function () {
     });
 
 });
+$(document).ready(function () {
+    var owl = $('.owlIntegridad');
+    owl.owlCarousel({
+        items: 3,
+        loop: true,
+        margin: 2,
+        autoplay: true,
+        slideTransition: 'linear',
+        autoplayTimeout: 0,
+        autoplaySpeed: 10000,
+        autoplayHoverPause: false
 
+    });
+
+});
+//Alternate Direction
+$(document).ready(function () {
+    var owl = $('.owlIntegridad2');
+    owl.owlCarousel({
+        items: 3,
+        rtl: true,
+        loop: true,
+        margin: 2,
+        autoplay: true,
+        slideTransition: 'linear',
+        autoplayTimeout: 0,
+        autoplaySpeed: 10000,
+        autoplayHoverPause: false
+
+    });
+
+});
+$(document).ready(function () {
+    var owl = $('.integridadEtica1');
+    owl.owlCarousel({
+        items: 5,
+        loop: true,
+        margin: 2,
+        autoplay: true,
+        slideTransition: 'linear',
+        autoplayTimeout: 0,
+        autoplaySpeed: 10000,
+        autoplayHoverPause: false
+
+    });
+
+});
+//Alternate Direction
+$(document).ready(function () {
+    var owl = $('.integridadEtica2');
+    owl.owlCarousel({
+        items: 5,
+        rtl: true,
+        loop: true,
+        margin: 2,
+        autoplay: true,
+        slideTransition: 'linear',
+        autoplayTimeout: 0,
+        autoplaySpeed: 10000,
+        autoplayHoverPause: false
+
+    });
+
+});
 //*******************************************
 //***CODE BELOW===> This is a custom owl carousel js, you can add it by pasting the code below into a js file and use it in your website.
 

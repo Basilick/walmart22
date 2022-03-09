@@ -4711,6 +4711,7 @@ height: 120px;
 # INTEGRIDAD 
 ---------------------------------------------------
 ----------*/
+#integridadEtica .item img{height: 80px !important; width: 220px;}
 
 .integridadGray{background-color: #939091;}
 #integridad01{background-color: #939091;}
@@ -4735,6 +4736,7 @@ a.btnintegridad{font-size: 12px !important;
     background-color: #fff;
     color: #00539b;
   }
+    .integridadEtica2 .item img{width: 100%;}
 /*--------------------------------------------------------------
 # Innovacion02 
 ---------------------------------------------------
