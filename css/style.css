@@ -397,6 +397,11 @@ strong {
   background-color: #057bc1;
 }
 
+.bgblueturque {
+  background-color: #60b4c3;
+}
+
+
 
 
 .bgpuurple {
@@ -2905,13 +2910,9 @@ font-size: 12px;
 --------------------------------------------------------------*/
 
 #subportas {
-<<<<<<< HEAD
   height: auto;
-=======
->>>>>>> 5b820a07812d232cab8d293fcc5bd3fdd786871f
   padding-top: 3%;
   padding-bottom: 3%;
-  
 }
 
 
@@ -4489,6 +4490,486 @@ height: 120px;
   margin-bottom: 0;
   line-height: 58px;
 }
+
+
+
+#omnicanal1 {
+  height: auto;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+
+#omnicanal1 .owl-carousel {
+ margin-top: 20px;
+  
+}
+
+
+#omnicanal2 {
+  overflow: hidden;
+
+  padding-top: 0;
+  
+  height: auto;
+  
+  
+}
+
+#omnicanal2 .contbgletters {
+  background-image: url(../img/nuestro-negocio/imgtxtregenerativa.svg);
+  background-size: cover;
+  background-position: 0 -30px;
+  background-repeat: no-repeat;
+  height: 317px;
+}
+
+
+#omnicanal2 .contitles {
+  margin-left: 130px;
+}
+
+#omnicanal2 .txtespmar {
+  margin: auto;
+  width: 300px;
+  margin-bottom:60px;
+  }
+
+#omnicanal2 .icohomealone {
+  width: 60px;
+  margin-right: 20px;
+}
+
+#omnicanal2 h3 {
+  margin-top: 10%;
+  
+}
+
+#omnicanal2 .imgicotiye {
+  width: 40px;
+  
+}
+
+.txtnumsupbig {
+  font-size: 40px;
+  font-family: Bogle-Light;
+}
+
+#omnicanal3 {
+  overflow: hidden;
+
+  padding-top: 0;
+  margin-top: 3%;
+  height: auto;
+  
+  
+}
+
+#omnicanal3 .imgetiqtiendas {
+  width: 310px;
+  height: 56px;
+}
+
+#omnicanal3 ul {
+  padding-left: 3px;
+  list-style: none;
+}
+
+#omnicanal3 ul li img {
+  width: 30px;
+  
+}
+
+#omnicanal3 ul li p {
+  padding-top: 4px;
+    margin-left: 10px;
+    margin-bottom: 7px;
+}
+
+#omnicanal3 .bleftdot {
+  border-left: 1px dotted #ffffff;
+}
+
+
+#omnicanal4 {
+  
+
+  padding-top: 0;
+  margin-top: 3%;
+  height: auto;
+  
+  
+}
+
+#omnicanal4 .icosom4{
+  
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+  
+}
+#omnicanal5 {
+  overflow: hidden;
+
+  padding-top: 0;
+  margin-top: 3%;
+  height: auto;
+  
+  
+}
+
+#omnicanal5 .imgetiqtiendas {
+  width: auto;
+  height: 56px;
+}
+
+#omnicanal5 ul {
+  padding-left: 3px;
+  list-style: none;
+}
+
+#omnicanal5 ul li img {
+  width: 30px;
+  
+}
+
+#omnicanal5 ul li p {
+  padding-top: 4px;
+    margin-left: 10px;
+    margin-bottom: 7px;
+}
+
+#omnicanal5 .bleftdot {
+  border-left: 1px dotted #ffffff;
+}
+
+#omnicanal5 .btncontdowns {
+      /* width: 420px; */
+      height: auto;
+      /* display: block; */
+      margin: auto;
+      padding: 5px 15px;
+}
+
+#omnicanal5 .contbtnvervi {
+  background-image: url(../img/menu/indice_02.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    width: 100%;
+    height: 145px;
+    display: block;
+    margin: 10px 0;
+
+}
+#omnicanal5 .imgbtnplay {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 52px;
+  display: block;
+  margin: auto;
+}
+
+#omnicanal5 .conttxtornage {
+     /* width: 420px; */
+     height: auto;
+     /* display: block; */
+     margin: auto;
+     padding: 5px 15px;
+}
+
+#omnicanal6 {
+  
+
+  padding-top: 3%;
+  padding-bottom: 3%;
+  height: auto;
+  
+  
+}
+
+#omnicanal6 .icosom6{
+  
+
+ width: 80px;
+ height: 80px;
+  
+  
+}
+
+#omnicanal6 .icosom7{
+  
+  margin-right: 15px;
+  width: 60px;
+  height: 60px;
+   
+   
+ }
+
+ #omnicanal6 .txthighlightup {
+  
+  margin-left: 20px;
+   
+   
+ } 
+
+ #omnicanal6 ul {
+  
+  margin-left: 20px;
+  padding-left: 0;
+   
+ } 
+
+ #omnicanal7 {
+  overflow: hidden;
+
+  padding-top: 0;
+  margin-top: 3%;
+  height: auto;
+  
+  
+}
+
+#omnicanal7 .imgetiqtiendas {
+  width: auto;
+  height: 56px;
+}
+
+#omnicanal7 ul {
+  padding-left: 3px;
+  list-style: none;
+}
+
+#omnicanal7 ul li img {
+  width: 50px;
+  
+}
+
+
+#omnicanal7 ul li p {
+  padding-top: 4px;
+    margin-left: 15px;
+    margin-bottom: 7px;
+}
+
+#omnicanal7 ul li .txthighlightup {
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+
+#omnicanal7 .bleftdot {
+  border-left: 1px dotted #ffffff;
+}
+
+#omnicanal8 {
+  overflow: hidden;
+
+  padding-top: 0;
+  margin-top: 3%;
+  height: auto;
+  
+  
+}
+
+
+#omnicanal8 {
+  overflow: hidden;
+
+  padding-top: 0;
+  margin-top: 3%;
+  height: auto;
+  
+  
+}
+
+#omnicanal8 .bgtxtcolors {
+  width: 390px;
+  padding: 15px;
+  margin-bottom: 0;
+  border-top: 1px solid #ffffff;
+
+}
+
+#omnicanal9 {
+  overflow: hidden;
+  padding-bottom: 3%;
+  
+  margin-top: 3%;
+  height: auto;
+  
+  
+}
+
+#omnicanal9 .bgimgbodeemplo img{
+  height: 100%;
+  
+  
+}
+
+#omnicanal9 .contborwhite img{
+  width: 100px;
+  height: auto;
+  
+  
+}
+
+#omnicanal9 .contborwhite p{
+  padding-top: 20px;
+  
+  
+}
+
+#omnicanal10 {
+  overflow: hidden;
+
+  padding-top: 0;
+  margin-top: 3%;
+  height: auto;
+  
+  
+}
+
+#omnicanal10 .imgetiqtiendas {
+  width: 310px;
+  height: 56px;
+}
+
+#omnicanal10 ul {
+  padding-left: 3px;
+  list-style: none;
+}
+
+#omnicanal10 ul li img {
+  width: 30px;
+  
+}
+
+#omnicanal10 ul li p {
+  padding-top: 4px;
+    margin-left: 10px;
+    margin-bottom: 7px;
+}
+
+#omnicanal10 .bleftdot {
+  border-left: 1px dotted #ffffff;
+}
+
+#omnicanal10 .txtnumberf25 {
+  font-size: 22px;
+  margin-bottom: 0px;
+  line-height: 26px;
+  font-family: Bogle-Black;
+}
+
+#omnicanal11 {
+  height: auto;
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+#omnicanal11 .imgicon{
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+
+#omnicanal11 .owl-carousel {
+ margin-top: 20px;
+  
+}
+
+
+#omnicanal12 {
+  overflow: hidden;
+
+  padding-top: 0;
+  margin-top: 3%;
+  height: auto;
+  
+  
+}
+#omnicanal12 .conthilicircle {
+ 
+  width: 190px;
+  height: 190px;
+  text-align: center;
+  background: #FFFFFF;
+  border: 2px solid #00539b;
+  border-radius: 100%;
+  position: absolute;
+  top: 29px;
+  right: 67%;
+   
+}
+
+.txtincircles {
+  font-family: Bogle-Black;
+  font-size: 40px;
+  margin-bottom: 3px;
+  line-height: 35px;
+  padding-top: 36px;
+}
+
+
+.txtdesincircle {
+  line-height: 18px;
+}
+
+
+#omnicanal12 .imgcelphone {
+ width: 180px;
+ position: relative;
+ top: -110px;
+  
+  
+}
+
+#omnicanal13 {
+  overflow: hidden;
+
+  padding-top: 0;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  height: auto;
+  
+  
+}
+
+#omnicanal13 .bordbot {
+  height: 2px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ffffff;
+}
+
+#omnicanal13 .bgblueturque {
+  padding: 4em;
+}
+
+.txtsuperbignum {
+  font-size: 50px;
+  font-family: Bogle-light;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+#omnicanal14 {
+  overflow: hidden;
+
+  padding-top: 3%;
+  padding-top: 3%;
+  
+  height: auto;
+  
+  
+}
+
+#omnicanal14 .imgicocomputer {
+  width: 40px;
+  
+  
+}
+
 
 /*--------------------------------------------------------------
 # MOBILE
