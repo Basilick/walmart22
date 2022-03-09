@@ -393,6 +393,12 @@ strong {
   background-color: #00539b;
 }
 
+.bgbluewalmenu {
+  background-color: #057bc1;
+}
+
+
+
 .bgpuurple {
   background-color: #9169c9;
 }
@@ -2246,7 +2252,7 @@ align-items: flex-start;
 }
 
 #mensajedirs .contbtnvervi {
-  background-image: url(../img/home/btnimglider.png);
+  background-image: url(../img/nuestro-negocio/btnimgwalmartvideo.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2997,7 +3003,7 @@ font-size: 12px;
 #nuestronegocio0  {
   background-image: url(../img/home/slidebgprin1.jpg);
   background-size: cover;
-  background-color: #5377ee;
+  background-color: #3688bc;
   height: 100vh;
  }
 
@@ -3032,13 +3038,18 @@ margin-left: 10%;
 #nuestronegocio0 .bncifras {
   display: flex;
   width: 65%;
-  height: 115px;
+  height: 120px;
   float: left;
+}
+
+#nuestronegocio0 .bncifras .mbesp{
+  margin-bottom: 0;
+  line-height: 1;
 }
 
 #nuestronegocio0 .bgdarkgreyblue {
   
-height: 116px;
+height: 120px;
 }
 
 
@@ -3052,7 +3063,7 @@ height: 116px;
   font-family: Bogle-Bold;
   font-size: 46px;
   margin-bottom: 0;
-  line-height: 52px;
+  line-height: 58px;
 }
 
 #nuestronegocio2 {
@@ -4109,7 +4120,7 @@ margin-bottom: 15px;
 #nuestronegocio24 .imgpactglo{
   display: block;
   margin: 20px auto;
-  width: 200px;
+  width: 160px;
 
 } 
 
@@ -4349,6 +4360,7 @@ background-repeat: no-repeat;
 
 #nuestronegocio26 {
   height: auto;
+  margin-top: 20px;
 }
 
 #nuestronegocio26 h3 {
