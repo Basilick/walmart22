@@ -4785,8 +4785,133 @@ height: 120px;
 .color__blue3{color: #263b80;}
 .font__size__large{font-size: 42px;}
 .text__large{font-size: 24px;}
+.text__xlarge{font-size: 28px;}
+
+/*--------------------------------------------------------------
+#   ECOSIST 
+---------------------------------------------------
+----------*/
+#ecosistemas0 {
+  
+  height: 100vh;
+  
+  background-size: cover;
+  background-color:#626262;
+  
+  
+}
 
 
+#ecosistemas0 .pad95 {
+ padding-top: 95px;
+  
+}
+
+
+#ecosistemas0  {
+  background-image: url(../img/home/slidebgprin1.jpg);
+  background-size: cover;
+  background-color: #3688bc;
+  height: 100vh;
+ }
+
+#ecosistemas0  .vh100 {
+  
+  height: 100vh;
+ }
+
+#ecosistemas0 .slideprintext {
+  min-height: 635px;
+}
+
+#ecosistemas0 .txtprinban {
+  width: 768px;
+margin: 60px;
+margin-left: 10%;
+    margin-top: 8%;
+}
+
+
+
+#ecosistemas0 .navsarrows {
+  position: absolute;
+    top: 502px;
+    right: 77px;
+    margin-top: 0;
+    width: 45px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#ecosistemas0 .bncifras {
+  display: flex;
+  width: 65%;
+  height: 120px;
+  float: left;
+}
+
+#ecosistemas0 .bncifras .mbesp{
+  margin-bottom: 0;
+  line-height: 1;
+}
+
+#ecosistemas0 .bgdarkgreyblue {
+  
+height: 120px;
+}
+
+
+#ecosistemas0 .imgdowninf {
+  width: 80px;
+  height: fit-content;
+}
+
+
+#ecosistemas0 .txtnumbg {
+  font-family: Bogle-Bold;
+  font-size: 46px;
+  margin-bottom: 0;
+  line-height: 58px;
+}
+#ecosistemas1{border-top: 1px solid #0e62bc;}
+#ecosistema04 .box__padding,
+#ecosistema06 .box__padding,
+#ecosistema01 .box__padding{padding: 30px 20%;}
+#ecosistema01 .box__gray{padding: 20px 15%;}
+#ecosistema04 h4,
+#ecosistema06 h4,
+#ecosistema01 h4{font-size: 14px;font-family: Bogle-bold;}
+#ecosistema02{padding-bottom: 3%;background: rgb(255,255,255);
+background: -moz-linear-gradient(left,  rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(32,124,202,1) 50%, rgba(0,120,201,1) 50%, rgba(0,120,201,1) 100%);
+background: -webkit-linear-gradient(left,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 50%,rgba(32,124,202,1) 50%,rgba(0,120,201,1) 50%,rgba(0,120,201,1) 100%);
+background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 50%,rgba(32,124,202,1) 50%,rgba(0,120,201,1) 50%,rgba(0,120,201,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#0078c9',GradientType=1 );
+}
+#ecosistema02 .box__padding{padding: 20%;}
+.img__ecosistema{position: absolute;bottom: -80px;max-width: 350px;}
+#ecosistema02 .bggrey1{height:200px; padding: 40px 0;}
+#ecosistema03 .box__tex{color: #fff;font-size: 14px;padding: 20px;border-right: 1px solid #fff;border-bottom: 1px solid #fff;}
+#ecosistema03 ul{padding: 0 0 0 20px;}
+#ecosistema03 .box__01{background: #a2bcd4;}
+#ecosistema03 .box__02{background: #5eace4;}
+#ecosistema03 .box__03{background: #5396d7;padding-top: 50px; padding-bottom: 42px;}
+#ecosistema03 .box__04{background: #a2bcd4;padding-top: 90px; padding-bottom: 92px;}
+#ecosistema05 .padding__box{padding: 0 50px;padding-top: 20%;}
+.box__circle{width: 160px;height: 160px;border: 1px solid #1173CB;text-align: center;padding:30px 20px;border-radius: 50%;margin: 40px auto;color: #1173CB}
+.box__circle strong{font-size: 56px;line-height: 1;}
+#ecosistema05 .box__01{background: #004ca1;}
+#ecosistema05 .box__02{background: #0078c9;}
+#ecosistema05 .box__03{background: #5eace4;}
+#ecosistema05 .box__list{color: #fff;padding:10px 20px;margin-bottom: 1px;}
+#ecosistema06 .colorbluesky{background: #00abf6;}
+#ecosistema08,
+#ecosistema07{border-bottom: 1px solid #fff;}
+#ecosistema07 .box__padding{padding: 50px 80px;min-height: 450px;}
+#ecosistema07 .padding__box2{padding: 20px 50px;min-height: 250px;}
+#ecosistema07 .padding__box2 h3{font-size: 18px;}
+#ecosistema07 .btn__video{width: 100px; margin: 10px auto;font-size: 12px;}
+#ecosistema08 h3{font-size: 18px;line-height: 1;}
+.svg__pattern{background-size: contain !important;background-position: bottom !important;background-repeat: no-repeat !important;}
 /*--------------------------------------------------------------
 # INTEGRIDAD 
 ---------------------------------------------------
@@ -6825,7 +6950,6 @@ display: none;
 #footer .txt6{
   float:right ;
 } 
-.text__large{font-size: 22px;}
 /* COMUNIDADES */
 .date__comunidades{padding-top: 10%;text-align: center;}
 .comunidades__box__circle{margin: auto; width: 340px;height: 340px; border-radius: 50%;padding: 25% 20px;}
