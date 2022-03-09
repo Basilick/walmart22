@@ -2905,10 +2905,17 @@ font-size: 12px;
 --------------------------------------------------------------*/
 
 #subportas {
-  height: 86vh;
   padding-top: 3%;
+  padding-bottom: 3%;
   
 }
+
+
+#subportas .owl-carousel {
+ margin-top: 20px;
+  
+}
+
 
 .contodsvine {
   display: block;
@@ -2927,59 +2934,8 @@ font-size: 12px;
   cursor: inherit;
 }
 
-@-webkit-keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(calc(-450px * 4));
-  }
-}
 
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(calc(-450px * 4));
-  }
-}
-#subportas .slider {
-  bottom:-60px;
-  height: 75px;
-  margin: auto;
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-}
-#subportas .slider::before, #subportas .slider::after {
 
-  content: "";
-  height: 100px;
-  position: absolute;
-  width: 450px;
-  z-index: 2;
-}
-#subportas .slider::after {
-  right: 0;
-  top: 0;
-  transform: rotateZ(180deg);
-}
-#subportas .slider::before {
-  left: 0;
-  top: 0;
-}
-#subportas .slider .slide-track {
-  -webkit-animation: scroll 40s linear infinite;
-  animation: scroll 40s linear infinite;
-  display: flex;
-  width: calc(450px * 3);
-}
-#subportas .slider .slide {
-  height: 100px;
-  width: 450px;
-  position: relative;
-}
 
 
 
