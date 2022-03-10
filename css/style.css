@@ -6420,7 +6420,9 @@ height: 120px;
 }
 .comunidadesRespuesta{padding: 10px 0;}
 .widthSvg{width: 50px;float: right;}
+.widthSvg2{width: 50px;}
   #comunidades1{  background: #FCBA42;}
+}
 .comunidades{height: auto !important;padding-bottom: 10%;}
 #comunidades0 {
     background-image: url(../img/home/iniciativas-comunidades.jpg);
@@ -6568,14 +6570,14 @@ background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,1
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#0078c9',GradientType=1 );
 }
 #ecosistema02 .box__padding{padding: 20%;}
-.img__ecosistema{position: absolute;bottom: -80px;max-width: 350px;}
+.img__ecosistema{position: absolute;bottom: -80px;max-width: 300px;}
 #ecosistema02 .bggrey1{height:200px; padding: 40px 0;}
-#ecosistema03 .box__tex{color: #fff;font-size: 14px;padding: 20px;border-right: 1px solid #fff;border-bottom: 1px solid #fff;}
+#ecosistema03 .box__tex{color: #fff;font-size: 14px;padding:35px  20px;border-right: 1px solid #fff;border-bottom: 1px solid #fff;}
 #ecosistema03 ul{padding: 0 0 0 20px;}
 #ecosistema03 .box__01{background: #a2bcd4;}
-#ecosistema03 .box__02{background: #5eace4;}
-#ecosistema03 .box__03{background: #5396d7;padding-top: 50px; padding-bottom: 42px;}
-#ecosistema03 .box__04{background: #a2bcd4;padding-top: 90px; padding-bottom: 92px;}
+#ecosistema03 .box__02{background: #5eace4;height: 227px; }
+#ecosistema03 .box__03{background: #5396d7;padding-top: 10px; padding-bottom: 10px;height: 206px;}
+#ecosistema03 .box__04{background: #a2bcd4;padding-top: 90px; padding-bottom: 92px;height: 440px;}
 #ecosistema05 .padding__box{padding: 0 50px;padding-top: 20%;}
 .box__circle{width: 160px;height: 160px;border: 1px solid #1173CB;text-align: center;padding:30px 20px;border-radius: 50%;margin: 40px auto;color: #1173CB}
 .box__circle strong{font-size: 56px;line-height: 1;}
@@ -6693,11 +6695,30 @@ height: 120px;
 #sustentabilidad01 .table__sustentabilidad2{margin-top:  2rem;height: 120px; border: 1px solid #fff;padding: 10px;border-left: 1px solid transparent;}
 #sustentabilidad01 .table__sustentabilidad2 h4,
 #sustentabilidad01 .table__sustentabilidad h4{font-family: Bogle-Bold;color: #fff;font-size: 24px;}
-.box__susten{background-color: #fff;min-height: 550px;}
-.box__susten header{background-color: #5cc12a;padding: 30px;height: 160px;}
+.box__susten{background-color: #fff;min-height: 608px;margin-bottom: 30px;}
+.box__susten header{background-color: #7ac143;padding: 30px;height: 160px;}
 .box__susten footer{background-color: #ffffff;padding: 30px;}
 .box__susten h4, .box__susten h3, .box__susten h5{margin: 0;font-family: Bogle-Bold;}
 .box__susten h3{color: #a6bdd1}
+.box__susten img{margin-top: -2px;}
+
+#sustentabilidad03 .list{list-style: none;padding: 0}
+#sustentabilidad04 .box__sustentabilidad {list-style: none;padding: 10px;color: #fff;border-right: 1px solid #fff;border-bottom: 1px solid #fff;}
+#sustentabilidad04 .box__sustentabilidad p{color: #ffffff;}
+#sustentabilidad04 .box__sustentabilidad0 {padding: 20px;}
+#sustentabilidad04 .box__sustentabilidad header{height: 260px;}
+#sustentabilidad04 .box__sustentabilidad footer{height: 200px;}
+#sustentabilidad04 .box__sustentabilidad h2{color: #ffffff;}
+#sustentabilidad04 .box__sustentabilidad h4{font-size: 22px;margin-bottom: 15px;color: #ffffff;font-family: Bogle-Bold;}
+#sustentabilidad04 .blueextra{background-color: #0078c9;}
+#sustentabilidad04 .orangeextra{background-color: #ff7400;}
+#sustentabilidad05 .greenextra,
+#sustentabilidad04 .greenextra{background-color: #5fc92b;}
+#sustentabilidad04 .purpleextra{background-color: #9b59cf;}
+#sustentabilidad05 .box__padding{padding:10px 30px;color: #fff;}
+#sustentabilidad05 h3{font-size: 14px;}
+#sustentabilidad05 ul.list__text{list-style: none;padding: 0;display: flex;}
+#sustentabilidad05 ul.list__text strong{font-size: 28px;font-family: Bogle-Bold;}
 
 /*--------------------------------------------------------------
 # Innovacion02 
