@@ -30,6 +30,40 @@ $(document).ready(function () {
     });
 
 });
+
+$(document).ready(function () {
+    var owl = $('.owlnuestrneg1');
+    owl.owlCarousel({
+        items: 2,
+        loop: true,
+        margin: 2,
+        autoplay: true,
+        slideTransition: 'linear',
+        autoplayTimeout: 0,
+        autoplaySpeed: 10000,
+        autoplayHoverPause: false
+
+    });
+
+});
+//Alternate Direction
+$(document).ready(function () {
+    var owl = $('.owlnuestrneg2');
+    owl.owlCarousel({
+        items: 2,
+        rtl: true,
+        loop: true,
+        margin: 2,
+        autoplay: true,
+        slideTransition: 'linear',
+        autoplayTimeout: 0,
+        autoplaySpeed: 10000,
+        autoplayHoverPause: false
+
+    });
+
+});
+
 $(document).ready(function () {
     var owl = $('.owlIntegridad');
     owl.owlCarousel({

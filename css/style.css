@@ -3681,14 +3681,11 @@ margin: auto;
 
 
 #nuestronegocio15 {
-  background-image: url(../svg/fraseregenerativwht.svg);
-  background-size: 100% 185px;
-  background-repeat: no-repeat;
-  background-position: 0 107%;
+  
   overflow: hidden;
   padding-top: 0;
   padding-bottom: 3%;
-  height: 86vh;
+  height: auto;
   
 }
 
@@ -3699,9 +3696,9 @@ margin: auto;
 
 
 #nuestronegocio15 .conthiglbig {
-  
   width: 60%;
-  margin:50% auto;
+    margin: auto;
+    margin-bottom: 50px;
 }
 
 #nuestronegocio15 .icoyellcirbig {
@@ -4529,19 +4526,15 @@ height: 120px;
   margin-left: 130px;
 }
 
-#omnicanal2 .txtespmar {
-  margin: auto;
-  width: 300px;
-  margin-bottom:60px;
-  }
+
 
 #omnicanal2 .icohomealone {
-  width: 60px;
+  width: 80px;
   margin-right: 20px;
 }
 
 #omnicanal2 h3 {
-  margin-top: 10%;
+  margin-top: 20px;
   
 }
 
@@ -4864,12 +4857,13 @@ height: 120px;
 }
 
 #omnicanal11 {
+  overflow: hidden;
   height: auto;
   padding-top: 5%;
   padding-bottom: 3%;
 }
 #omnicanal11 .imgicon{
-  width: 100px;
+  width: 80px;
   margin-bottom: 20px;
 }
 
@@ -4966,7 +4960,394 @@ height: 120px;
 
 #omnicanal14 .imgicocomputer {
   width: 40px;
+  margin-bottom: 10px;
   
+}
+
+#omnicanal14 .conurlmx {
+ border: 1px #00539b solid;
+  margin-bottom: 10px;
+}
+
+#omnicanal14 .conurlmx p, #omnicanal14 .conurlmx a {
+  color:#00539b ;
+  font-size: 14px;
+ }
+
+ #omnicanal14 .conurlcent {
+  border: 1px #60b4c3 solid;
+   margin-bottom: 10px;
+ }
+ 
+ #omnicanal14 .conurlcent p, #omnicanal14 .conurlcent a {
+   color:#60b4c3 ;
+   font-size: 14px;
+  }
+ 
+  #omnicanal15 {
+    overflow: hidden;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 3%;
+  }
+  #omnicanal15 .imgicon{
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  
+  #omnicanal15 .owl-carousel {
+   margin-top: 20px;
+    
+  }
+
+  #omnicanal15 .owl-carousel .owl-item img {
+    
+    height: 82px;
+}
+
+#omnicanal16 {
+  overflow: hidden;
+
+  padding-top: 0;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  height: auto;
+  
+  
+}
+
+#omnicanal16 .txthighlightup {
+  margin-bottom: 5px;
+  
+  
+}
+
+#omnicanal16 ul {
+  padding-left: 3px;
+  list-style: none;
+}
+
+#omnicanal16 ul li img {
+  width: 50px;
+  
+}
+
+#omnicanal16 ul li p {
+  padding-top: 4px;
+    margin-left: 15px;
+    margin-bottom: 7px;
+}
+
+#omnicanal16 ul li .txthighlightup {
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+
+#omnicanal17 {
+  overflow: hidden;
+
+  padding-top: 3%;
+  padding-bottom: 3%;
+
+  height: auto;
+  
+  
+}
+
+#omnicanal17 .txthighlightup {
+  margin-bottom: 5px;
+  
+  
+}
+
+#omnicanal17 ul {
+  padding-left: 3px;
+  list-style: none;
+}
+
+#omnicanal17 ul li img {
+  width: 50px;
+  
+}
+
+#omnicanal17 ul li p {
+  padding-top: 4px;
+    margin-left: 15px;
+    margin-bottom: 7px;
+}
+
+#omnicanal17 ul li .txthighlightup {
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+
+
+#omnicanal17 .bgtxtcolors {
+  width: 390px;
+  padding: 15px;
+  margin-bottom: 0;
+  border-top: 1px solid #ffffff;
+
+}
+
+#omnicanal18 {
+  overflow: hidden;
+
+  padding-top: 0;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  height: auto;
+  
+  
+}
+
+#omnicanal18 .txthighlightup {
+  margin-bottom: 5px;
+  
+  
+}
+
+#omnicanal18 ul {
+  padding-left: 3px;
+  list-style: none;
+}
+
+#omnicanal18 ul li img {
+  width: 50px;
+  
+}
+
+#omnicanal18 ul li p {
+  padding-top: 4px;
+    margin-left: 15px;
+    margin-bottom: 7px;
+}
+
+#omnicanal18 ul li .txthighlightup {
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+
+#omnicanal19 {
+  overflow: hidden;
+
+  padding-top: 0;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  height: auto;
+  
+  
+}
+
+#omnicanal19 .bordbot {
+  height: 2px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ffffff;
+}
+
+#omnicanal19 .bgblueturque {
+  padding: 4em;
+}
+
+#omnicanal19 h4{
+  padding: 5px;
+}
+
+#omnicanal19 .icoyellcirbig{
+  width: 146px;
+padding: 10px;
+}
+
+#omnicanal20 {
+  overflow: hidden;
+
+  padding-top: 0;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  height: auto;
+  
+  
+}
+
+#omnicanal20 .txthighlightup {
+  margin-bottom: 5px;
+  
+  
+}
+
+#omnicanal20 ul {
+  padding-left: 3px;
+  list-style: none;
+}
+
+#omnicanal20 ul li img {
+  width: 50px;
+  
+}
+
+#omnicanal20 ul li p {
+  padding-top: 4px;
+    margin-left: 15px;
+    margin-bottom: 7px;
+}
+
+#omnicanal20 ul li .txthighlightup {
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+
+#omnicanal20 .imgappondeman {
+  display: block;
+  width: 181px;
+  margin: auto;
+
+}
+#omnicanal21 {
+  overflow: hidden;
+  height: auto;
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+#omnicanal21 .imgicon{
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+
+#omnicanal21 .owl-carousel {
+ margin-top: 20px;
+  
+}
+
+#omnicanal21 .owl-carousel .owl-item img {
+  
+  height: 82px;
+}
+
+#omnicanal22 {
+  overflow: hidden;
+
+  padding-top: 0;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  height: auto;
+  
+  
+}
+
+#omnicanal22 .txthighlightup {
+  margin-bottom: 5px;
+  
+  
+}
+
+#omnicanal22 .imgappondeman {
+  display: block;
+  width: 181px;
+  margin: auto;
+
+}
+
+#omnicanal23 {
+  overflow: hidden;
+
+  padding-top: 3%;
+  padding-bottom: 3%;
+  
+  height: auto;
+  
+  
+}
+
+#omnicanal23 .txthighlightup {
+  margin-bottom: 5px;
+  
+  
+}
+
+#omnicanal23 .imgappondeman {
+  display: block;
+  width: 181px;
+  margin: auto;
+
+}
+
+#omnicanal24 {
+  overflow: hidden;
+
+  padding-top: 0;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  height: auto;
+  
+  
+}
+
+#omnicanal24 .txthighlightup {
+  margin-bottom: 5px;
+  
+  
+}
+
+#omnicanal24 .imgappondeman {
+  display: block;
+  width: 181px;
+  margin: auto;
+
+}
+
+
+#omnicanal25 {
+  overflow: hidden;
+
+  padding-top: 0;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  height: auto;
+  
+  
+}
+
+#omnicanal26 {
+  overflow: hidden;
+
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin-top: 3%;
+  height: auto;
+  
+  
+}
+
+#omnicanal27 {
+  overflow: hidden;
+
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin-top: 3%;
+  height: auto;
+  
+  
+}
+
+#omnicanal27 .icoslogos {
+ 
+  width: 40px;
+  display: block;
+  margin: 10px auto 5px;
+
+  
+}
+
+#omnicanal27 .imgsstores {
+ height: 100%;
+  
+}
+
+#omnicanal27 .txtnumberf24 {
+  display: block;
+  text-align: center;
   
 }
 
