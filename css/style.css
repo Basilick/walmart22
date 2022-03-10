@@ -5804,6 +5804,83 @@ a.btnintegridad{font-size: 12px !important;
     color: #00539b;
   }
     .integridadEtica2 .item img{width: 100%;}
+
+/*--------------------------------------------------------------
+#   SUSTENTABILIDAD 
+---------------------------------------------------
+----------*/
+#sustentabilidad00 {
+  height: 100vh;
+  background-size: cover;
+  background-color:#626262; 
+}
+#sustentabilidad00 .pad95 {
+ padding-top: 95px;
+  
+}
+#sustentabilidad00  {
+  background-image: url(../img/home/slidebgprin1.jpg);
+  background-size: cover;
+  background-color: #3688bc;
+  height: 100vh;
+ }
+#sustentabilidad00  .vh100 {
+  height: 100vh;
+ }
+#sustentabilidad00 .slideprintext {
+  min-height: 635px;
+}
+#sustentabilidad00 .txtprinban {
+  width: 768px;
+margin: 60px;
+margin-left: 10%;
+    margin-top: 8%;
+}
+#sustentabilidad00 .navsarrows {
+  position: absolute;
+    top: 502px;
+    right: 77px;
+    margin-top: 0;
+    width: 45px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#sustentabilidad00 .bncifras {
+  display: flex;
+  width: 65%;
+  height: 120px;
+  float: left;
+}
+#sustentabilidad00 .bncifras .mbesp{
+  margin-bottom: 0;
+  line-height: 1;
+}
+#sustentabilidad00 .bgdarkgreyblue { 
+height: 120px;
+}
+#sustentabilidad00 .imgdowninf {
+  width: 80px;
+  height: fit-content;
+}
+#sustentabilidad00 .txtnumbg {
+  font-family: Bogle-Bold;
+  font-size: 46px;
+  margin-bottom: 0;
+  line-height: 58px;
+}
+#sustentabilidad00{background-color: #469a2e;}
+#sustentabilidad01{background-color: #5fc92b;}
+#sustentabilidad01 p{color: #fff;}
+#sustentabilidad01 .table__sustentabilidad{margin-top:  2rem;height: 120px; border: 1px solid #fff;padding: 10px;}
+#sustentabilidad01 .table__sustentabilidad2{margin-top:  2rem;height: 120px; border: 1px solid #fff;padding: 10px;border-left: 1px solid transparent;}
+#sustentabilidad01 .table__sustentabilidad2 h4,
+#sustentabilidad01 .table__sustentabilidad h4{font-family: Bogle-Bold;color: #fff;font-size: 24px;}
+.box__susten{background-color: #fff;min-height: 550px;}
+.box__susten header{background-color: #5cc12a;padding: 30px;height: 160px;}
+.box__susten footer{background-color: #ffffff;padding: 30px;}
+.box__susten h4, .box__susten h3, .box__susten h5{margin: 0;font-family: Bogle-Bold;}
+.box__susten h3{color: #a6bdd1}
+
 /*--------------------------------------------------------------
 # Innovacion02 
 ---------------------------------------------------
