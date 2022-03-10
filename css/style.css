@@ -5542,8 +5542,223 @@ align-items: flex-start;
 
 
 #valorfinanciero2 .conthilicircle .txtincircles {
-  
   padding-top: 30%;
+}
+
+#valorfinanciero2 .borbot {
+  border-bottom: 1px solid #dfdfdf;
+}
+
+#valorfinanciero2 .text-small {
+
+  margin-top: 10px;
+  margin-bottom: 0;
+
+}
+#valorfinanciero2 .imgblusqures {
+
+  width: 200px;
+  height: auto;
+
+}
+
+#valorfinanciero2 .imgblusqures6 {
+
+  width: 118px;
+  height: auto;
+
+}
+
+#valorfinanciero2 .imgblusqures7 {
+
+  width: 117px;
+  height: auto;
+
+}
+
+
+#valorfinanciero2 .imgblusqures5 {
+
+  width: 83px;
+  height: auto;
+
+}
+
+#valorfinanciero2 .imgblusqures4 {
+
+  width: 66px;
+  height: auto;
+
+}
+
+#valorfinanciero2 .imgblusqures2 {
+
+  width: 33px;
+  height: auto;
+
+}
+
+#valorfinanciero2 .imgblusqures1 {
+
+  width: 16px;
+  height: auto;
+
+}
+
+#valorfinanciero2 .negatisqures2{
+
+  position: absolute;
+  top: 5px;
+  left: -31px;
+
+}
+
+#valorfinanciero2 .negatisqures {
+
+  position: absolute;
+  top: 5px;
+  left: -100px;
+
+}
+
+#valorfinanciero2 .negatisqures2{
+
+  position: absolute;
+  top: 5px;
+  left: -31px;
+
+}
+
+
+#valorfinanciero3 {
+  overflow: hidden;
+  height: auto;
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+#valorfinanciero3 .imgicon{
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+
+#valorfinanciero3 .owl-carousel {
+ margin-top: 20px;
+  
+}
+
+#valorfinanciero3 .txtblutitle {
+  
+  margin-top: 10px;
+  margin-left: 20px;
+  
+  margin-bottom: 0;
+}
+
+#valorfinanciero3 .txtsubtitl {
+  
+  margin-left: 20px;
+}
+
+#valorfinanciero3 .chartBarsWrap {
+   height: 330px;
+}
+
+#valorfinanciero3 .chartBars {
+  /* position: relative; */
+  max-width: 430px;
+  height: 300px;
+  margin: 0px auto 0px;
+}
+
+#valorfinanciero3 .chartBars .bars li p {
+  color: #ffffff;
+  width: 100%;
+  position: absolute;
+  bottom: -19px;
+  font-size: 12px;
+  left: 0;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.bars li .bar.whitBar {
+  background-color: #ffffff;
+  border: 2px solid #0071CE;
+ 
+}
+
+.bars li .bar.bluewalbar {
+  background-color: #007dc3;
+  
+}
+
+.texto-vertical-2 {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  z-index: 2;
+}
+
+
+
+#valorfinanciero3 .chartBars .bars li .txtlasyer {
+  
+  font-size: 14px;
+  
+}
+
+
+#valorfinanciero3 .chartBarsWrap .txtcifra1 {
+  font-size: 24px;
+  position: absolute;
+  bottom: 8px;
+  left: 21px;
+}
+#valorfinanciero3 .chartBarsWrap .txtcifra2 {
+  font-size: 24px;
+  position: absolute;
+  bottom: 8px;
+  left: 90px;
+}
+
+#valorfinanciero3 .chartBarsWrap .txtcifra3 {
+  font-size: 24px;
+  position: absolute;
+  bottom: 8px;
+  left: 161px;
+}
+#valorfinanciero3 .chartBarsWrap .txtcifra4 {
+  font-size: 24px;
+  position: absolute;
+  bottom: 8px;
+  left: 231px;
+}
+#valorfinanciero3 .chartBarsWrap .txtcifra5 {
+  font-size: 24px;
+  position: absolute;
+  bottom: 8px;
+  left: 302px;
+}
+#valorfinanciero3 .chartBarsWrap .txtcifra6 {
+  font-size: 28px;
+  position: absolute;
+  bottom: 8px;
+
+  left: 370px;
+}
+
+#valorfinanciero3  .chartBars .bars li {
+  
+  
+  margin: 0px 0px;
+
+}
+
+#valorfinanciero4 {
+  overflow: hidden;
+  height: auto;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 #nuestronegocio3 {
@@ -5649,9 +5864,96 @@ align-items: flex-start;
     background-size: 191px;
  
  
- }
+}
+
+#valorfinanciero4 .chartBarsWrap {
+  height: 330px;
+}
+
+#valorfinanciero4 .chartBars {
+ /* position: relative; */
+ max-width: 430px;
+ height: 300px;
+ margin: 0px auto 0px;
+}
+
+#valorfinanciero4 .chartBars .bars li p {
+  color: #495B6D;
+ width: 100%;
+ position: absolute;
+ bottom: -19px;
+ font-size: 12px;
+ left: 0;
+ text-align: center;
+ margin-bottom: 0;
+}
+
+#valorfinanciero4 .chartBars .bars li .txtlasyer {
+ 
+ font-size: 14px;
+ 
+}
 
 
+#valorfinanciero4 .chartBarsWrap .txtcifra1 {
+ font-size: 24px;
+ position: absolute;
+ bottom: 8px;
+ left: 29px;
+}
+#valorfinanciero4 .chartBarsWrap .txtcifra2 {
+ font-size: 24px;
+ position: absolute;
+ bottom: 8px;
+ left: 111px;
+}
+
+
+#valorfinanciero4 .chartBarsWrap .txtcifra4 {
+ font-size: 24px;
+ position: absolute;
+ bottom: 8px;
+ left: 195px;
+}
+#valorfinanciero4 .chartBarsWrap .txtcifra5 {
+ font-size: 24px;
+ position: absolute;
+ bottom: 8px;
+ left: 280px;
+}
+#valorfinanciero4 .chartBarsWrap .txtcifra6 {
+ font-size: 28px;
+ position: absolute;
+ bottom: 8px;
+
+ left: 360px;
+}
+
+#valorfinanciero4  .chartBars .bars li {
+ 
+ 
+ margin: 0px 3px;
+
+}
+
+#valorfinanciero4 .imgteecell {
+  height: 265px;
+}
+
+#valorfinanciero5 {
+
+  background-image: url(../img/valor-financiero/imglinedecotop.svg);
+  background-size: 800px;
+  background-position: top right;
+  background-repeat: no-repeat;
+  height: 350px;
+  padding-top: 40px;
+}
+
+#valorfinanciero5 p {
+
+  padding-top: 90px;
+}
 
  #nuestronegocio5 {
   
