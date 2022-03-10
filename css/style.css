@@ -401,6 +401,14 @@ strong {
   background-color: #60b4c3;
 }
 
+.bgbluemex {
+  background-color: #263b80;
+}
+
+.bgbluecentro {
+  background-color: #60b4c3;
+}
+
 
 
 
@@ -4403,7 +4411,7 @@ background-repeat: no-repeat;
 
 
 /*--------------------------------------------------------------
-# MOBILE
+# OMNICANAL
 --------------------------------------------------------------*/
 
 #omnicanal0 {
@@ -5350,6 +5358,514 @@ padding: 10px;
   text-align: center;
   
 }
+
+/*--------------------------------------------------------------
+# VALOR FINANCIERO
+--------------------------------------------------------------*/
+
+
+#valorfinanciero0  {
+  background-image: url(../img/home/slidebgprin6.jpg);
+  background-size: cover;
+  background-color: #104685;
+  height: auto;
+ }
+
+#valorfinanciero0  .vh100 {
+  
+  height: 100vh;
+ }
+
+#valorfinanciero0 .slideprintext {
+  min-height: 635px;
+}
+
+#valorfinanciero0 .txtprinban {
+  width: 768px;
+margin: 60px;
+margin-left: 10%;
+    margin-top: 8%;
+}
+
+
+
+#valorfinanciero0 .navsarrows {
+  position: absolute;
+    top: 502px;
+    right: 77px;
+    margin-top: 0;
+    width: 45px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#valorfinanciero0 .bncifras {
+  display: flex;
+  width: 65%;
+  height: 120px;
+  float: left;
+}
+
+#valorfinanciero0 .bncifras .mbesp{
+  margin-bottom: 0;
+  line-height: 1;
+}
+
+#valorfinanciero0 .bgdarkgreyblue {
+  
+height: 120px;
+}
+
+
+#valorfinanciero0 .imgdowninf {
+  width: 80px;
+  height: fit-content;
+}
+
+
+#valorfinanciero0 .txtnumbg {
+  font-family: Bogle-Bold;
+  font-size: 46px;
+  margin-bottom: 0;
+  line-height: 58px;
+}
+
+#mensajevice  {
+  margin-top: 3%;
+}
+
+#mensajevice .txtname1 {
+  top: 70%;
+  left: 15%;
+ position: absolute;
+width: 195px;
+display: flex;
+align-items: flex-start;
+}
+#mensajevice .txtname2 {
+  top: 70%;
+  position: absolute;
+  left: 60%;
+ width: 190px;
+ display: flex;
+ align-items: flex-start;
+}
+
+#mensajevice h2 {
+  margin-top: 27px;
+}
+
+#mensajevice h4 {
+
+  line-height: 27px;
+
+
+}
+
+#mensajevice .btnlinknormal {
+  margin-top: 20px;
+}
+
+#mensajevice .contbtnvervi {
+  background-image: url(../img/nuestro-negocio/btnimgwalmartvideo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 10px auto 20px;
+}
+
+
+#mensajevice .imgbtnplay {
+  
+  width: 40px;
+  height: 40px;
+  display: block;
+  margin: auto;
+}
+
+#mensajevice a {
+  
+  
+  margin: auto;
+}
+
+
+#mensajevice .btnreadmore {
+
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+
+#valorfinanciero2 {
+ overflow: hidden;
+  height: auto;
+  padding-top: 4% ;
+  padding-bottom: 3%;
+
+
+}
+
+#valorfinanciero2 .txtvinetas {
+
+ padding-top: 20px;
+
+}
+
+#valorfinanciero2 .bgbluemex {
+  width: 160px;
+  height: 160px;
+  text-align: center;
+  border-radius: 100%;
+  position: absolute;
+  top: 29px;
+  right: 17%;
+}
+
+#valorfinanciero2 .bgbluecentro {
+  width: 160px;
+  height: 160px;
+  text-align: center;
+  border-radius: 100%;
+  position: absolute;
+  top: 345px;
+  right: 60%;
+}
+
+#valorfinanciero2 .conthilicircle p {
+  margin-bottom: 3px;
+}
+
+
+#valorfinanciero2 .conthilicircle .txtincircles {
+  
+  padding-top: 30%;
+}
+
+#nuestronegocio3 {
+  overflow: hidden;
+  height: 83vh;
+  background-image: url(../svg/fraseganardescuento.svg);
+  background-size:100%  165px;
+  background-repeat: no-repeat;
+  background-position:0 103%;
+
+
+}
+
+#nuestronegocio3 .txthighlightup {
+ 
+  margin-top: 20px;
+  padding: 0 0 0 120PX;
+ 
+}
+
+#nuestronegocio3 .icohandy {
+ 
+  margin-top: 90px;
+  margin-left: 120px;
+
+  width: 70px;
+  height: auto;
+ 
+}
+
+#nuestronegocio3 .icoyellcirbig {
+ 
+  
+  margin-left: 60px;
+
+ 
+}
+
+#nuestronegocio3 h4 {
+  width: 80%;
+  line-height: 30px;
+ 
+}
+
+
+#nuestronegocio3 .bgimgbodeemplo img {
+  margin-top: 30px;
+  
+  
+}
+
+#nuestronegocio3 .contborwhite {
+  border-bottom: #ffffff 1px solid;
+  padding: 10px 35px 10px 25px;
+}
+
+#nuestronegocio3 .contborwhite:last-child {
+  border-bottom: #ffffff 0px solid;
+  padding: 10px 35px 10px 25px;
+}
+
+#nuestronegocio3 .contborwhite p {
+ margin: 20px 0;
+}
+
+
+
+#nuestronegocio4 {
+  
+  height: auto;
+  background-image: url(../svg/fraselideresomni.svg);
+  background-size:100%  185px;
+  background-repeat: no-repeat;
+  background-position:0 107%;
+
+
+}
+
+#nuestronegocio4 p {
+ margin-bottom: 15px;
+
+
+}
+
+#nuestronegocio4 p:last-child {
+  margin-bottom: 45px;
+ 
+ 
+ }
+
+#nuestronegocio4 .icoonline {
+  margin-bottom: 20px;
+  margin-top: 40px;
+  width: 70px;
+  height: auto;
+ 
+}
+
+#nuestronegocio4 .conthigl {
+
+  padding: 23px;
+  
+    background-size: 191px;
+ 
+ 
+ }
+
+
+
+ #nuestronegocio5 {
+  
+  height: auto;
+ 
+
+
+}
+
+#nuestronegocio5 .bgbodega{
+  
+  height: 240px;
+  background-image: url(../img/nuestro-negocio/imgmamalucha.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+ 
+
+
+}
+
+#nuestronegocio5 p {
+  
+ margin-bottom: 15px;
+
+
+}
+
+
+#nuestronegocio6 {
+  
+  height: auto;
+  background-image: url(../svg/fraseecosiwal.svg);
+  background-size:100%  185px;
+  background-repeat: no-repeat;
+  background-position:0 107%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+
+}
+
+#nuestronegocio6 .txtm35 {
+  
+  margin-top: 35%;
+
+
+}
+
+#nuestronegocio7 {
+  
+  height: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+
+}
+
+#nuestronegocio7 .imgciconohabi {
+  
+ width: 90%;
+ display: block;
+ margin: 20px 0;
+ 
+ 
+ }
+
+#nuestronegocio7 .imgicowoman {
+  
+ width: 50%;
+ height: auto;
+ display: block;
+ margin: auto;
+
+
+}
+
+#nuestronegocio8 {
+  
+  height: auto;
+  padding-top: 5%;
+  padding-bottom: 1%;
+
+
+}
+
+#nuestronegocio9 {
+  
+  height: auto;
+  padding-top: 2%;
+  padding-bottom: 3%;
+
+
+}
+
+#nuestronegocio9 .chartBarsWrap {
+  margin: 0;
+}
+
+#nuestronegocio9 .chartBars .bars {
+  
+  padding: 0;
+  
+}
+
+#nuestronegocio9 .chartBars .bars li {
+ margin: 0;
+}
+
+#nuestronegocio9 .chartBarsWrap .txtcifra1 {
+
+  position: absolute;
+  top: -8px;
+  left: 30px;
+   z-index: 2;
+}
+
+#nuestronegocio9 .chartBarsWrap .txtcifra2 {
+  
+  position: absolute;
+  top: 47px;
+  left: 30px;
+   z-index: 2;
+
+}
+
+#nuestronegocio9 .chartBarsWrap .txtcifra3 {
+  
+  position: absolute;
+  top: 86px;
+  left: 30px;
+   z-index: 2;
+
+}
+
+#nuestronegocio9 .chartBarsWrap .txtcifra4 {
+  
+  position: absolute;
+  top: 127px;
+  left: 30px;
+   z-index: 2;
+
+}
+
+#nuestronegocio9 .chartBarsWrap .txtcifra5 {
+
+  position: absolute;
+  top: 166px;
+  left: 30px;
+   z-index: 2;
+
+}
+
+#nuestronegocio9 .contyears {
+
+  position: absolute;
+  top: 97px;
+    right: -40px;
+  
+
+}
+
+#nuestronegocio9 .contyears ul {
+
+  list-style: none;
+  margin: 0;
+}
+
+#nuestronegocio9 .contyears ul li {
+
+  margin: 0;
+}
+
+#nuestronegocio10 {
+  
+  height: auto;
+  background-image: url(../svg/fraseregenerativ.svg);
+  background-size:100%  185px;
+  background-repeat: no-repeat;
+  background-position:0 107%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+
+}
+
+#nuestronegocio10 .imgcircolo {
+  
+  width: 160px;
+  margin: 15px 0;
+
+
+}
+
+#nuestronegocio10 .bgbluesky {
+  
+ border-right: 1px #FFFFFF solid;
+ border-bottom:1px #FFFFFF solid ;
+
+}
+
+#nuestronegocio10 .bggreenb {
+  
+  
+  border-bottom:1px #FFFFFF solid ;
+ 
+ }
+
+ #nuestronegocio10 .bgdarkgreyblue {
+  
+  border-right: 1px #FFFFFF solid;
+ 
+ 
+ }
 
 
 /*--------------------------------------------------------------
