@@ -3739,6 +3739,7 @@ margin: auto;
   padding-top: 0;
   padding-bottom: 3%;
   height: 678px;
+  padding-top: 100px;
   
 }
 
@@ -3747,11 +3748,11 @@ margin: auto;
   background-size: cover;
   background-position: 0 -30px;
   background-repeat: no-repeat;
-  height: 317px;
+  height: 370px;
 }
 
 #nuestronegocio14 h3 {
-  margin-top: 10%;
+  margin-top: 0;
   
 }
 
@@ -3942,32 +3943,25 @@ margin: auto;
 #nuestronegocio19 {
 padding-top: 3%;
 padding-bottom: 3%;
-height: 83vh;
+height: auto;
 
 
 }
 
 #nuestronegocio19 .img-fluid {
   margin-top: 30px;
-  position: absolute;
-  right: 90px;
+  position: relative;
+  right: 0;
 }
 
 #nuestronegocio20 {
   margin-top: 3%;
   
-  height: 75vh;
+  height: auto;
   
   
 }
 
-#nuestronegocio20 {
-  
-  
-    height: 75vh;
-    
-    
-} 
 
 #nuestronegocio20 .conticon p {
   
@@ -4003,9 +3997,9 @@ height: 83vh;
 #nuestronegocio21 .contcifras {
 
   padding: 10px;
-  margin: 5px ;
   
-  
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
   }
 
 #nuestronegocio21 .contcifras .img3cirblu {
@@ -4175,7 +4169,7 @@ background-image: url(../img/nuestro-negocio/imglinedecotop.svg);
 background-size:126vw 40px;
 background-position: left top;
 background-repeat: no-repeat;
- height: 350px;
+ height: auto;
  padding-top: 40px;
 
 } 
@@ -4257,8 +4251,8 @@ background-repeat: no-repeat;
 
 #nuestronegocio25 .odscont2 {
   background-color: #6DAEDD;
-  padding: 40px;
-    height: 130px;  text-align: center;
+  padding: 6px;
+    height: 35px;  text-align: center;
 
 }
 
@@ -4278,8 +4272,8 @@ background-repeat: no-repeat;
 
 #nuestronegocio25 .odscontbtt a {
   
-  width: 129px;
-  height: 130px;
+  width: 140px;
+  height: 140px;
   margin:5px auto;
   background-color: #EEF2F4;
   float: left;
@@ -4396,13 +4390,8 @@ background-repeat: no-repeat;
 }
 
 #nuestronegocio25 .bgbluetopdark {
-<<<<<<< HEAD
   height: 170px;
-=======
-  height: 167px;
->>>>>>> 61e4f6a5f684109968b575597e92c9a87e4dac9f
 }
-
 #nuestronegocio25 .mrlesp {
   padding-left: 20px;
 }
@@ -6385,7 +6374,7 @@ height: 120px;
 }
 .comunidadesRespuesta{padding: 10px 0;}
 .widthSvg{width: 50px;float: right;}
-.widthSvg2{width: 50px;}
+.widthSvg2{width: 50px;padding: 5% 0;}
   #comunidades1{  background: #FCBA42;}
 .bgComunidad01{background-size: cover;background-position: center;height: 400px;}
 .bgComunidad02{height: 240px;padding-top: 20px}
@@ -7018,8 +7007,7 @@ height: 120px;
 
 }
     
-    @media(max-width:1200px){
-    #innovacion_02 #materialidad .sparked{width:60%;padding-top:66.6%}}
+
     
 @media(max-width:960px){
   #innovacion_02 #materialidad .sparked{width:90%;padding-top:99.9%}
@@ -7051,7 +7039,7 @@ height: 120px;
 #innovacion_02 #materialidad {
   background-image: url(../img/materialidad/bgblusqueres.svg); 
   background-repeat: no-repeat; 
-  background-size: contain;
+  background-size: cover;
 }
 
 #innovacion_02 #materialidad .sparked .titles span{margin-left:5%}
@@ -8758,9 +8746,52 @@ margin-right: 8px;
   background-position: center;
  
 }
+@media (min-width: 1200px) {
+
+  #nuestronegocio19{height: 83vh}
+  #nuestronegocio20{height: 75vh;}
+  #nuestronegocio25{height: 350px;}
+  #nuestronegocio14{padding-top: 0;}
+
+  #nuestronegocio19 .img-fluid{position: absolute;right: 90px;}
+  #innovacion_02 #materialidad{background-size: cover;}
+  #nuestronegocio14 h3{margin-top: 10%;}
+  #nuestronegocio25 .odscontbtt a {width: 129px;height: 130px;}
+
+
+
+}
+
+
+
+@media (min-width: 992px) {
+  #innovacion_02 #materialidad{background-size: cover;}
+  #nuestronegocio20{height: auto;}
+  
+}
+
 @media (max-width: 900px){
   .box__susten{min-height: 740px;}
+  .odscontbtt a{width: 140px; height: 140px;}
+
+
+  /* REGENERATIVA */
+  #nuestronegocio25,
+  #nuestronegocio20,
+  #nuestronegocio14,
+  #nuestronegocio19{height: auto;}
+  #nuestronegocio19 .img-fluid{position: relative;right: 0;margin-bottom: 30px;}
+  #nuestronegocio20 .img-fluid{max-width: 60%;margin: auto;display: block; margin-bottom: 30px;}
+  #nuestronegocio14{padding-top: 60px;}
+  #nuestronegocio21{padding-top: 3%;}
+  #nuestronegocio14 h3 hr{display: none;}
+  #nuestronegocio14 .cpdesp h3{margin-top: 0;}
+  #innovacion_02 #materialidad{background-size: cover;}
+
+  #footer .btndowninfor{height: 378px;}
 }
+
+
 @media (max-width: 767px){
   .date__comunidades{padding-top: 5%;}
   .comunidades__box__circle{margin: auto;padding: 30% 20px}
@@ -8773,6 +8804,17 @@ margin-right: 8px;
   .bgComunidad02{height: auto;}
   #comunidades .txtprinban{width: 400px;margin-top: 10%;}
   #comunidades, #comunidades .vh100{height: 100vh;}
+
+
+
+  /*NUESTRO NEGOCIO*/
+  #nuestronegocio19,
+  #nuestronegocio25,
+  #nuestronegocio20{height: auto;}
+  #nuestronegocio19 .img-fluid{position: relative;right: 0;}
+     
+  #nuestronegocio25 .odscontbtt a{width: 120px;height: 120px;}
+
 }
 
 /*--------------------------------------------------------------
@@ -8841,7 +8883,24 @@ display: none;
     #sustentabilidad04 .box__sustentabilidad header{height: auto;}
 
 
+    /* REGENERATIVA*/
+    
+    #nuestronegocio21{padding-top: 3%;}
+    #nuestronegocio14 h3 br,
+    #innovacion_02 #filters{display: none;}
+    #innovacion_02 .filters2 .title {width: 100%;}
+    #innovacion_02 .filters2 ul li{width: 32%;display: inline-block;}
+    #nuestronegocio19 .img-fluid{position: relative;margin-top: 10px;right: 0;margin-bottom: 30px;}
+
+
+
+
   #footer .contbtndownlo{grid-template-columns: 1fr 1fr 1fr;}
+  #footer p.txtbold{float: none;text-align: center;}
+  #footer .btnprincipaldark{margin: auto;display: block;}
+  #footer .btndowninfor{height: 200px;}
+  #footer .contbtndownlo a{width: 100px;}
+  #contbtnsigantcap p{font-size: 14px;}
 }/*-END  MOBILE-*/  
 
 @media screen and (max-width: 1000px) {
