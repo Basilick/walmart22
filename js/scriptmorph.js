@@ -6,7 +6,7 @@
 class TextScramble {
   constructor(el) {
     this.el = el;
-    this.chars = 'NMALKSOIUY';
+    this.chars = 'ZHJLKSTIUY';
     this.update = this.update.bind(this);
   }
   setText(newText) {
