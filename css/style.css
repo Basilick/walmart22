@@ -2096,7 +2096,7 @@ bottom: 51px;
 #hero .slide:nth-child(9) {
   left: 800%;
 }
-#hero slide:nth-child(9) .slide__bg {
+#hero .slide:nth-child(9) .slide__bg {
   left: -400%;
   background-image: url("../img/home/slidebgprin9.jpg");
 }
@@ -6383,7 +6383,7 @@ height: 120px;
 .widthSvg2{width: 50px;}
   #comunidades1{  background: #FCBA42;}
 .bgComunidad01{background-size: cover;background-position: center;height: 400px;}
-.bgComunidad02{;height: 240px;padding-top: 20px}
+.bgComunidad02{height: 240px;padding-top: 20px}
 .bgComunidad03{background-size: cover;background-position: center;height: 640px;}
 
 .comunidades{height: auto !important;padding-bottom: 10%;}
