@@ -320,6 +320,9 @@ strong {
 
 }
 
+.greyespectxt {
+  color: #99aec1;
+}
 
 .orangee9txt {
  color: #e97119;
@@ -407,6 +410,10 @@ strong {
 
 .bgbluecentro {
   background-color: #60b4c3;
+}
+
+.bggreylight {
+  background-color: #99aec1;
 }
 
 
@@ -2624,6 +2631,7 @@ align-items: flex-start;
   border-left:1px solid #1173cb ;
   border-right:1px solid #1173cb ;
   border-bottom: 1px solid #1173cb;
+  border-top: .5px solid #1173cb;
 }
 
 
@@ -3654,7 +3662,7 @@ margin: auto;
   height: auto;
   padding-top: 0;
   padding-bottom: 3%;
-  height: 86vh;
+  height: 678px;
   
 }
 
@@ -4518,6 +4526,12 @@ height: 120px;
   height: auto;
   
   
+}
+
+#omnicanal2 .paddingportadas{
+
+  padding:6% 10% 0px;
+
 }
 
 #omnicanal2 .contbgletters {
@@ -5635,6 +5649,7 @@ align-items: flex-start;
   padding-top: 5%;
   padding-bottom: 3%;
 }
+
 #valorfinanciero3 .imgicon{
   width: 80px;
   margin-bottom: 20px;
@@ -5760,110 +5775,7 @@ align-items: flex-start;
   padding-bottom: 3%;
 }
 
-#nuestronegocio3 {
-  overflow: hidden;
-  height: 83vh;
-  background-image: url(../svg/fraseganardescuento.svg);
-  background-size:100%  165px;
-  background-repeat: no-repeat;
-  background-position:0 103%;
 
-
-}
-
-#nuestronegocio3 .txthighlightup {
- 
-  margin-top: 20px;
-  padding: 0 0 0 120PX;
- 
-}
-
-#nuestronegocio3 .icohandy {
- 
-  margin-top: 90px;
-  margin-left: 120px;
-
-  width: 70px;
-  height: auto;
- 
-}
-
-#nuestronegocio3 .icoyellcirbig {
- 
-  
-  margin-left: 60px;
-
- 
-}
-
-#nuestronegocio3 h4 {
-  width: 80%;
-  line-height: 30px;
- 
-}
-
-
-#nuestronegocio3 .bgimgbodeemplo img {
-  margin-top: 30px;
-  
-  
-}
-
-#nuestronegocio3 .contborwhite {
-  border-bottom: #ffffff 1px solid;
-  padding: 10px 35px 10px 25px;
-}
-
-#nuestronegocio3 .contborwhite:last-child {
-  border-bottom: #ffffff 0px solid;
-  padding: 10px 35px 10px 25px;
-}
-
-#nuestronegocio3 .contborwhite p {
- margin: 20px 0;
-}
-
-
-
-#nuestronegocio4 {
-  
-  height: auto;
-  background-image: url(../svg/fraselideresomni.svg);
-  background-size:100%  185px;
-  background-repeat: no-repeat;
-  background-position:0 107%;
-
-
-}
-
-#nuestronegocio4 p {
- margin-bottom: 15px;
-
-
-}
-
-#nuestronegocio4 p:last-child {
-  margin-bottom: 45px;
- 
- 
- }
-
-#nuestronegocio4 .icoonline {
-  margin-bottom: 20px;
-  margin-top: 40px;
-  width: 70px;
-  height: auto;
- 
-}
-
-#nuestronegocio4 .conthigl {
-
-  padding: 23px;
-  
-    background-size: 191px;
- 
- 
-}
 
 #valorfinanciero4 .chartBarsWrap {
   height: 330px;
@@ -5945,8 +5857,7 @@ align-items: flex-start;
   background-size: 800px;
   background-position: top right;
   background-repeat: no-repeat;
-  height: 350px;
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 #valorfinanciero5 p {
@@ -5954,115 +5865,76 @@ align-items: flex-start;
   padding-top: 90px;
 }
 
- #nuestronegocio5 {
-  
-  height: auto;
- 
-
-
-}
-
-#nuestronegocio5 .bgbodega{
-  
-  height: 240px;
-  background-image: url(../img/nuestro-negocio/imgmamalucha.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top center;
- 
-
-
-}
-
-#nuestronegocio5 p {
-  
- margin-bottom: 15px;
-
-
-}
-
-
-#nuestronegocio6 {
-  
-  height: auto;
-  background-image: url(../svg/fraseecosiwal.svg);
-  background-size:100%  185px;
-  background-repeat: no-repeat;
-  background-position:0 107%;
-  padding-top: 5%;
-  padding-bottom: 5%;
-
-
-}
-
-#nuestronegocio6 .txtm35 {
-  
-  margin-top: 35%;
-
-
-}
-
-#nuestronegocio7 {
-  
+#valorfinanciero6 {
+  overflow: hidden;
   height: auto;
   padding-top: 5%;
-  padding-bottom: 5%;
-
-
+  padding-bottom: 3%;
 }
 
-#nuestronegocio7 .imgciconohabi {
-  
- width: 90%;
- display: block;
- margin: 20px 0;
- 
- 
- }
-
-#nuestronegocio7 .imgicowoman {
-  
- width: 50%;
- height: auto;
- display: block;
- margin: auto;
-
-
+#valorfinanciero6 .imgcentrotur{
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: auto;
 }
 
-#nuestronegocio8 {
-  
+#valorfinanciero7 {
+  overflow: hidden;
+  height: 86vh;
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+
+#valorfinanciero7 .mtowl {
+  margin-top: 70px;
+}
+ 
+#valorfinanciero8 {
+  overflow: hidden;
   height: auto;
   padding-top: 5%;
-  padding-bottom: 1%;
-
-
+  padding-bottom: 0;
 }
 
-#nuestronegocio9 {
-  
+#valorfinanciero9 {
+  overflow: hidden;
   height: auto;
   padding-top: 2%;
   padding-bottom: 3%;
-
-
 }
 
-#nuestronegocio9 .chartBarsWrap {
+#valorfinanciero9 .imgcifra {
+  width: 130px;
+  height: 130px;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  background-image: url(../img/home/imgbtndowncifras.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#valorfinanciero9 h3 {
+  margin-bottom: 15px;
+}
+
+#valorfinanciero9 .chartBarsWrap {
   margin: 0;
 }
 
-#nuestronegocio9 .chartBars .bars {
+#valorfinanciero9 .chartBars .bars {
   
   padding: 0;
   
 }
 
-#nuestronegocio9 .chartBars .bars li {
+#valorfinanciero9 .chartBars .bars li {
  margin: 0;
 }
 
-#nuestronegocio9 .chartBarsWrap .txtcifra1 {
+#valorfinanciero9 .chartBarsWrap .txtcifra1 {
 
   position: absolute;
   top: -8px;
@@ -6070,7 +5942,7 @@ align-items: flex-start;
    z-index: 2;
 }
 
-#nuestronegocio9 .chartBarsWrap .txtcifra2 {
+#valorfinanciero9 .chartBarsWrap .txtcifra2 {
   
   position: absolute;
   top: 47px;
@@ -6079,7 +5951,7 @@ align-items: flex-start;
 
 }
 
-#nuestronegocio9 .chartBarsWrap .txtcifra3 {
+#valorfinanciero9 .chartBarsWrap .txtcifra3 {
   
   position: absolute;
   top: 86px;
@@ -6088,7 +5960,7 @@ align-items: flex-start;
 
 }
 
-#nuestronegocio9 .chartBarsWrap .txtcifra4 {
+#valorfinanciero9 .chartBarsWrap .txtcifra4 {
   
   position: absolute;
   top: 127px;
@@ -6097,7 +5969,7 @@ align-items: flex-start;
 
 }
 
-#nuestronegocio9 .chartBarsWrap .txtcifra5 {
+#valorfinanciero9 .chartBarsWrap .txtcifra5 {
 
   position: absolute;
   top: 166px;
@@ -6106,7 +5978,7 @@ align-items: flex-start;
 
 }
 
-#nuestronegocio9 .contyears {
+#valorfinanciero9 .contyears {
 
   position: absolute;
   top: 97px;
@@ -6115,59 +5987,72 @@ align-items: flex-start;
 
 }
 
-#nuestronegocio9 .contyears ul {
+#valorfinanciero9 .contyears ul {
 
   list-style: none;
   margin: 0;
 }
 
-#nuestronegocio9 .contyears ul li {
+#valorfinanciero9 .contyears ul li {
 
   margin: 0;
 }
 
-#nuestronegocio10 {
-  
+
+#valorfinanciero10 {
+  overflow: hidden;
   height: auto;
-  background-image: url(../svg/fraseregenerativ.svg);
-  background-size:100%  185px;
-  background-repeat: no-repeat;
-  background-position:0 107%;
-  padding-top: 5%;
-  padding-bottom: 5%;
-
-
+  padding-top: 2%;
+  padding-bottom: 3%;
 }
 
-#nuestronegocio10 .imgcircolo {
-  
-  width: 160px;
-  margin: 15px 0;
-
-
+#valorfinanciero10 .imggrafinver {
+  width: 300px;
+  height: auto;
+  display: block;
+  margin:20px auto;
 }
 
-#nuestronegocio10 .bgbluesky {
-  
- border-right: 1px #FFFFFF solid;
- border-bottom:1px #FFFFFF solid ;
-
+#valorfinanciero11 {
+  overflow: hidden;
+  height: auto;
+  padding-top: 2%;
+  padding-bottom: 0%;
 }
 
-#nuestronegocio10 .bggreenb {
-  
-  
-  border-bottom:1px #FFFFFF solid ;
- 
- }
+#valorfinanciero11 .imgposi{
+  position: relative;
+bottom: -115px;
+}
 
- #nuestronegocio10 .bgdarkgreyblue {
-  
-  border-right: 1px #FFFFFF solid;
- 
- 
- }
+#valorfinanciero12 {
+  overflow: hidden;
+  height: auto;
+  padding-top:0%;
+  padding-bottom: 3%;
+}
 
+#valorfinanciero12 h3 {
+ 
+  margin-top: 190px;
+
+
+} 
+
+#valorfinanciero12  .txtnumber28 {
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+#valorfinanciero12 .descararchive {
+ 
+  color: #000;
+  text-decoration: underline;
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 15px;
+
+} 
 
 /*--------------------------------------------------------------
 # MOBILE
@@ -6422,10 +6307,14 @@ height: 120px;
 .widthSvg{width: 50px;float: right;}
 .widthSvg2{width: 50px;}
   #comunidades1{  background: #FCBA42;}
+<<<<<<< HEAD
 .bgComunidad01{background-size: cover;background-position: center;height: 400px;}
 .bgComunidad02{;height: 240px;padding-top: 20px}
 .bgComunidad03{background-size: cover;background-position: center;height: 640px;}
 }
+=======
+
+>>>>>>> ecdb6384c1d080d35b4f90577bca069d054aab5c
 .comunidades{height: auto !important;padding-bottom: 10%;}
 #comunidades0 {
     background-image: url(../img/home/iniciativas-comunidades.jpg);
