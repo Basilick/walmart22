@@ -2096,7 +2096,7 @@ bottom: 51px;
 #hero .slide:nth-child(9) {
   left: 800%;
 }
-#hero slide:nth-child(9) .slide__bg {
+#hero .slide:nth-child(9) .slide__bg {
   left: -400%;
   background-image: url("../img/home/slidebgprin9.jpg");
 }
@@ -4384,19 +4384,23 @@ background-repeat: no-repeat;
 }
 
 #nuestronegocio25 .imgcifra {
-  width: 130px;
-  height: 130px;
+  width: 120px;
+  height: 120px;
   display: block;
   margin: auto;
   margin-bottom: 20px;
-  margin-top: 25px;
+    margin-top: 20px;
   background-image: url(../img/nuestro-negocio/imgbtndownodss.png);
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 #nuestronegocio25 .bgbluetopdark {
+<<<<<<< HEAD
   height: 170px;
+=======
+  height: 167px;
+>>>>>>> 61e4f6a5f684109968b575597e92c9a87e4dac9f
 }
 
 #nuestronegocio25 .mrlesp {
@@ -6384,7 +6388,7 @@ height: 120px;
 .widthSvg2{width: 50px;}
   #comunidades1{  background: #FCBA42;}
 .bgComunidad01{background-size: cover;background-position: center;height: 400px;}
-.bgComunidad02{;height: 240px;padding-top: 20px}
+.bgComunidad02{height: 240px;padding-top: 20px}
 .bgComunidad03{background-size: cover;background-position: center;height: 640px;}
 
 .comunidades{height: auto !important;padding-bottom: 10%;}
