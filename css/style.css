@@ -943,7 +943,10 @@ margin: 10px;
 }
 
 .menucont .txtinffi {
-  margin-left: 13%;
+      
+      color: #ffff;
+      padding-top: 17px;
+      
 }
 
 
@@ -979,7 +982,7 @@ margin: 10px;
 }
 
 .secondary-nav li a:hover {
-  color: #0172BA;
+  color: #cacaca;
 }
 
 .activemenu {
@@ -1061,6 +1064,17 @@ margin: 10px;
 
 }
   
+.conteneng .btndowlo:hover {
+  text-decoration: underline;
+  color: #ffffff;
+
+}
+
+.conteneng .btndowlo2:hover {
+  text-decoration: underline;
+  color: #ffffff;
+
+}
   
 
 
@@ -1440,27 +1454,38 @@ margin: 10px;
 
 #example1 {
     display:block;
-    font-family:'Bogle-Black';
-    font-size:90px;
+    font-family:'Bogle-Light';
+    font-size:28px;
+    letter-spacing: 20px;
     text-transform: uppercase;
     color:#FFFFFF;
-    
-   
-    height:70px;
+    width: auto;
+    position: absolute;
+    top: 202px;
+    left: 159px;
     
 
 }
 #example2 {
   display:block;
   font-family:'Bogle-Black';
-  font-size:90px;
+  font-size:115px;
   text-transform: uppercase;
   color:#FFFFFF;
-  
- 
-  height:200px;
- 
+  width: auto;
+    position: absolute;
+    top: 210px;
+    left: 150px;;
 
+}
+
+.svgbroken1 {
+  width: 511px;
+  position: absolute;
+  top: 92px;
+  left: 161px;
+  height: auto;
+  display: block;
 }
 
  
@@ -3479,19 +3504,35 @@ height: 120px;
 #nuestronegocio12 .owl-theme .owl-nav .owl-prev {
   float: left;
   width: 30px;
+  color: #00339F;
     height: 30px;
     background-color: #ffffff;
     border-radius: 100%;
     border: 1px #898989 solid;
 }
 
+#nuestronegocio12 .owl-theme .owl-nav .owl-prev p {
+  font-size: 25px;
+  position: relative;
+  top: -12px;
+  margin-bottom: 0;
+}
+
 #nuestronegocio12 .owl-theme .owl-nav .owl-next {
   float: right;
+  color: #00339F;
   width: 30px;
     height: 30px;
     background-color: #ffffff;
     border-radius: 100%;
     border: 1px #898989 solid;
+}
+
+#nuestronegocio12 .owl-theme .owl-nav .owl-next p {
+  font-size: 25px;
+  position: relative;
+  top: -12px;
+  margin-bottom: 0;
 }
 
 #nuestronegocio12 .owl-carousel .owl-item {
@@ -3655,6 +3696,41 @@ margin: auto;
   position: absolute;
   width: 1807px;
 
+}
+#nuestronegocio13 .contswipeeindi {
+  width: 60px;
+  text-align: center;
+  height: 60px;
+  border-radius: 100%;
+  background: #00539b;
+
+  display: block;
+  margin-top: 25px;
+  margin-left: 40px;
+
+}
+
+#nuestronegocio13 #swipeindi{
+  width:30px;
+  padding-top: 13px;
+  animation: leftToRight 2s infinite;
+}
+
+@-webkit-keyframes leftToRight {
+    0% {
+        -webkit-transform: translate3d(5px, 0, 0);
+    transform: translate3d(5px, 0, 0);
+    }
+
+    50% {
+        -webkit-transform: translate3d(-5px, 0, 0);
+    transform: translate3d(-5px, 0, 0);
+    }
+ 
+    100% {
+        -webkit-transform: translate3d(5px, 0, 0);
+    transform: translate3d(5px, 0, 0);
+    }
 }
 
 
