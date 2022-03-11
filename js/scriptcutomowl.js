@@ -111,6 +111,38 @@ $(document).ready(function () {
     });
 
 });
+$(document).ready(function () {
+    var owl = $('.slideAcceso1');
+    owl.owlCarousel({
+        items: 6,
+        loop: true,
+        margin: 2,
+        autoplay: true,
+        slideTransition: 'linear',
+        autoplayTimeout: 0,
+        autoplaySpeed: 10000,
+        autoplayHoverPause: false
+
+    });
+
+});
+//Alternate Direction
+$(document).ready(function () {
+    var owl = $('slideAcceso2');
+    owl.owlCarousel({
+        items: 5,
+        rtl: true,
+        loop: true,
+        margin: 2,
+        autoplay: true,
+        slideTransition: 'linear',
+        autoplayTimeout: 0,
+        autoplaySpeed: 10000,
+        autoplayHoverPause: false
+
+    });
+
+});
 //Alternate Direction
 $(document).ready(function () {
     var owl = $('.integridadEtica2');
