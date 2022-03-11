@@ -3128,7 +3128,6 @@ height: 120px;
  
 }
 
-
 #nuestronegocio3 .bgimgbodeemplo img {
   margin-top: 30px;
   
@@ -6376,6 +6375,7 @@ height: 120px;
 #comunidades .txtnumbg {
   font-family: Bogle-Bold;
   font-size: 46px;
+  margin-top: 10px;
   margin-bottom: 0;
   line-height: 58px;
 }
@@ -6383,7 +6383,14 @@ height: 120px;
 .widthSvg{width: 50px;float: right;}
 .widthSvg2{width: 50px;}
   #comunidades1{  background: #FCBA42;}
+<<<<<<< HEAD
+.bgComunidad01{background-size: cover;background-position: center;height: 400px;}
+.bgComunidad02{;height: 240px;padding-top: 20px}
+.bgComunidad03{background-size: cover;background-position: center;height: 640px;}
+}
+=======
 
+>>>>>>> ecdb6384c1d080d35b4f90577bca069d054aab5c
 .comunidades{height: auto !important;padding-bottom: 10%;}
 #comunidades0 {
     background-image: url(../img/home/iniciativas-comunidades.jpg);
@@ -6413,13 +6420,13 @@ height: 120px;
 .pontebien__comunidades{max-width: 350px; text-align: justify;margin-top: 15%;margin-bottom: 10%;}
 .padding__portadas{padding: 10%;}
 .font__24{font-size: 24px;line-height: 1.2;}
-.padding__5{padding-top: 5%;padding-bottom: 5%;}
+.padding__5{padding-top: 3%;padding-bottom: 3%;}
 .padding__10{padding-top: 10%;padding-bottom: 10%;}
 .padding__30{padding-top: 30%;padding-bottom: 30%;}
 .padding__60{padding-top: 60%;padding-bottom: 60%;}
 .padding__90{padding-top: 90%;padding-bottom: 90%;}
 .text__justify{text-align: justify;}
-.text__center{text-align: center;}
+.text__center{text-align: center;display: block;}
 .date__comunidades{padding-top: 60%;}
 .date__comunidades h3{color: #a6bdd1}
 .comunidades__box__circle{background-color: #fff;width: 500px;height: 500px;border-radius: 50%;padding: 45% 20px;}
@@ -6559,6 +6566,88 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 # INTEGRIDAD 
 ---------------------------------------------------
 ----------*/
+#integridad0 {
+  
+  height: 100vh;
+  background-size: cover;
+  background-color:#626262;
+  
+  
+}
+
+
+#integridad0 .pad95 {
+ padding-top: 95px;
+  
+}
+
+
+#integridad0  {
+  background-image: url(../img/home/slidebgprin1.jpg);
+  background-size: cover;
+  background-color: #3688bc;
+  height: 100vh;
+ }
+
+#integridad0  .vh100 {
+  
+  height: 100vh;
+ }
+
+#integridad0 .slideprintext {
+  min-height: 635px;
+}
+
+#integridad0 .txtprinban {
+  width: 768px;
+margin: 60px;
+margin-left: 10%;
+    margin-top: 8%;
+}
+
+
+
+#integridad0 .navsarrows {
+  position: absolute;
+    top: 502px;
+    right: 77px;
+    margin-top: 0;
+    width: 45px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#integridad0 .bncifras {
+  display: flex;
+  width: 65%;
+  height: 120px;
+  float: left;
+}
+
+#integridad0 .bncifras .mbesp{
+  margin-bottom: 0;
+  line-height: 1;
+}
+
+#integridad0 .bgdarkgreyblue {
+  
+height: 120px;
+}
+
+
+#integridad0 .imgdowninf {
+  width: 80px;
+  height: fit-content;
+}
+
+
+#integridad0 .txtnumbg {
+  font-family: Bogle-Bold;
+  font-size: 46px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  line-height: 58px;
+}
 #integridadEtica .item img{height: 80px !important; width: 220px;}
 
 .integridadGray{background-color: #939091;}
