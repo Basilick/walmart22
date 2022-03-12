@@ -17,7 +17,7 @@ $(document).ready(function () {
 $(document).ready(function () {
     var owl = $('.owlconsilado2');
     owl.owlCarousel({
-        items: 2,
+        items: 3,
         rtl: true,
         loop: true,
         margin: 2,
