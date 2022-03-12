@@ -1533,7 +1533,6 @@ margin: 10px;
     background-image: url(img/ganar/foto_bodega_fondo.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
-    padding-top: 100px;
 }
 
 #descuento1 .witheblq {
@@ -5606,6 +5605,10 @@ padding: 10px;
 
 
 }
+#habilitadores12 .bluegren .img-fluid,
+#habilitadores2 .bgbluesky .img-fluid,
+#habilitadores10 .bluegren .img-fluid,
+#habilitadores8 .bluegren .img-fluid{width: 100%;}
 #habilitadores8 {
   overflow: hidden;
 
@@ -6636,6 +6639,7 @@ height: 120px;
 .widthSvg{width: 50px;float: right;}
 .widthSvg2{width: 50px;padding: 5% 0;}
   #comunidades1{  background: #FCBA42;}
+  #comunidades1 .bgblueligh{padding: 10px;display: block;}
 .bgComunidad01{background-size: cover;background-position: center;height: 400px;}
 .bgComunidad02{height: 240px;padding-top: 20px}
 .bgComunidad03{background-size: cover;background-position: center;height: 640px;}
@@ -8825,7 +8829,7 @@ height: 120px;
   padding: 10px 0;
   
 }
-
+#footer span.spanbold{text-transform: uppercase;}
 
 #footer  p {
   margin-bottom: 20px;
@@ -9062,10 +9066,24 @@ margin-right: 8px;
   #nuestronegocio19 .img-fluid{position: relative;right: 0;margin-bottom: 30px;}
   #nuestronegocio20 .img-fluid{max-width: 60%;margin: auto;display: block; margin-bottom: 30px;}
   #nuestronegocio14{padding-top: 60px;}
+  #nuestronegocio06 .boxGray{width: 90%;}
+  #nuestronegocio5,
   #nuestronegocio21{padding-top: 3%;}
+  #nuestronegocio06 .boxGray br,
+  #nuestronegocio5 .whitetxt br,
+  #nuestronegocio8 .blueswaltxt br,
+  #nuestronegocio7 .whitetxt br,
+    #nuestronegocio4 .blueswaltxt br,
   #nuestronegocio14 h3 hr{display: none;}
   #nuestronegocio14 .cpdesp h3{margin-top: 0;}
+  #nuestronegocio06 .boxGray{position: relative;padding-top: 30px;height: auto;}
+
+
   #innovacion_02 #materialidad{background-size: cover;}
+
+  #nuestronegocio0 .txtprinban{width: 400px;}
+  #descuento2 .blueswaltxt br{display: none;}
+  #descuento2 .padding__10{padding-top: 0;}
 
   #footer .btndowninfor{height: 378px;}
 
