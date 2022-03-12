@@ -1509,7 +1509,76 @@ margin: 10px;
   height: 100%;
   float: right;
 }
+.bggreen {
+    background: #3aad2c;
+} 
 
+.bgblueW {
+    background: #0070ce;
+}
+
+.bgOrange {
+    background: #edac19;
+}
+
+.bgHorange {
+    background: #f47b20; 
+}
+
+.bggray{
+    background: #f7f9f9;
+}
+
+#descuento1 {
+    background-image: url(img/ganar/foto_bodega_fondo.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+}
+
+#descuento1 .witheblq {
+    width: 80%;
+    background: #fff;
+    margin: auto;
+}
+#descuento1 .infobox{width: 100%; height: auto; background-color: #6ea9db;}
+.marquee {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background: #3aad2c;
+}
+
+.morralla {
+  width: 50%;
+}
+.morralla-box {
+  width: 100%; 
+  background: #60b4c3;
+  padding: 30px;
+  height: 100%;
+}
+
+.precio {
+  width: 100%;
+}
+
+.precio-box {
+  width: 100%; 
+  background: #253b80;
+  height: 100%;
+}
+
+.color__blue{color: #007dc3;} 
+.color__blue2{color: #60b3c3;}
+.color__blue3{color: #263b80;}
+.font__size__large{font-size: 42px;}
+.text__large{font-size: 24px;}
+
+.padding__10 {
+  padding-top: 40px;
+}
 #hero .txtnumbg {
   font-family: Bogle-Bold;
   font-size: 46px;
@@ -3133,7 +3202,9 @@ height: 120px;
   
   
 }
-
+#nuestronegocio06 .boxGray{
+  width: 40%; height: 200px; position: absolute; left: 3%; bottom: 48px; z-index: 2;padding-left: 3%;
+}
 #nuestronegocio3 .contborwhite {
   border-bottom: #ffffff 1px solid;
   padding: 10px 35px 10px 25px;
@@ -6535,7 +6606,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 #ecosistema03 .box__02{background: #5eace4;height: 227px; }
 #ecosistema03 .box__03{background: #5396d7;padding-top: 10px; padding-bottom: 10px;height: 206px;}
 #ecosistema03 .box__04{background: #a2bcd4;padding-top: 90px; padding-bottom: 92px;height: 440px;}
-#ecosistema05 .padding__box{padding: 0 50px;padding-top: 20%;}
+#ecosistema05 .padding__box{padding: 0 50px;padding-top: 0;}
 .box__circle{width: 160px;height: 160px;border: 1px solid #1173CB;text-align: center;padding:30px 20px;border-radius: 50%;margin: 40px auto;color: #1173CB}
 .box__circle strong{font-size: 56px;line-height: 1;}
 #ecosistema05 .box__01{background: #004ca1;}
@@ -6550,6 +6621,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 #ecosistema07 .padding__box2 h3{font-size: 18px;}
 #ecosistema07 .btn__video{width: 100px; margin: 10px auto;font-size: 12px;}
 #ecosistema08 h3{font-size: 18px;line-height: 1;}
+
 .svg__pattern{background-size: contain !important;background-position: bottom !important;background-repeat: no-repeat !important;}
 /*--------------------------------------------------------------
 # INTEGRIDAD 
@@ -8746,6 +8818,10 @@ margin-right: 8px;
   background-position: center;
  
 }
+
+
+
+
 @media (min-width: 1200px) {
 
   #nuestronegocio19{height: 83vh}
@@ -8774,6 +8850,20 @@ margin-right: 8px;
   .box__susten{min-height: 740px;}
   .odscontbtt a{width: 140px; height: 140px;}
 
+  /* ECOSISTEMAS */
+  #ecosistemas0 .txtprinban{margin-top: 20%;width: 500px;}
+  #ecosistema02{background: #fff;}
+  #ecosistema02 .whitetxt{color: #287cc3}
+  #ecosistema02 .box__padding{padding: 5%}
+  #ecosistema02 .bggrey1{height: auto;}
+  .img__ecosistema{display: none;}
+  #ecosistema03 .box__03{height: 357px;}
+  #ecosistema03 .box__04{height: 497px;}
+  #ecosistema04 .box__padding, #ecosistema06 .box__padding, #ecosistema01 .box__padding{padding: 30px;}
+  #ecosistema05 .padding__box{padding-top: 0;}
+  #ecosistema05 .box__list{padding: 25px 20px;}
+  #ecosistema07 .box__padding{min-height:  320px;}
+
 
   /* REGENERATIVA */
   #nuestronegocio25,
@@ -8789,6 +8879,14 @@ margin-right: 8px;
   #innovacion_02 #materialidad{background-size: cover;}
 
   #footer .btndowninfor{height: 378px;}
+
+  /* NEGOCIO */
+
+  #nuestronegocio4 .padding__10{padding-top: 0;padding-bottom: 0;}
+  #descuento1{padding-top: 0;}
+
+
+
 }
 
 
@@ -8865,6 +8963,22 @@ display: none;
     #comunidades .txtprinban{width: 200px;}
     #comunidades, #comunidades .vh100{height: 30vh;}
 
+    /* ECOSISTEMA */
+    #ecosistema03 .box__02,
+    #ecosistema03 .box__04{height: auto;}
+    #ecosistemas0{height: 40vh;}
+    #ecosistemas0 .txtprinban{max-width: 200px;}
+    #ecosistema02{background: #fff;}
+    #ecosistema02 .box__padding{padding: 5% 10%;}
+    .img__ecosistema{position: relative;}
+    #ecosistema02 .bggrey1{padding:30px;height: auto;}
+    #ecosistema02 .whitetxt{color: #287cc3}
+    #ecosistema03 .box__04{padding-top: 30px;padding-bottom: 30px;}
+    #ecosistema04 .box__padding, #ecosistema06 .box__padding, #ecosistema01 .box__padding{padding: 30px;}
+    #ecosistema05 .img-fluid{margin-bottom: 30px;}
+    #ecosistema07 .box__padding{padding: 30px;}
+    #ecosistema03 .box__03{height: auto;}
+    #ecosistema07 .bggrey1{background-color: #fff; padding-top: 60px;}
 
     /* INTEGRIDAD */
     #integridad0{height: 40vh;}
@@ -8881,6 +8995,8 @@ display: none;
     #sustentabilidad00 .bncifras{width: 100%;}
     #sustentabilidad04 .box__sustentabilidad footer,#sustentabilidad04 .box__sustentabilidad footer
     #sustentabilidad04 .box__sustentabilidad header{height: auto;}
+    #ecosistema07 .padding__box2{padding: 20px;min-height: 200px;}
+    #ecosistema07 .box__padding{min-height: auto;}
 
 
     /* REGENERATIVA*/
@@ -8892,7 +9008,19 @@ display: none;
     #innovacion_02 .filters2 ul li{width: 32%;display: inline-block;}
     #nuestronegocio19 .img-fluid{position: relative;margin-top: 10px;right: 0;margin-bottom: 30px;}
 
-
+    /* Nuestro Negocio */
+    #nuestronegocio0 .txtprinban{width: 300px;}
+    #descuento1{padding-top: -200px;}
+    #descuento2 .padding__10{padding-top: 0;}
+    #nuestronegocio4 .padding__10{padding-top: 0;}
+    #nuestronegocio4 .blueswaltxt br{display: none;}
+    #nuestronegocio06 .img-fluid{margin-bottom: 30px;}
+  #nuestronegocio06 .boxGray {width: 100%;position: relative;background-color: #fff;margin-top: 80px;height: auto;bottom: 0;}
+  #nuestronegocio08 .blueswaltxt br{display: none;}
+  #descuento1 .witheblq{width: 100%}
+  #descuento1{padding-top: 0;}
+  #descuento1 .padding__10{padding-top: 0;}
+  
 
 
   #footer .contbtndownlo{grid-template-columns: 1fr 1fr 1fr;}
