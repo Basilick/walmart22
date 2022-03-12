@@ -1,4 +1,71 @@
 $(document).ready(function () {
+    var owl = $('.owlconsilado');
+    owl.owlCarousel({
+        items: 2,
+        loop: true,
+        margin: 2,
+        autoplay: true,
+        slideTransition: 'linear',
+        autoplayTimeout: 0,
+        autoplaySpeed: 10000,
+        autoplayHoverPause: false
+
+    });
+
+});
+//Alternate Direction
+$(document).ready(function () {
+    var owl = $('.owlconsilado2');
+    owl.owlCarousel({
+        items: 2,
+        rtl: true,
+        loop: true,
+        margin: 2,
+        autoplay: true,
+        slideTransition: 'linear',
+        autoplayTimeout: 0,
+        autoplaySpeed: 10000,
+        autoplayHoverPause: false
+
+    });
+
+});
+
+$(document).ready(function () {
+    var owl = $('.owlmexico');
+    owl.owlCarousel({
+        items: 4,
+        loop: true,
+        margin: 2,
+        autoplay: true,
+        slideTransition: 'linear',
+        autoplayTimeout: 0,
+        autoplaySpeed: 10000,
+        autoplayHoverPause: false
+
+    });
+
+});
+//Alternate Direction
+$(document).ready(function () {
+    var owl = $('.owlmexico2');
+    owl.owlCarousel({
+        items: 4,
+        rtl: true,
+        loop: true,
+        margin: 2,
+        autoplay: true,
+        slideTransition: 'linear',
+        autoplayTimeout: 0,
+        autoplaySpeed: 10000,
+        autoplayHoverPause: false
+
+    });
+
+});
+
+
+$(document).ready(function () {
     var owl = $('.owl-carousel');
     owl.owlCarousel({
         items: 2,
@@ -160,6 +227,8 @@ $(document).ready(function () {
     });
 
 });
+
+
 //*******************************************
 //***CODE BELOW===> This is a custom owl carousel js, you can add it by pasting the code below into a js file and use it in your website.
 
