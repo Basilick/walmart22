@@ -858,7 +858,7 @@ button:focus {
 }
 
 .mega-menu .imgcapcircl{
- width: 90px;
+ width:75px;
  height: auto;
  display: block;
  margin: 5px 20px;
@@ -5447,6 +5447,195 @@ padding: 10px;
 --------------------------------------------------------------*/
 
 
+#habilitadores1 {
+  height: auto;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+
+#habilitadores1 .owl-carousel {
+ margin-top: 20px;
+  
+}
+
+
+#habilitadores2 {
+  overflow: hidden;
+
+  padding-top: 0;
+  
+  height: auto;
+  
+  
+}
+
+#habilitadores2 .paddingportadas{
+
+  padding:6% 10% 0px;
+
+}
+
+#habilitadores2 .contbgletters {
+  background-image: url(../img/nuestro-negocio/imgtxtregenerativa.svg);
+  background-size: cover;
+  background-position: 0 -30px;
+  background-repeat: no-repeat;
+  height: 317px;
+}
+
+
+#habilitadores2 .contitles {
+  margin-left: 130px;
+}
+
+
+
+#habilitadores2 .icohomealone {
+  width: 80px;
+  margin-right: 20px;
+}
+
+#habilitadores2 h3 {
+  margin-top: 20px;
+  
+}
+
+#habilitadores2 .imgicotiye {
+  width: 40px;
+  
+}
+
+#cultura-cliente {
+  padding-top: 3%;
+  padding-bottom: 3%;
+
+}
+
+#habilitadores4 {
+  padding-top: 3%;
+  padding-bottom: 3%;
+
+}
+
+#habilitadores5 .pd35{
+  padding: 35px;
+
+}
+
+#habilitadores6 {
+  padding-top: 3%;
+  padding-bottom: 3%;
+
+}
+
+#habilitadores7 {
+  padding-top: 3%;
+  padding-bottom: 3%;
+
+
+}
+#habilitadores8 {
+  overflow: hidden;
+
+  padding-top: 0;
+  
+  height: auto;
+  
+  
+}
+
+#habilitadores8 h3 {
+  margin-top: 20px;
+}
+
+#habilitadores8 .paddingportadas{
+
+  padding:6% 10% 0px;
+
+}
+
+
+#habilitadores9 {
+  overflow: hidden;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  
+  height: auto;
+  
+  
+}
+
+#habilitadores10 {
+  overflow: hidden;
+  padding-top: 0;
+  height: auto;
+  
+}
+#habilitadores10 h3 {
+  margin-top: 20px;
+}
+
+#habilitadores10 .paddingportadas{
+
+  padding:6% 10% 0px;
+
+}
+
+
+#habilitadores11 {
+  overflow: hidden;
+ padding-top: 3%;
+  padding-bottom: 3%;
+  height: auto;
+  
+}
+
+#habilitadores12 {
+  overflow: hidden;
+  padding-top: 0;
+  height: auto;
+  
+}
+#habilitadores12 h3 {
+  margin-top: 20px;
+}
+
+#habilitadores12 .paddingportadas{
+
+  padding:6% 10% 0px;
+
+}
+
+
+#habilitadores13 {
+  overflow: hidden;
+ padding-top: 3%;
+ padding-bottom: 3%;
+  height: auto;
+  
+}
+
+#habilitadores13 .contdownl {
+  width: 500px;
+  margin: auto;
+
+  
+}
+
+#habilitadores13 .contdownl img {
+ width: 130px;
+ height: 130px;
+ margin-top: 12px;
+ margin-left: 30px;
+  
+}
+
+/*--------------------------------------------------------------
+# VALOR FINANCIERO
+--------------------------------------------------------------*/
+
+
 #valorfinanciero0  {
   background-image: url(../img/home/slidebgprin6.jpg);
   background-size: cover;
@@ -5640,21 +5829,21 @@ align-items: flex-start;
 }
 #valorfinanciero2 .imgblusqures {
 
-  width: 200px;
+  width: 170px;
   height: auto;
 
 }
 
 #valorfinanciero2 .imgblusqures6 {
 
-  width: 118px;
+  width: 98px;
   height: auto;
 
 }
 
 #valorfinanciero2 .imgblusqures7 {
 
-  width: 117px;
+  width: 98px;
   height: auto;
 
 }
@@ -5662,28 +5851,28 @@ align-items: flex-start;
 
 #valorfinanciero2 .imgblusqures5 {
 
-  width: 83px;
+  width: 70px;
   height: auto;
 
 }
 
 #valorfinanciero2 .imgblusqures4 {
 
-  width: 66px;
+  width: 55px;
   height: auto;
 
 }
 
 #valorfinanciero2 .imgblusqures2 {
 
-  width: 33px;
+  width: 26px;
   height: auto;
 
 }
 
 #valorfinanciero2 .imgblusqures1 {
 
-  width: 16px;
+  width: 13px;
   height: auto;
 
 }
@@ -5692,7 +5881,7 @@ align-items: flex-start;
 
   position: absolute;
   top: 5px;
-  left: -31px;
+  left: -25px;
 
 }
 
@@ -5700,7 +5889,7 @@ align-items: flex-start;
 
   position: absolute;
   top: 5px;
-  left: -100px;
+  left: -83px;
 
 }
 
@@ -6104,7 +6293,7 @@ bottom: -115px;
 
 #valorfinanciero12 h3 {
  
-  margin-top: 190px;
+  margin-top: 60px;
 
 
 } 
