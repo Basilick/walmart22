@@ -77,7 +77,7 @@ body {
   /* background-image: url(../img/bggeneral.png); */
   
 }
-
+main{overflow: hidden;}
 
 a {
   
@@ -8156,7 +8156,38 @@ height: 120px;
 
 }
 
+.bluegren {
+      background: #007dc3;
+    }
 
+    .darkblue {
+      background: #253b80;
+    }
+
+    .bluedeep {
+      background: #5c90b1;
+    }
+
+    .bggray{
+        background: #f7f9f9;
+    }
+    .bgrayH {
+      background: #eef2f4;
+    }
+
+    .baqua {
+      background: #60b4c3;
+    }
+
+    #cultura-cliente ul {
+      margin: 20px; 
+      padding: 0;
+      font-size: 15px;
+    }
+
+    #cultura-cliente ul li span {
+      color: #4A5B6D;
+    }
 
 #valorcomp2 #tabcont1 {
   padding-left: 0;
@@ -8919,7 +8950,7 @@ height: 120px;
   opacity: 1;
 
 }
-
+.visibleMobil{display: none;}
 
 #footer .contbtndownlo div {
  
@@ -9104,7 +9135,7 @@ margin-right: 8px;
   .img__ecosistema{display: none;}
   #ecosistema03 .box__03{height: 357px;}
   #ecosistema03 .box__04{height: 497px;}
-  #ecosistema04 .box__padding, #ecosistema06 .box__padding, #ecosistema01 .box__padding{padding: 30px;}
+  #ecosistema04 .box__padding, #ecosistema06 .box__padding, #ecosistema01 .box__padding{padding: 15px;}
   #ecosistema05 .padding__box{padding-top: 0;}
   #ecosistema05 .box__list{padding: 25px 20px;}
   #ecosistema07 .box__padding{min-height:  320px;}
@@ -9116,6 +9147,14 @@ margin-right: 8px;
   #omnicanal9 .bgimgbodeemplo img{height: auto;}
   #omnicanal17 .bgtxtcolors{width: 100%;}
 
+  /* DIRECTORES */
+  #nuestronegocio3,
+  #nuestronegocio2{height: auto;}
+  #nuestronegocio6 .icosubtitles,
+  #nuestronegocio6 .txtm35{margin-top: 0;}
+  #nuestronegocio7 .imgicowoman{width: 25%;}
+  #nuestronegocio11 .img-fluid{padding-top: 60px;}
+
 
 
 
@@ -9123,6 +9162,7 @@ margin-right: 8px;
   #nuestronegocio25,
   #nuestronegocio20,
   #nuestronegocio14,
+  #valorfinanciero7,
   #nuestronegocio19{height: auto;}
   #nuestronegocio19 .img-fluid{position: relative;right: 0;margin-bottom: 30px;}
   #nuestronegocio20 .img-fluid{max-width: 60%;margin: auto;display: block; margin-bottom: 30px;}
@@ -9141,6 +9181,7 @@ margin-right: 8px;
 
 
   #innovacion_02 #materialidad{background-size: cover;}
+  #valorfinanciero5 p{padding-top: 50px;}
 
   #nuestronegocio0 .txtprinban{width: 400px;}
   #descuento2 .blueswaltxt br{display: none;}
@@ -9153,6 +9194,12 @@ margin-right: 8px;
   #nuestronegocio4 .padding__10{padding-top: 0;padding-bottom: 0;}
   #descuento1{padding-top: 0;}
 
+  #nuestronegocio8 h4{margin-bottom: 30px;}
+  #mensajedirs {padding-bottom: 30px;}
+  #nuestronegocio15 .conthiglbig{width: 80%;}
+  #nuestronegocio3 .icohandy{margin-top: 0;margin-left: 0;}
+  #nuestronegocio3 .txthighlightup{padding: 0;}
+  #nuestronegocio3 .icoyellcirbig{margin-left: 0;}
 
 
 }
@@ -9230,6 +9277,11 @@ display: none;
     .slide__text-link{margin: 10px auto;}
     #comunidades .txtprinban{width: 200px;}
     #comunidades, #comunidades .vh100{height: 30vh;}
+    #comunidades4 .col-md-7{margin:0 15px;}
+    .box__head__comunidades{padding: 15px 0;}
+    #subportas{padding-top: 15px;}
+    .pontebien__comunidades{margin: 0;}
+    #subportas .whitetxt{margin-bottom: 0;text-align: left;}
 
     /* ECOSISTEMA */
     #ecosistema03 .box__02,
@@ -9242,8 +9294,7 @@ display: none;
     #ecosistema02 .bggrey1{padding:30px;height: auto;}
     #ecosistema02 .whitetxt{color: #287cc3}
     #ecosistema03 .box__04{padding-top: 30px;padding-bottom: 30px;}
-    #ecosistema04 .box__padding, #ecosistema06 .box__padding, #ecosistema01 .box__padding{padding: 30px;}
-    #ecosistema05 .img-fluid{margin-bottom: 30px;}
+    #ecosistema04 .box__padding, #ecosistema06 .box__padding, #ecosistema01 .box__padding{padding: 15px;}
     #ecosistema07 .box__padding{padding: 30px;}
     #ecosistema03 .box__03{height: auto;}
     #ecosistema07 .bggrey1{background-color: #fff; padding-top: 60px;}
@@ -9253,7 +9304,8 @@ display: none;
     #integridad02 ul.list__integridad li{width: 32%;display: inline-block;}
     #integridad02 ul.list__integridad{display: block;}
     #integridad0 .txtprinban{width: 200px;margin-top: 25%;}
-    #integridad03 .box__integridad{height: auto;}
+    #integridad03 .box__integridad{min-height: auto;}
+    #integridad03 .box__integridad .padding__10{padding: 0;}
 
     /* SUSTENTABILIDAD */
     #sustentabilidad00 .txtprinban{width: 200px;margin-top: 15%;}
@@ -9265,18 +9317,31 @@ display: none;
     #sustentabilidad04 .box__sustentabilidad header{height: auto;}
     #ecosistema07 .padding__box2{padding: 20px;min-height: 200px;}
     #ecosistema07 .box__padding{min-height: auto;}
+    #sustentabilidad04 .box__sustentabilidad0,
+    #ecosistema02 .box__padding{padding: 0;}
+    #sustentabilidad03 .col-md-2{margin-left: 15px;}
+    #sustentabilidad04 .box__sustentabilidad{padding: 15px;}
 
 
     /* OMNICANAL*/
     #omnicanal13 .bgblueturque,
     #omnicanal2 .paddingportadas{padding: 15px;}
     #omnicanal6 .txthighlightup{margin-left: 0;}
+    #omnicanal10 .blueswaltxt,
     #omnicanal6 ul{margin: 0}
     #omnicanal12 .conthilicircle{position: relative;}
     #omnicanal12 .conthilicircle{height: auto;}
     #omnicanal19 .icoyellcirbig{width: 60px}
     #omnicanal24 .txthighlightup,
     #omnicanal22 .txthighlightup{margin-top: 20px;}
+    #omnicanal5 h3,
+        #omnicanal6 .txthighlightup,
+    #omnicanal7 .blueswaltxt11,
+    #omnicanal10 .blueswaltxt,
+    #omnicanal4 .txthighlightup{margin-top: 15px;}
+    #omnicanal12 .conthilicircle{top: 0;right: 0;margin: 10px auto;}
+    #omnicanal12 .imgcelphone{top: 0}
+    #omnicanal12 .icoyellcirbig{display: none;}
 
     /* FINANCIERO */
 
@@ -9304,16 +9369,20 @@ display: none;
     #descuento2 .padding__10{padding-top: 0;}
     #nuestronegocio4 .padding__10{padding-top: 0;}
     #nuestronegocio4 .blueswaltxt br{display: none;}
+    #nuestronegocio4 .precio-box,
+    #nuestronegocio4 .morralla-box{padding: 15px;}
     #nuestronegocio06 .img-fluid{margin-bottom: 30px;}
   #nuestronegocio06 .boxGray {width: 100%;position: relative;background-color: #fff;margin-top: 80px;height: auto;bottom: 0;}
   #nuestronegocio08 .blueswaltxt br{display: none;}
   #descuento1 .witheblq{width: 100%}
   #descuento1{padding-top: 0;}
   #descuento1 .padding__10{padding-top: 0;}
+  #nuestronegocio4 p:last-child{margin-bottom: 0;}
 
   /* HABILITADORES */
   #habilitadores5 .whitetxt,
-  #habilitadores5 .blueswaltxt{padding: 30px 0;}
+  #habilitadores5 .blueswaltxt{padding: 15px 0;padding-bottom: 0;}
+  #habilitadores5 h2{margin: 0;}
   #habilitadores5 .pd35,
   #habilitadores2 .paddingportadas{padding: 15px;}
   #habilitadores5 h2{padding: 0;}
@@ -9329,7 +9398,46 @@ display: none;
   #habilitadores011 .w-100 {padding: 15px 0;}
   #habilitadores011 .bggray{padding-top: 15px;}
 
-  
+
+  #mensajedirs{padding-bottom: 30px;}
+  #nuestronegocio3 .icohandy{margin-top: 15px; margin-left: 0;}
+  #nuestronegocio3 .txthighlightup{padding: 0;}
+  #nuestronegocio3 .icoyellcirbig{margin-left: 0;}
+  #nuestronegocio5 .bgbodega{height: 130px;}
+  #intersecllax .icodeco3cir{width: 30px;}
+  #nuestronegocio3 .contborwhite{padding: 15px;}
+  #nuestronegocio11 .blueswaltxt br{display: none;}
+
+
+
+  #valorfinanciero12 h3{margin-top: 30px;}
+  #valorfinanciero2 .bgbluecentro{top: 175px}
+  #valorfinanciero0 .txtprinban{width: 300px;}
+
+
+  #ecosistema02 .box__padding,
+  #ecosistema02 .bggrey1,
+  #ecosistema07 .box__padding,
+  #ecosistema04 .bgblueligh,
+  #ecosistema05 .padding__box,
+  #ecosistema07 .box__padding,
+#ecosistema01 .box__gray{padding: 15px !important;}
+#ecosistema06 .padding__10,
+#ecosistema06 .box__padding{padding: 0;}
+#ecosistema06 .textPadd{padding: 40px;}
+#ecosistema04 .box__padding{padding: 0;}
+#ecosistema07 .textPadd{padding: 15px;}
+#innovacion_02 h2{text-align: left;}
+#innovacion_02 #materialidad{display: none;}
+#innovacion_02 .imgMaterialidad{display: block;}
+#nuestronegocio06 .boxGray{margin-top: 0;left: 0;}
+#nuestronegocio06 .blueswaltxt br{display: none;}
+#habilitadores9 .w-100{padding-top: 5px;}
+#nuestronegocio26 h3,
+#nuestronegocio27 h3,
+#nuestronegocio15 .mtop90{margin-top: 0;}
+#nuestronegocio15 .conthiglbig{width: 100%;padding: 15px;}
+
 
 
   #footer .contbtndownlo{grid-template-columns: 1fr 1fr 1fr;}
@@ -9338,6 +9446,8 @@ display: none;
   #footer .btndowninfor{height: 200px;}
   #footer .contbtndownlo a{width: 100px;}
   #contbtnsigantcap p{font-size: 14px;}
+  .visibleMobil{display: block;}
+  .conteneng .btndowlo2{display: none;}
 }/*-END  MOBILE-*/  
 
 @media screen and (max-width: 1000px) {
