@@ -5300,7 +5300,10 @@ height: 120px;
   
   
 }
-
+.boxHabil,
+.boxHabilidadores2,
+.boxHabilidadores3,
+.boxHabilidadores{padding: 30px;}
 #omnicanal19 .bordbot {
   height: 2px;
   margin-bottom: 20px;
@@ -5522,7 +5525,9 @@ padding: 10px;
   padding-top: 3%;
   padding-bottom: 3%;
 }
-
+  #habilitadores5 .boxHabilidadores {height:350px; background: #253b80; color: #fff;}
+#habilitadores5 .boxHabilidadores2{height:347px; background: #253b80; color: #fff;}
+#habilitadores5 .boxHabilidadores3{height:347px; background: #253b80; color: #fff;}
 
 #habilitadores1 .owl-carousel {
  margin-top: 20px;
@@ -7289,7 +7294,15 @@ height: 120px;
   #comunidades .txtprinban{width: 500px;margin-top: 15%;}
   .slide__text-link {margin: 0 auto 20px auto;}
   .pontebien__comunidades{width: 100%;}
-  .padding__portadas{padding: 5% 10%;}
+  .padding__portadas{padding:0;}
+  #habilitadores9 .hidden900,
+  #cultura-cliente .hidden900{display: none;}
+  #habilitadores5 .blueswaltxt br{display: none;}
+  #habilitadores5 ..whitetxt{font-size: 14px;}
+  #habilitadores8 .paddingportadas{padding: 15px 30px;}
+  #habilitadores8 .blueswaltxt{margin-bottom: 30px;}
+  #habilitadores13 .contdownl{padding: 15px 0;}
+  #habilitadores010 .w-100{margin-bottom: 30px;}
 
 
 
@@ -8699,7 +8712,9 @@ height: 120px;
   
 }
 
-
+.boxHabil{
+  height:350px; background: #253b80; color: #fff;
+}
 .active_quince {
   
   background-image: url(../img/valor_compartido/subods10hover.png) !important;
@@ -9057,6 +9072,15 @@ margin-right: 8px;
   #ecosistema05 .box__list{padding: 25px 20px;}
   #ecosistema07 .box__padding{min-height:  320px;}
 
+  /* OMNICADA */
+  #omnicanal3 .bggreenb,
+  #omnicanal3 .bgbluewalmenu{padding-top: 15px;}
+  #omnicanal8 .bgtxtcolors{width: 100%;}
+  #omnicanal9 .bgimgbodeemplo img{height: auto;}
+  #omnicanal17 .bgtxtcolors{width: 100%;}
+
+
+
 
   /* REGENERATIVA */
   #nuestronegocio25,
@@ -9206,6 +9230,27 @@ display: none;
     #ecosistema07 .box__padding{min-height: auto;}
 
 
+    /* OMNICANAL*/
+    #omnicanal13 .bgblueturque,
+    #omnicanal2 .paddingportadas{padding: 15px;}
+    #omnicanal6 .txthighlightup{margin-left: 0;}
+    #omnicanal6 ul{margin: 0}
+    #omnicanal12 .conthilicircle{position: relative;}
+    #omnicanal12 .conthilicircle{height: auto;}
+    #omnicanal19 .icoyellcirbig{width: 60px}
+    #omnicanal24 .txthighlightup,
+    #omnicanal22 .txthighlightup{margin-top: 20px;}
+
+    /* FINANCIERO */
+
+    #mensajevice a{margin-bottom: 20px;}
+    #valorfinanciero3 .txtblutitle{margin: 0;}
+    #valorfinanciero5 p{padding-top: 40px;}
+    a.btnprincipaldark{margin: auto;}
+    #valorfinanciero11 .imgposi{bottom: 0;}
+
+
+
     /* REGENERATIVA*/
     
     #nuestronegocio21{padding-top: 3%;}
@@ -9218,6 +9263,7 @@ display: none;
     /* Nuestro Negocio */
     #nuestronegocio0 .txtprinban{width: 300px;}
     #descuento1{padding-top: -200px;}
+
     #descuento2 .padding__10{padding-top: 0;}
     #nuestronegocio4 .padding__10{padding-top: 0;}
     #nuestronegocio4 .blueswaltxt br{display: none;}
@@ -9227,6 +9273,25 @@ display: none;
   #descuento1 .witheblq{width: 100%}
   #descuento1{padding-top: 0;}
   #descuento1 .padding__10{padding-top: 0;}
+
+  /* HABILITADORES */
+  #habilitadores5 .whitetxt,
+  #habilitadores5 .blueswaltxt{padding: 30px 0;}
+  #habilitadores5 .pd35,
+  #habilitadores2 .paddingportadas{padding: 15px;}
+  #habilitadores5 h2{padding: 0;}
+  .boxHabilidadores,
+  .boxHabilidadores2,
+  .boxHabilidadores3,
+  #habilitadores10 .paddingportadas,
+  #habilitadores8 .paddingportadas,
+  #habilitadores10 .d-flex,
+  #habilitadores12 .paddingportadas,
+  .boxHabil{padding: 15px;height: auto;}
+  #habilitadores9 .row{padding-top: 20px;}
+  #habilitadores011 .w-100 {padding: 15px 0;}
+  #habilitadores011 .bggray{padding-top: 15px;}
+
   
 
 
