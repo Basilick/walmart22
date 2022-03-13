@@ -4095,7 +4095,6 @@ height: auto;
 }
 
 #nuestronegocio19 .img-fluid {
-  margin-top: 30px;
   position: relative;
   right: 0;
 }
@@ -9353,12 +9352,10 @@ margin-right: 8px;
 
 @media (min-width: 1200px) {
 
-  #nuestronegocio19{height: 83vh}
   #nuestronegocio20{height: 75vh;}
   #nuestronegocio25{height: 350px;}
   #nuestronegocio14{padding-top: 0;}
 
-  #nuestronegocio19 .img-fluid{position: absolute;right: 90px;}
   #innovacion_02 #materialidad{background-size: cover;}
   #nuestronegocio14 h3{margin-top: 10%;}
   #nuestronegocio25 .odscontbtt a {width: 129px;height: 130px;}
