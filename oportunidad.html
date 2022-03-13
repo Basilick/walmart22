@@ -74,6 +74,18 @@
     .byeorange {
       background: #fdb71a;
     }
+    
+    .bmexsq {
+      background: #00539b;
+    }
+
+    .bcentroasq{ 
+      background: #6fccdd;
+    }
+
+    .bconsosq{ 
+      background: #a6bdd1;
+    }
 
     #cultura-cliente ul {
       margin: 20px; 
@@ -85,6 +97,90 @@
       color: #4A5B6D;
     }
 
+    .gray-box {
+      background: #a6bdd1;
+      color:#fff;
+    }
+
+    .chartBars {
+        position: relative;
+        max-width: 600px;
+        height: 265px;
+        margin: 0px 0px 0px;
+    }
+
+    .chartBarsWrap {
+        margin: 0 0 0 0;
+    }
+
+    .chartBars .bars {
+        display: flex;
+        /* justify-content: space-around; */
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        padding: 0 0;
+        margin: 0;
+    }
+
+    .chartBars .bars li {
+        display: inline-block;
+        flex: 0 1 32%;
+        height: 100%;
+        margin: 0;
+        text-align: center;
+        position: relative;
+        font-size: 16px;
+    }
+    
+    .chartBarsWrap.chartBarsHorizontal .chartBars .bars li .blueBarFlat {
+        height: 55px !important;
+        background-color: #00539b;
+        text-align: left!important;
+        font-size: 1.9em!important;
+        padding-left: 10px;
+    }
+
+    .chartBarsWrap.chartBarsHorizontal .chartBars .bars li .aquaBarFlat {
+        height: 55px !important;
+        background-color: #6fccdd;
+        text-align: left!important;
+        font-size: 1.9em!important;
+        padding-left: 10px;
+    }
+
+    .chartBarsWrap.chartBarsHorizontal .chartBars .bars li .grayBarFlat {
+        height: 55px !important;
+        background-color: #a6bdd1;
+        text-align: left!important;
+        font-size: 1.9em!important;
+        padding-left: 10px;
+    }
+
+    .chartBars .bars li .mxBarFlat {
+        background-color: #ecedf6;
+        text-align: left!important;
+        font-size: 1em!important;
+        padding-left: 10px;
+        color: #00539b;
+    }
+
+    .chartBars .bars li .caBarFlat {
+        background-color: #eff8fa;
+        text-align: left!important;
+        font-size: 1em!important;
+        padding-left: 10px;
+        color: #6fccdd;
+    }
+
+    .chartBars .bars li .conBarFlat {
+        background-color: #f4f7f9;
+        text-align: left!important;
+        font-size: 1em!important;
+        padding-left: 10px;
+        color: #a6bdd1;
+    }
+
     .nav-tabs {
       border-bottom: 0px solid #dee2e6;
     }
@@ -94,25 +190,35 @@
       display: flex;
       flex-direction: row;
       justify-content: center;
-      background: #007dc3;
-      color: #fff;
-      padding-top: 10px;
-      padding-bottom: 10px;
       border: 1px solid #fff;
     }
+
+    .nav-tabs li a{
+      width: 100%;
+      padding-top: 10px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding-bottom: 10px;
+      background: #007dc3;
+      color: #fff;
+    }
+
+    /* #tabs .nav-tabs li a > .active{
+      background: #f7f9f9 ;
+      color: #007dc3;
+    } */
 
     .tab-margin {
       margin-left: 30%;
     }
 
-    #tabs .active {
+    #tabs  .active {
       background: #f7f9f9 !important;
       color: #007dc3 !important;
-    }
+    } 
 
-    .active a {
-      color: #007dc3 !important;
-    }
+    
 
     .tab-content {
       background: #f7f9f9 !important;
@@ -124,6 +230,10 @@
 
     .border-r-purple {
       border-right: 1px solid #9e4397;
+    }
+
+    .fyorange {
+      color: #fdb71a;
     }
 
     .fpurple {
@@ -153,6 +263,8 @@
     .snumber {
       font-size: 20px;
     }
+
+    
 
   </style>
 
@@ -220,432 +332,427 @@
               
               
 
-              <div class="gridmenu" >
+                  <div class="gridmenu" >
 
-                <div class="cont1submenu" >
-                  
-                  <img src="img/menu/masalladelreatial.svg" alt="">
-                
-              </div>
-
-                <div class="cont2submenu" >
-
-                  <img src="img/menu/indice_01.png" alt="" class="imgcapcircl">
-                  
-                  <div class="contsubmenus">
-
-                    <a href="nuestro-negocio.html" class="captitlel"><span class="trutitle">NUESTRO NEGOCIO</span></a>
-                    <ul>
-                      <li><a href="nuestro-negocio.html?scrollTo=mensajedirs">
-                        <p>
-                          &bull; Mensaje
-                        </p>
-                      </a></li>
-                      <li><a href="nuestro-negocio.html?scrollTo=nuestronegocio12">
-                        <p>
-                          &bull; Cifras Relevantes
-                        </p>
-                      </a></li>
-                      <li><a href="nuestro-negocio.html?scrollTo=nuestronegocio13">
-                        <p>
-                          &bull; Nuestra Historia
-                        </p>
-                      </a></li>
-                      <li><a href="nuestro-negocio.html?scrollTo=regenerativa2">
-                        <p>
-                          &bull; Empresa Regenerativa
-                        </p>
-                      </a></li>
-                      <li><a href="nuestro-negocio.html?scrollTo=flywheel2">
-                        <p>
-                          &bull; Nuestro <i>Flywheel</i>
-                        </p>
-                      </a></li>
-                      <li><a href="nuestro-negocio.html?scrollTo=estrategia2">
-                        <p>
-                          &bull; Estrategia del Año
-                        </p>
-                      </a></li>
+                    <div class="cont1submenu" >
+                      
+                      <img src="img/menu/masalladelreatial.svg" alt="">
                     
-                    </ul>
                   </div>
-                
-              </div>
 
+                    <div class="cont2submenu" >
 
-                <div class="cont3submenu">
+                      <img src="img/menu/indice_01.png" alt="" class="imgcapcircl">
+                      
+                      <div class="contsubmenus">
 
-                  <img src="img/menu/indice_02.png" alt="" class="imgcapcircl">
-                  
-                    <div class="contsubmenus">
-                      <a href="ganar_descuento.html" class="captitlel"><span class="trutitle">Ganar en descuento</span></a>
-                      <ul>
-                        <li><a href="ganar_descuento.html?scrollTo=descuento1">
-                          <p>
-                            &bull; La Importancia de Bodega
-                          </p>
-                        </a></li>
-                        <!-- <li><a href="ganar_descuento.html?scrollTo=descuento2">
-                          <p>
-                            &bull; Los 3 Ejes de la Estrategia 
-                          </p>
-                        </a></li> -->
-                        <li><a href="ganar_descuento.html?scrollTo=descuento2">
-                          <p>
-                            &bull; Precios Bajos Todos los Días 
-                          </p>
-                        </a> </li>
-                        <li><a href="ganar_descuento.html?scrollTo=descuento2">
-                          <p>
-                            &bull; Surtido Eficiente
-                          </p>
-                        </a></li>
-                        <li><a href="ganar_descuento.html?scrollTo=descuento2">
-                          <p>
-                            &bull; Operación de Bajo Costo
-                          </p>
-                        </a></li>
-                      </ul>
-                    </div>
-                  
-                </div>
-                 
-                  <div class="cont4submenu">
-
-                    <img src="img/menu/indice_03.png" alt="" class="imgcapcircl">
-                    
-                    <div class="contsubmenus">
-                      <a href="omnicanal.html" class="captitlel"><span class="trutitle">Líderes Omnicanal</span></a>
-                      <ul>
-                        <li><a href="omnicanal.html?scrollTo=omnicanal2">
-                          <p>
-                            &bull; La Base del Negocio: Nuestras Tiendas
-                          </p>
-                        </a></li>
-                        <li><a href="omnicanal.html?scrollTo=omnicanal11">
-                          <p>
-                            &bull; La Innovación en el Centro: Nuestro
-                            <i>eCommerce </i>
-                          </p>
-                        </a></li>
-                        <li><a href="omnicanal.html?scrollTo=omnicanal15">
-                          <p>
-                            &bull; Consolidamos nuestra estrategia <span>On Demand</span>
-                          </p>
-                        </a> </li>
-                        <li><a href="omnicanal.html?scrollTo=omnicanal21">
-                          <p>
-                            &bull; Aceleramos el Crecimiento de Nuestro Catálogo Extendido
-                          </p>
-                        </a> </li>
+                        <a href="nuestro_negocio.html" class="captitlel"><span class="trutitle">NUESTRO NEGOCIO</span></a>
+                        <ul>
+                          <li><a href="nuestro_negocio.html?scrollTo=nuestro_negocio_02">
+                            <p>
+                              &bull; Mensaje
+                            </p>
+                          </a></li>
+                          <li><a href="nuestro_negocio.html?scrollTo=nuestro_negocio_06">
+                            <p>
+                              &bull; Cifras Relevantes
+                            </p>
+                          </a></li>
+                          <li><a href="nuestro_negocio.html?scrollTo=nuestro_negocio_07">
+                            <p>
+                              &bull; Nuestra Historia
+                            </p>
+                          </a></li>
+                          <li><a href="nuestro_negocio.html?scrollTo=nuestro_negocio_08">
+                            <p>
+                              &bull; Modelo de Negocio
+                            </p>
+                          </a></li>
+                          <li><a href="nuestro_negocio.html?scrollTo=nuestro_negocio_16">
+                            <p>
+                              &bull; Flywheel Emergente
+                            </p>
+                          </a></li>
                         
-                      </ul>
-                    </div>
-                                        
+                        </ul>
+                      </div>
+                    
                   </div>
 
-                <div class="cont5submenu">
 
-                  <img src="img/menu/indice_04.png" alt="" class="imgcapcircl">
+                    <div class="cont3submenu">
+
+                      <img src="img/menu/indice_02.png" alt="" class="imgcapcircl">
+                      
+                        <div class="contsubmenus">
+                          <a href="la_prioridad.html" class="captitlel"><span class="trutitle">Ganar en descuento</span></a>
+                          <ul>
+                            <li><a href="la_prioridad.html?scrollTo=capitulo02_porta3">
+                              <p>
+                                &bull; Evolución De Nuestras Tiendas
+                              </p>
+                            </a></li>
+                            <li><a href="la_prioridad.html?scrollTo=capitulo02_porta4">
+                              <p>
+                                &bull; Soluciones 
+                              </p>
+                            </a></li>
+                            <li><a href="la_prioridad.html?scrollTo=capitulo02_porta5">
+                              <p>
+                                &bull; Precios 
+                              </p>
+                            </a> </li>
+                            <li><a href="la_prioridad.html?scrollTo=capitulo02_porta6">
+                              <p>
+                                &bull; Nuestras Marcas 
+                              </p>
+                            </a></li>
+                            <li><a href="la_prioridad.html?scrollTo=capitulo02_porta7">
+                              <p>
+                                &bull; Perecederos
+                              </p>
+                            </a></li>
+                          </ul>
+                        </div>
+                      
+                    </div>
+                     
+                      <div class="cont4submenu">
+
+                        <img src="img/menu/indice_03.png" alt="" class="imgcapcircl">
+                        
+                        <div class="contsubmenus">
+                          <a href="innovacion.html" class="captitlel"><span class="trutitle">Líderes Omnicanal</span></a>
+                          <ul>
+                            <li><a href="innovacion.html?scrollTo=innovacion_03">
+                              <p>
+                                &bull; Evolución On Demand 
+                                
+                               
+                              </p>
+                            </a></li>
+                            <li><a href="innovacion.html?scrollTo=innovacion_04">
+                              <p>
+                                &bull; Aceleración Cat. Ext 
+                              </p>
+                            </a></li>
+                            <li><a href="innovacion.html?scrollTo=innovacion_12">
+                              <p>
+                                &bull; Campañas Y Comunicación Con Clientes
+                              </p>
+                            </a> </li>
+                            
+                          </ul>
+                        </div>
+                                            
+                      </div>
+
+                    <div class="cont5submenu">
+
+                      <img src="img/menu/indice_04.png" alt="" class="imgcapcircl">
+              
+                        <div class="contsubmenus">
+                          <a href="valor_al_asociado.html" class="captitlel"><span class="trutitle">Ecosistema Walmart</span></a>
+                          <ul>
+                            <li><a href="valor_al_asociado.html?scrollTo=asociado_01">
+                              <p>
+                                &bull; Nuestro Ecosistema 
+                                
+                              </p>
+                            </a></li>
+                            <li><a href="valor_al_asociado.html?scrollTo=asociado_02">
+                              <p>
+                                &bull; El Cliente Wm Y Su Experiencia De Compra
+                              </p>
+                            </a></li>
+                            <li><a href="valor_al_asociado.html?scrollTo=asociado_07">
+                              <p>
+                                &bull; Conectividad Bait
+                              </p>
+                            </a> </li>
+                            <li><a href="valor_al_asociado.html?scrollTo=asociado_09">
+                              <p>
+                                
+                                &bull; Publicidad Wm Connect
+                              </p>
+                            </a></li>
+                            <li><a href="valor_al_asociado.html?scrollTo=asociado_12">
+                              <p>
+                                &bull; Soluciones Financieras Cashi
+                              </p>
+                            </a></li>
+                          </ul>
+                        </div>
+                      
+                    </div>
+                     
+                      <div class="cont6submenu">
+
+                        <img src="img/menu/indice_05.png" alt="" class="imgcapcircl">
+         
+                        <div class="contsubmenus">
+                          <a href="valor_financiero.html" class="captitlel"><span class="trutitle">Habilitadores</span></a>
+                          <ul>
+                            <li><a href="valor_financiero.html?scrollTo=valor_financiero_02">
+                              <p>
+                                &bull; Clientes Y Socios Satisfechos
+                              </p>
+                            </a></li>
+                            <li><a href="valor_financiero.html?scrollTo=valor_financiero_03">
+                              <p>
+                                &bull; Logística 
+                              </p>
+                            </a></li>
+                            <li><a href="valor_financiero.html?scrollTo=valor_financiero_11">
+                              <p>
+                                &bull; TI Y Datos 
+                              </p>
+                            </a></li>
+                            <li><a href="valor_financiero.html?scrollTo=valor_financiero_12">
+                              <p>
+                                &bull; Talento
+                              </p>
+                            </a></li>
+                           
+                          </ul>
+                        </div>
+                      </div>
+
+                      <div class="cont7submenu">
+
+                        <img src="img/menu/indice_06.png" alt="" class="imgcapcircl">
+                        
+                        <div class="contsubmenus">
+                          <a href="valor_ambiental.html" class="captitlel"><span class="trutitle">Valor Financiero</span></a>
+                          <ul>
+                            <li><a href="valor_ambiental.html?scrollTo=la_meta_02">
+                              <p>
+                                &bull; Mensaje
+                              </p>
+                            </a></li>
+                            <li><a href="valor_ambiental.html?scrollTo=la_meta_03">
+                              <p>
+                                &bull; Desempeño
+                              </p>
+                            </a></li>
+                            <li><a href="valor_ambiental.html?scrollTo=la_meta_04">
+                              <p>
+                        
+                                &bull; Resultados Inversionistas
+                              </p>
+                            </a> </li>
+                            <li><a href="valor_ambiental.html?scrollTo=la_meta_05">
+                              <p>
+                                &bull; Inversiones
+                              </p>
+                            </a></li>
+                            <li><a href="valor_ambiental.html?scrollTo=la_meta_05">
+                              <p>
+                                &bull; Estado De Resultados Y  Balance General
+                              </p>
+                            </a></li>
+                          </ul>
+                        </div>
+                         
+                      </div>
+
+                      <div class="cont8submenu">
+                        
+                        <div class="contsubmenus">
+                        
+                        </div>
+                         
+                      </div>
+
+                      <div class="cont9submenu">
+
+                        <img src="img/menu/indice_07.png" alt="" class="imgcapcircl">
+  
+                        <div class="contsubmenus">
+                          <a href="valor_social.html" class="captitlel"><span class="trutitle">Oportunidad</span></a>
+                          <ul>
+                            <li><a href="valor_social.html?scrollTo=valor_social_01">
+                              <p>
+                                &bull; Nuestro Talento
+
+                              </p>
+                            </a></li>
+                            <li><a href="valor_social.html?scrollTo=valor_social_08">
+                              <p>
+                                &bull; Desarrollamos Nuestro Talento
+                              </p>
+                            </a></li>
+                            <li><a href="valor_social.html?scrollTo=valor_social_17">
+                              <p>
+                                &bull; Balance De Vida
+                              </p>
+                            </a></li>
+                            <li><a href="valor_social.html?scrollTo=valor_social_17">
+                              <p>
+                                &bull; Diversidad E Inclusión
+                              </p>
+                            </a></li>
+                            <li><a href="valor_social.html?scrollTo=valor_social_17">
+                              <p>
+                                &bull; Balance De Vida
+                              </p>
+                            </a></li>
+                            <li><a href="valor_social.html?scrollTo=valor_social_17">
+                              <p>
+                                &bull; Cadena De Valor Responsable E Inclusiva
+                              </p>
+                            </a></li>
+  
+  
+                          </ul>
+                        </div>
           
-                    <div class="contsubmenus">
-                      <a href="ecosistema.html" class="captitlel"><span class="trutitle">ECOSISTEMA PREFERIDO</span></a>
-
-                      <ul>
-                        <li><a href="ecosistema.html?scrollTo=ecosistemas1">
-                          <p>
-                            &bull; El ecosistema Walmart 
-                            
-                          </p>
-                        </a></li>
-                        <li><a href="ecosistema.html?scrollTo=ecosistema01">
-                          <p>
-                            &bull; Conectividad Bait
-                          </p>
-                        </a></li>
-                        <li><a href="ecosistema.html?scrollTo=ecosistema04">
-                          <p>
-                            &bull; Soluciones Financieras
-                          </p>
-                        </a> </li>
-                        <li><a href="ecosistema.html?scrollTo=ecosistema06">
-                          <p>
-                            
-                            &bull; Walmart Connect
-                          </p>
-                        </a></li>
-                        <li><a href="ecosistema.html?scrollTo=ecosistema08">
-                          <p>
-                            &bull; La Experiencia de Nuestro Ecosistema Walmart 
-                          </p>
-                        </a></li>
-                      </ul>
                     </div>
-                  
-                </div>
-                 
-                  <div class="cont6submenu">
 
-                    <img src="img/menu/indice_05.png" alt="" class="imgcapcircl">
-     
-                    <div class="contsubmenus">
-                      <a href="habilitadores.html" class="captitlel"><span class="trutitle">Habilitadores</span></a>
-                      <ul>
-                        <li><a href="habilitadores.html?scrollTo=habilitadores2">
-                          <p>
-                            &bull; Centricidad en el Cliente
-                          </p>
-                        </a></li>
-                        <li><a href="habilitadores.html?scrollTo=habilitadores8">
-                          <p>
-                            &bull; Tecnología y Datos
-                          </p>
-                        </a></li>
-                        <li><a href="habilitadores.html?scrollTo=habilitadores10">
-                          <p>
-                            &bull; Logística 
-                          </p>
-                        </a></li>
-                        <li><a href="habilitadores.html?scrollTo=habilitadores12">
-                          <p>
-                            &bull; Talento
-                          </p>
-                        </a></li>
-                       
-                      </ul>
-                    </div>
-                  </div>
-
-                  <div class="cont7submenu">
-
-                    <img src="img/menu/indice_06.png" alt="" class="imgcapcircl">
-                    
-                    <div class="contsubmenus">
-                      <a href="valor-financiero.html" class="captitlel"><span class="trutitle">Valor Financiero</span></a>
-                      <ul>
-                        <li><a href="valor-financiero.html?scrollTo=mensajevice">
-                          <p>
-                            &bull; Mensaje del Vicepresidente Senior de administración y finanzas
-                          </p>
-                        </a></li>
-                        <li><a href="valor-financiero.html?scrollTo=valorfinanciero2">
-                          <p>
-                            &bull; Desempeño
-                          </p>
-                        </a></li>
-                        <li><a href="valor-financiero.html?scrollTo=valorfinanciero9">
-                          <p>
-                    
-                            &bull; Cifras Relevantes
-                          </p>
-                        </a> </li>
-                        <li><a href="valor-financiero.html?scrollTo=valorfinanciero9">
-                          <p>
-                            &bull; Entregamos Resultados
-                          </p>
-                        </a></li>
-                        <li><a href="valor-financiero.html?scrollTo=valorfinanciero10">
-                          <p>
-                            &bull; Inversiones
-                          </p>
-                        </a></li>
-                        <li><a href="valor-financiero.html?scrollTo=valorfinanciero12">
-                          <p>
-                            &bull; Estado de Resultados y  Balance General
-                          </p>
-                        </a></li>
+                    <div class="cont10submenu">
                         
-                      </ul>
-                    </div>
-                     
-                  </div>
-
-                  <div class="cont8submenu">
-                    
-                    <div class="contsubmenus">
-                    
-                    </div>
-                     
-                  </div>
-
-                  <div class="cont9submenu">
-
-                    <img src="img/menu/indice_07.png" alt="" class="imgcapcircl">
-
-                    <div class="contsubmenus">
-                      <a href="oportunidad.html" class="captitlel"><span class="trutitle">Oportunidad</span></a>
-                      <ul>
-                        <li><a href="oportunidad.html?scrollTo=talent01">
-                          <p>
-                            &bull; Nuestro Talento
-
-                          </p>
-                        </a></li>
-                        <li><a href="oportunidad.html?scrollTo=talent02">
-                          <p>
-                            &bull; Desarrollamos Nuestro Talento
-                          </p>
-                        </a></li>
-                        
-                        <li><a href="oportunidad.html?scrollTo=talent03">
-                          <p>
-                            &bull; Diversidad, Equidad e Inclusión
-                          </p>
-                        </a></li>
-                       
-                        <li><a href="oportunidad.html?scrollTo=talent04">
-                          <p>
-                            &bull; Cadena de Suministro Inclusiva
-                          </p>
-                        </a></li>
-
-
-                      </ul>
-                    </div>
-      
-                </div>
-
-                <div class="cont10submenu">
-                    
-                  <div class="contsubmenus">
-                  
-                  </div>
-                   
-                </div>
-                <div class="cont11submenu">
-                    
-                  <img src="img/menu/imgcircledeco.svg" alt="">
-                   
-                </div>
-                
-                
-
-                  <div class="cont12submenu">
-
-                    <img src="img/menu/indice_08.png" alt="" class="imgcapcircl">
-                    
-                    <div class="contsubmenus">
-                      <a href="sustentabilidad.html" class="captitlel"><span class="trutitle">Sustentabilidad</span></a>
-                      <ul>
-                        <li><a href="sustentabilidad.html?scrollTo=sustentabilidad01">
-                          <p>
-                            &bull; Prioridades 2040 Y Avances
-                          </p>
-                        </a></li>
-                        
-                        <li><a href="sustentabilidad.html?scrollTo=sustentabilidad03" >
-                          <p>
-                            &bull; Economía Circular 
-                          </p>
-                        </a> </li>
-                       
-                        
-                      </ul>
-                    </div>
-                 
-                  </div>
-
-                  <div class="cont13submenu">
-
-                    <img src="img/menu/indice_09.png" alt="" class="imgcapcircl">
-             
-                    <div class="contsubmenus">
-                      <a href="comunidades.html" class="captitlel"><span class="trutitle">Comunidad</span></a>
-                      <ul>
-                        <li><a href="comunidades.html?scrollTo=subportas">
-                          <p>
-                            &bull; Construyendo Comunidades Fuertes
-
-                          </p>
-                        </a></li>
-                        <li><a href="comunidades.html?scrollTo=comunid03" >
-                          <p>
-                            &bull; Acceso a Productos y Servicios Seguros y Saludables
-                          </p>
-                        </a></li>
+                      <div class="contsubmenus">
                       
+                      </div>
                        
+                    </div>
+                    <div class="cont11submenu">
                         
-                      </ul>
+                      <img src="img/menu/imgcircledeco.svg" alt="">
+                       
                     </div>
                     
-                  </div>
+                    
 
-                  <div class="cont14submenu">
+                      <div class="cont12submenu">
 
-                    <img src="img/menu/indice_10.png" alt="" class="imgcapcircl">
-                   
-                  
-                    <div class="contsubmenus">
-                      <a href="integridad.html" class="captitlel"><span class="trutitle">Ética e integridad</span></a>
-                      <ul>
-                        <li><a href="integridad.html?scrollTo=integri03">
-                          <p>
-                            &bull; Ética Y Cumplimiento
-                          </p>
-                        </a></li>
-                        <li><a href="integridad.html?scrollTo=integridad5">
-                          <p>
-                            &bull; Seguridad De La Información <i class="fal fa-arrow-to-bottom" style="margin-left: 3px;"></i>
-                          </p>
-                        </a></li>
-                        <li><a href="integridad.html?scrollTo=integridad53" >
-                          <p>
-                            &bull; Ciudadanía Digital <i class="fal fa-arrow-to-bottom" style="margin-left: 3px;"></i>
-                          </p>
-                        </a> </li>
-                        <li><a href="integridad.html?scrollTo=integridad5" >
-                          <p>
-                            &bull; Evaluación de Riesgos <i class="fal fa-arrow-to-bottom" style="margin-left: 3px;"></i>
-                          </p>
-                        </a> </li>
-                        <li><a href="integridad.html?scrollTo=integridad5" >
-                          <p>
-                            &bull; Declaración sobre los Derechos Humanos <i class="fal fa-arrow-to-bottom" style="margin-left: 3px;"></i>
-                          </p>
-                        </a> </li>
-                        <li><a href="integridad.html?scrollTo=integridad5">
-                          <p>
-                            &bull; Gobierno Corporativo <i class="fal fa-arrow-to-bottom" style="margin-left: 3px;"></i>
-                          </p>
-                        </a> </li>
+                        <img src="img/menu/indice_08.png" alt="" class="imgcapcircl">
                         
-                      </ul>
-                    </div>
-                                       
-                  </div>
-                  
+                        <div class="contsubmenus">
+                          <a href="gobierno_corporativo.html" class="captitlel"><span class="trutitle">Sustentabilidad</span></a>
+                          <ul>
+                            <li><a href="gobierno_corporativo.html">
+                              <p>
+                                &bull; Prioridades 2040 Y Avances
+                              </p>
+                            </a></li>
+                            <li><a href="pdfs/capitulos/seguridad_de_la_informacion.pdf" target="_blank">
+                              <p>
+                                &bull; Mitigar El Cambio Climático <i class="fal fa-arrow-to-bottom" style="margin-left: 3px;"></i>
+                              </p>
+                            </a></li>
+                            <li><a href="pdfs/capitulos/evaluacion_de_riesgos.pdf" target="_blank">
+                              <p>
+                                &bull; Fomentar La Economía Circular <i class="fal fa-arrow-to-bottom" style="margin-left: 3px;"></i>
+                              </p>
+                            </a> </li>
+                            <li><a href="pdfs/capitulos/derechos_humanos.pdf" target="_blank">
+                              <p>
+                                &bull; Capital Natural <i class="fal fa-arrow-to-bottom" style="margin-left: 3px;"></i>
+                              </p>
+                            </a> </li>
+                            
+                          </ul>
+                        </div>
+                     
+                      </div>
 
+                      <div class="cont13submenu">
 
+                        <img src="img/menu/indice_09.png" alt="" class="imgcapcircl">
+                 
+                        <div class="contsubmenus">
+                          <a href="gobierno_corporativo.html" class="captitlel"><span class="trutitle">Comunidad</span></a>
+                          <ul>
+                            <li><a href="gobierno_corporativo.html">
+                              <p>
+                                &bull; Construyendo Comunidades Fuertes
 
+                              </p>
+                            </a></li>
+                            <li><a href="pdfs/capitulos/seguridad_de_la_informacion.pdf" target="_blank">
+                              <p>
+                                &bull; Productos Confiables <i class="fal fa-arrow-to-bottom" style="margin-left: 3px;"></i>
+                              </p>
+                            </a></li>
+                          
+                           
+                            
+                          </ul>
+                        </div>
+                        
+                      </div>
 
-                  
+                      <div class="cont14submenu">
 
-                  <!-- <div class="contsubmenus">
-                    <ul>
-                      <li><a href="">
-                        <p>
-                          Información inversionistas
-                        </p>
-                      </a></li>
-                      <li><a href="">
-                        <p>
-                          Descargas
-                        </p>
-                      </a></li>
+                        <img src="img/menu/indice_10.png" alt="" class="imgcapcircl">
+                       
                       
-                    </ul>
-                  </div> -->
+                        <div class="contsubmenus">
+                          <a href="gobierno_corporativo.html" class="captitlel"><span class="trutitle">Ética e integridad</span></a>
+                          <ul>
+                            <li><a href="gobierno_corporativo.html">
+                              <p>
+                                &bull; Ética Y Cumplimiento
+                              </p>
+                            </a></li>
+                            <li><a href="pdfs/capitulos/seguridad_de_la_informacion.pdf" target="_blank">
+                              <p>
+                                &bull; Seguridad De La Información <i class="fal fa-arrow-to-bottom" style="margin-left: 3px;"></i>
+                              </p>
+                            </a></li>
+                            <li><a href="pdfs/capitulos/evaluacion_de_riesgos.pdf" target="_blank">
+                              <p>
+                                &bull; Evaluación Y Riesgos <i class="fal fa-arrow-to-bottom" style="margin-left: 3px;"></i>
+                              </p>
+                            </a> </li>
+                            <li><a href="pdfs/capitulos/derechos_humanos.pdf" target="_blank">
+                              <p>
+                                &bull; Derechos Humanos <i class="fal fa-arrow-to-bottom" style="margin-left: 3px;"></i>
+                              </p>
+                            </a> </li>
+                            <li><a href="pdfs/capitulos/derechos_humanos.pdf" target="_blank">
+                              <p>
+                                &bull; Gobierno Corporativo <i class="fal fa-arrow-to-bottom" style="margin-left: 3px;"></i>
+                              </p>
+                            </a> </li>
+                            
+                          </ul>
+                        </div>
+                                           
+                      </div>
+                      
 
 
-               
-             
 
+
+                      
+
+                      <!-- <div class="contsubmenus">
+                        <ul>
+                          <li><a href="">
+                            <p>
+                              Información inversionistas
+                            </p>
+                          </a></li>
+                          <li><a href="">
+                            <p>
+                              Descargas
+                            </p>
+                          </a></li>
+                          
+                        </ul>
+                      </div> -->
+
+
+                   
+                 
+  
+  
+                
 
             
-
-        
-          </div>
+              </div>
 
             
             </div>
@@ -680,12 +787,14 @@
         <div class="col-lg-12 row mx-0 px-0 align-items-end">
 
           <div class="col-lg-8 px-0 pt-3 bncifras justify-content-around align-items-center bgorange">
-            <!--
+            
               <div>
-                <p class="txtnumbg whitetxt">231,259</p>
-                <p class="whitetxt text-low">asociados</p>
+                <!-- <p class="txtnumbg whitetxt">231,259</p>
+                <p class="whitetxt text-low">asociados</p> -->
+                <p class="txtnumbg whitetxt">54%</p>
+                 <p class="whitetxt text-low">de nuestra fuerza laboral son mujeres</p>
               </div>
-             -->
+             
 
               <div>
                 
@@ -786,7 +895,7 @@
   </div>
 </section>
 <!-- ======= NUESTRO TALENTO ======= -->
-<section id="talent01" class="w-100 bluegren">
+<section class="w-100 bluegren">
   <div class="container-fluid pt-5 pb-5">
     <div class="row pt-5">
       <div class="col-12 col-sm-12 col-md-6 col-lg-6 bluegren pr-0">
@@ -798,7 +907,7 @@
             <p class="whitetxt mt-5">Trabajamos para brindar a nuestros asociados
                 un lugar para trabajar que sea seguro, diverso
                 e inclusivo. A través de nuestra Propuesta
-                de Valor al Asociado, o <strong>PRODI</strong> por sus
+                de Valor al Asociado, o <span class="txtbold">PRODI</span> por sus
                 siglas, establecemos nuestro compromiso
                 de proporcionar cinco beneficios al trabajar
                 con nosotros.</p>
@@ -845,21 +954,45 @@
 </section>
 <!-- ======= NUESTRO TALENTO POR GÉNERO ======= -->
 <section class="w-100 bggray mt-1">
-  <div class="container-fluid">
+  <div class="container-fluid pb-5">
     <div class="row">
       <div class="col-12 col-sm-12 col-md-5 col-lg-5">
         <div class="row">
           <div class="col-12 col-md-9 col-lg-9 offset-md-4 pt-5 pl-1">
             <h2 class="blueswaltxt">NUESTRO TALENTO<br/>POR GÉNERO</h2>
             <p class="blueswaltxt">MÉXICO Y CENTROAMÉRICA</p>
+            <div class="w-100 d-flex">
+              <div class="byeorange" style="width: 20px; height: 20px;"></div>
+              <div class="pl-3">Mujeres</div>
+            </div>
+            <div class="w-100 mt-3 pb-4">
+              <div class="w-100 d-flex">
+                <div class="bgblueW" style="width: 20px; height: 20px;"></div>
+                <div class="pl-3">Hombres</div>
+              </div>
+            </div>
           </div>
-          <div class="col-12 col-md-7 col-lg-7 offset-md-2 pl-1">
-            
+          <div class="col-12 col-md-7 col-lg-7 offset-md-2 pl-1 mt-5">
+              <div class="w-100 gray-box px-5 py-3">
+                <span class="bnumber txtbold">231,259</span><br/>
+                asociados
+              </div>
+              <div class="w-100 gray-box px-5 py-4 mt-1">
+                <span class="bnumber txtbold">6,234</span><br/>
+                empleos generados
+              </div>
           </div>
         </div>
       </div>
-      <div class="col-12 col-sm-12 col-md-6 col-lg-6">
-        <img src="img/oportunidad/img_nuestro_talento_02.jpg" class="img-fluid" alt="enfoque">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 pt-5">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-2 col-lg-2 pt-5">
+            <img src="img/oportunidad/talento_por_genero1.svg" class="img-fluid" alt="enfoque">
+          </div>
+          <div class="col-12 col-sm-12 col-md-10 col-lg-10">
+            <img src="img/oportunidad/img_nuestro_talento_02.jpg" class="img-fluid" alt="enfoque">
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -880,11 +1013,14 @@
                 <div class="whitetxt pl-3">Hombres</div>
               </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-8 col-lg-8 d-flex flex-column justify-content-center mt-5 pl-3" style="height:100px; border: 1px solid #fff;">
+            <div class="col-12 col-sm-12 col-md-8 col-lg-8 mt-5 pl-0">
+              <img src="img/oportunidad/total_asociados_mexico_01.svg" class="img-fluid" alt="enfoque">
+            </div>
+            <!-- <div class="col-12 col-sm-12 col-md-8 col-lg-8 d-flex flex-column justify-content-center mt-5 pl-3" style="height:100px; border: 1px solid #fff;">
               <p class="whitetxt"><span style="font-size: 35px;">193,902</span><br/>
               Total de asociados</p>
-            </div>
-            <div class="col-12 col-sm-12 col-md-10 col-lg-10 mt-5">
+            </div> -->
+            <div class="col-12 col-sm-12 col-md-10 col-lg-10 mt-5 pl-0">
               <img src="img/oportunidad/grafica_asociados_mexico.svg" class="img-fluid" alt="enfoque">
             </div>
           </div>
@@ -900,16 +1036,18 @@
           <div class="col-12 col-sm-12 col-md-6 col-lg-6">
             <div class="row">
               <div class="col-12 col-sm-12 col-md-6 col-lg-6 pt-4 pr-0">
-                <div class="w-100 d-flex flex-column justify-content-center pl-3 whitetxt" style="height:100px; border: 1px solid #fff;">
+                <img src="img/oportunidad/total_asociados_mexico_02.svg" class="img-fluid" alt="enfoque">
+                <!-- <div class="w-100 d-flex flex-column justify-content-center pl-3 whitetxt" style="height:100px; border: 1px solid #fff;">
                   9,303<br/>
                   asociados de staff
-                </div>
+                </div> -->
               </div>
               <div class="col-12 col-sm-12 col-md-6 col-lg-6 whitetxt pl-2 pt-4">
-                <div class="w-100 d-flex flex-column justify-content-center pl-3" style="height:100px; border: 1px solid #fff;">
+                <img src="img/oportunidad/total_asociados_mexico_03.svg" class="img-fluid" alt="enfoque">
+                <!-- <div class="w-100 d-flex flex-column justify-content-center pl-3" style="height:100px; border: 1px solid #fff;">
                   184,599<br/>
                   asociados de operaciones
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -990,10 +1128,15 @@
                 <div class="whitetxt pl-3">Hombres</div>
               </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-8 col-lg-8 d-flex flex-column justify-content-center mt-5 pl-3" style="height:100px; border: 1px solid #fff;">
+
+            <div class="col-12 col-sm-12 col-md-8 col-lg-8 pl-0">
+              <img src="img/oportunidad/total_asociados_cam_01.svg" class="img-fluid" alt="enfoque">
+            </div>
+            
+            <!-- <div class="col-12 col-sm-12 col-md-8 col-lg-8 d-flex flex-column justify-content-center mt-5 pl-3" style="height:100px; border: 1px solid #fff;">
               <p class="whitetxt"><span style="font-size: 35px;">37,357</span><br/>
               Total de asociados</p>
-            </div>
+            </div> -->
             <div class="col-12 col-sm-12 col-md-10 col-lg-10 pl-0 mt-5">
               <img src="img/oportunidad/grafica_asociados_centroamerica.svg" class="img-fluid" alt="enfoque">
             </div>
@@ -1010,16 +1153,18 @@
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 pt-4">
             <div class="row">
               <div class="col-12 col-sm-12 col-md-6 col-lg-6 pt-4 pr-0">
-                <div class="w-100 d-flex flex-column justify-content-center pl-3 whitetxt" style="height:100px; border: 1px solid #fff;">
+                <img src="img/oportunidad/total_asociados_cam_02.svg" class="img-fluid" alt="enfoque">
+                <!-- <div class="w-100 d-flex flex-column justify-content-center pl-3 whitetxt" style="height:100px; border: 1px solid #fff;">
                   2,306<br/>
                   asociados de staff
-                </div>
+                </div> -->
               </div>
               <div class="col-12 col-sm-12 col-md-6 col-lg-6 pt-4 pr-0">
-                <div class="w-100 d-flex flex-column justify-content-center pl-3 whitetxt" style="height:100px; border: 1px solid #fff;">
+                <img src="img/oportunidad/total_asociados_cam_03.svg" class="img-fluid" alt="enfoque">
+                <!-- <div class="w-100 d-flex flex-column justify-content-center pl-3 whitetxt" style="height:100px; border: 1px solid #fff;">
                   35,051<br/>
                   asociados de operaciones
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -1085,7 +1230,7 @@
   </div>
 </section>
 <!-- ======= DESARROLLAMOS TALENTO ======= -->
-<section id="talent02" class="w-100 bluegren mt-1">
+<section class="w-100 bluegren mt-1">
   <div class="container-fluid">
     <div class="row">
       <div class="col-12 col-sm-12 col-md-6 col-lg-6 pr-0">
@@ -1157,9 +1302,9 @@
   </div>
 </section>
 <!-- ======= CAPACITACIÓN A ASOCIADOS ======= -->
-<section class="w-100">
-  <div class="w-100" style="background: yellow;">
-    <img src="img/oportunidad/img_nuestro_talento_07.jpg" class="img-fluid" alt="enfoque">
+<section class="w-100 mt-1">
+  <div class="w-100">
+    <img src="img/oportunidad/img_nuestro_talento_07.jpg" width="100%;" alt="enfoque">
   </div>
   <div class="container-fluid">
     <div class="row pt-5 pb-5">
@@ -1171,20 +1316,20 @@
         </div>
         <div class="row mt-5">
           <div class="col-12 col-sm-12 col-md-3 col-lg-3 pl-4">
-            <h4 class="blueswaltxt"><strong>27,709</strong><br/>promociones</h4>
+            <h4 class="blueswaltxt"><span class="txtbold">27,709</span><br/>promociones</h4>
           </div> 
           <div class="col-12 col-sm-12 col-md-3 col-lg-3 pl-4" style="border-left: 1px solid #007dc3;">
-            <h4 class="blueswaltxt"><strong>43</strong> millones de<br/>
+            <h4 class="blueswaltxt"><span class="txtbold">43</span> millones de<br/>
               pesos invertidos<br/>
               en capacitación</h4>
           </div>   
           <div class="col-12 col-sm-12 col-md-3 col-lg-3 pl-4" style="border-left: 1px solid #007dc3;">
-            <h4 class="blueswaltxt"><strong>7.2</strong> millones<br/>
+            <h4 class="blueswaltxt"><span class="txtbold">7.2</span> millones<br/>
               de horas de<br/>
               capacitación</h4>
           </div>   
           <div class="col-12 col-sm-12 col-md-3 col-lg-3 pl-4" style="border-left: 1px solid #007dc3;">
-            <h4 class="blueswaltxt"><strong>23</strong> horas de<br/>
+            <h4 class="blueswaltxt"><span class="txtbold">23</span> horas de<br/>
               capacitación<br/>
               promedio por<br/>
               asociado</h4>
@@ -1217,7 +1362,7 @@
                 <img src="svg/ico-yellowcircles.svg" alt="" class="icoyellcirbig">
                 <h4 class="blueswaltxt">El Índice de Compromiso<br/>
                   incrementó a<br/>
-                  81% vs 80% en 2020<br/>
+                  <span class="txtbold">81%</span> vs <span class="txtbold">80%</span> en 2020<br/>
                 </h4>
               </div>
             </div>
@@ -1225,37 +1370,122 @@
         </div>
       </div>
       <div class="col-12 col-sm-12 col-md-5 col-lg-5 offset-md-1 pt-5">
-        <p class="blueswaltxt" style="text-decoration: underline;">En 2021 alcanzamos:</p>
+        <p class="blueswaltxt txtbold underline">En 2021 alcanzamos:</p>
         <div class="w-100 d-flex justify-content-between bluefl px-5 py-3 whitetxt">
             <div class="pr-5" style="border-right: 1px solid #fff;">
-              <span style="font-size:20px;">89%</span> de participación<br/>
+              <span class="txtbold" style="font-size:20px;">89%</span> de participación<br/>
               total en México
             </div>
             <div>
-              <span style="font-size:20px;">57%</span> mujeres
+              <span class="txtbold" style="font-size:20px;">57%</span> mujeres
             </div>
             <div>
-              <span style="font-size:20px;">43%</span>hombres
+              <span class="txtbold" style="font-size:20px;">43%</span>hombres
             </div>
         </div>
         <div class="w-100 d-flex justify-content-between baqua px-5 py-3 mt-1 whitetxt">
           <div class="pr-5" style="border-right: 1px solid #fff;">
-            <span style="font-size:20px;">79%</span> de participación<br/>
+            <span class="txtbold" style="font-size:20px;">79%</span> de participación<br/>
             total en Centroamérica
           </div>
           <div>
-            <span style="font-size:20px;">45%</span> mujeres
+            <span class="txtbold" style="font-size:20px;">45%</span> mujeres
           </div>
           <div>
-            <span style="font-size:20px;">55%</span> hombres
+            <span class="txtbold" style="font-size:20px;">55%</span> hombres
           </div>
         </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-9 col-lg-9 mx-auto mt-5 pl-4">
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 pl-4">
+              <p class="txtunderline txtbold mb-0">Índice de Compromiso</p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 d-flex pt-3 pl-4">
+              <div class="d-flex">
+                <div class="bmexsq" style="width: 20px; height: 20px;"></div>
+                <div class="pl-2">México</div>
+              </div>
+              <div class="d-flex pl-4">
+                <div class="bcentroasq" style="width: 20px; height: 20px;"></div>
+                <div class="pl-2">Centroamérica</div>
+              </div>
+              <div class="d-flex pl-4">
+                <div class="bconsosq" style="width: 20px; height: 20px;"></div>
+                <div class="pl-2">Consolidado</div>
+              </div>
+            </div>
+          </div>
+          <div class="row pt-3">
+            <div class="col-12 col-sm-12 col-md-11 col-lg-11">
+              <div class="row">
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 pl-4">
+                  <div class="chartBarsWrap chartBarsHorizontal">
+                    <div class="chartBars">
+                        <ul class="bars">
+                            <li>
+                                <div data-percentage="80" class="bar blueBarFlat">80%</div>
+                              </li>
+                            <li>
+                                <div data-percentage="79" class="bar mxBarFlat">79%</div>
+                              </li>
+                            <li>
+                                <div data-percentage="77" class="bar mxBarFlat">77%</div>
+                              </li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                  <div class="chartBarsWrap chartBarsHorizontal">
+                    <div class="chartBars">
+                        <ul class="bars">
+                            <li>
+                                <div data-percentage="90" class="bar aquaBarFlat">90%</div>
+                              </li>
+                            <li>
+                                <div data-percentage="87" class="bar caBarFlat">87%</div>
+                              </li>
+                            <li>
+                                <div data-percentage="84" class="bar caBarFlat">84%</div>
+                              </li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                  <div class="chartBarsWrap chartBarsHorizontal">
+                    <div class="chartBars">
+                        <ul class="bars">
+                            <li>
+                                <div data-percentage="81" class="bar grayBarFlat">81%</div>
+                              </li>
+                            <li>
+                                <div data-percentage="80" class="bar conBarFlat">80%</div>
+                              </li>
+                            <li>
+                                <div data-percentage="76" class="bar conBarFlat">76%</div>
+                              </li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-1 col-lg-1">
+              <div class="w-100 pt-4 pb-3"><small>2021</small></div>
+              <div class="w-100 pt-4 pb-3"><small>2020</small></div>
+              <div class="w-100 pt-4"><small>2019</small></div>
+            </div> 
+          </div>
       </div>
     </div>
   </div>
 </section>
 <!-- ======= INCLUSIÓN ======= -->
-<section id="talent03" class="w-100 bluesky mt-1">
+<section class="w-100 bluesky mt-1">
   <div class="container-fluid">
     <div class="row">
       <div class="col-12 col-sm-12 col-md-5 col-lg-5">
@@ -1269,7 +1499,7 @@
             <div class="d-flex justify-content-center">
               <div class=" d-flex align-items-start">
                 <img src="svg/ico-yellowcircles.svg" alt="" class="icoyellcirbig">
-                <h4 class="whitetxt">54% de nuestra fuerza<br/>
+                <h4 class="whitetxt"><span class="txtbold">54%</span> de nuestra fuerza<br/>
                   laboral son mujeres<br/>
                 </h4>
               </div>
@@ -1364,9 +1594,9 @@
         </div>
         <div class="w-100 d-flex flex-column justify-content-between py-4 px-5">
           <div class="pt-1 px-1">
-            <p class="whitetxt"><strong>1. EQUIDAD DE GÉNERO</strong></p>
+            <p class="whitetxt"><span class="txtbold">1. EQUIDAD DE GÉNERO</span></p>
             <p class="whitetxt">
-              Distintivo Naranja<br/>
+              <span class="fyorange">Distintivo Naranja</span><br/>
               En 2021, Walmart de México fue acreedor al Distintivo
               Naranja por la Igualdad en las Empresas, otorgado por
               la Secretaría de la Mujer del Estado de México, por
@@ -1390,7 +1620,7 @@
         </div>
         <div class="w-100 d-flex flex-column justify-content-between py-4 px-5" style="height:48%;">
           <div class="pt-1 px-1">
-            <p class="whitetxt"><strong>2. DIVERSIDAD SEXUAL Y DE GÉNERO</strong></p>
+            <p class="whitetxt"><span class="txtbold">2. DIVERSIDAD SEXUAL Y DE GÉNERO</span></p>
             <p class="whitetxt">
               Por quinto año consecutivo recibimos la certificación
               “Mejores lugares para trabajar” otorgado por Human
@@ -1415,8 +1645,8 @@
         </div>
         <div class="w-100 d-flex flex-column justify-content-between py-4 px-5" " style="height:48%;">
           <div class="pt-1 px-1">
-            <p class="whitetxt"><strong>3. INCLUSIÓN LABORAL DE<br/>
-              PERSONAS CON DISCAPACIDAD</strong></p>
+            <p class="whitetxt"><span class="txtbold">3. INCLUSIÓN LABORAL DE<br/>
+              PERSONAS CON DISCAPACIDAD</span></p>
             <p class="whitetxt">
               En 2021, recibimos el Distintivo Éntrale, por nuestro
               compromiso con la inclusión de personas con
@@ -1516,7 +1746,7 @@
       <div class="col-12 col-sm-12 col-md-10 col-lg-10 mx-auto">
         <div class="row">
           <div class="col-12 col-sm-12 col-md-4 col-lg-4 d-flex flex-column-reverse pr-5">
-            <img src="img/oportunidad/logo_una_mano_para_crecer.png" style="width: 250px;" alt="enfoque">
+            <img src="img/oportunidad/proveedores_01.svg" style="width: 250px;" alt="enfoque">
           </div>
           <div class="col-12 col-sm-12 col-md-8 col-lg-8 d-flex">
             <div class="darkblue pt-3" style="width:20%; height: 350px;">
@@ -1524,7 +1754,7 @@
                 <img src="img/oportunidad/img_cadena_responsable_03.png" style="width: 100px;" alt="enfoque">
               </div>
               <div class="w-100 pl-3 pt-3">
-                <p class="whitetxt">51,327<br/>
+                <p class="whitetxt"><span class="snumber txtbold">51,327</span><br/>
                   proveedores<br/>
                   en México.</p>
               </div>
@@ -1534,7 +1764,7 @@
                 <img src="img/oportunidad/img_cadena_responsable_04.png" style="width: 100px;" alt="enfoque">
               </div>
               <div class="w-100 pl-3 pt-3">
-                <p class="whitetxt">89%<br/>
+                <p class="whitetxt"><span class="snumber txtbold">92%</span><br/>
                   de las mercancías
                   vendidas en México
                   se compran en el
@@ -1546,7 +1776,7 @@
                 <img src="img/oportunidad/img_cadena_responsable_05.png" style="width: 100px;" alt="enfoque">
               </div>
               <div class="w-100 pl-3 pt-3">
-                <p class="whitetxt">93%<br/>
+                <p class="whitetxt"><span class="snumber txtbold">93%</span><br/>
                   de nuestros
                   proveedores de
                   autoservicio son
@@ -1558,7 +1788,7 @@
                 <img src="img/oportunidad/img_cadena_responsable_06.png" style="width: 100px;" alt="enfoque">
               </div>
               <div class="w-100 pl-3 pt-3">
-                <p class="whitetxt">34,933<br/>
+                <p class="whitetxt"><span class="snumber txtbold">34,933</span><br/>
                   proveedores
                   en Centroamérica</p>
               </div>
@@ -1568,7 +1798,7 @@
                 <img src="img/oportunidad/img_cadena_responsable_07.png" style="width: 100px;" alt="enfoque">
               </div>
               <div class="w-100 pl-3 pt-3">
-                <p class="whitetxt">XX%<br/>
+                <p class="whitetxt"><span class="snumber txtbold">83%</span><br/>
                   de las mercancías
                   vendidas en
                   Centroamérica
@@ -1583,7 +1813,7 @@
   </div>
 </section>
 <!-- ======= CADENA DE SUMINISTRO ======= -->
-<section id="talent04" class="w-100 bluesky mt-1 pb-5">
+<section class="w-100 bluesky mt-1 pb-5">
   <div class="container-fluid">
     <div class="row">
       <div class="col-12 col-sm-12 col-md-5 col-lg-5">
@@ -1669,7 +1899,7 @@
     <div class="row bluegren">
       <div class="col-12 pt-5 pb-5 pl-0 pr-0">
         <ul class="nav nav-tabs">
-          <li class="active tab-margin"><a data-toggle="tab" href="#productor">PEQUEÑO PRODUCTOR</a></li>
+          <li class="tab-margin"><a data-toggle="tab" class="active" href="#productor">PEQUEÑO PRODUCTOR</a></li>
           <li><a data-toggle="tab" href="#tierra">TIERRA FÉRTIL</a></li>
           <li><a data-toggle="tab" href="#crecer">UNA MANO PARA CRECER</a></li>
         </ul>
@@ -1680,8 +1910,8 @@
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 py-5 px-5">
                   <div class="row">
                     <div class="col-12 col-sm-12 col-md-8 col-lg-8 offset-md-4 d-flex">
-                      <p class="faqua underline">PEQUEÑO PRODUCTOR</p>
-                      <p class="ml-3 fpurple">En 10 años hemos logrado:</p>
+                      <p class="faqua">PEQUEÑO PRODUCTOR</p>
+                      <p class="ml-3 fpurple txtbold underline">En 10 años hemos logrado:</p>
                     </div>
                   </div>
                 </div>
@@ -1702,37 +1932,37 @@
                <div class="col-12 col-sm-12 col-md-8 col-lg-8">
                  <div class="row pt-4 pb-4">
                    <div class="col-3 border-purple">
-                      <span class="bnumber fpurple">36</span>
+                      <span class="bnumber fpurple txtbold">36</span>
                       <p class="fpurple">agro-empresas vendiendo<br/>
                       actualmente</p>
                    </div>
                    <div class="col-3 border-purple">
-                      <span class="bnumber fpurple">23,637</span>
+                      <span class="bnumber fpurple txtbold">23,637</span>
                       <p class="fpurple">pequeños productores<br/>
                         capacitados</p>
                    </div>
                    <div class="col-3 border-purple">
-                      <span class="bnumber fpurple">1,149</span>
+                      <span class="bnumber fpurple txtbold">1,149</span>
                       <p class="fpurple">millones de pesos<br/>
                         generados en ventas</p>
                    </div>
                    <div class="col-3 border-purple">
-                      <span class="bnumber fpurple">42</span>
+                      <span class="bnumber fpurple txtbold">42</span>
                       <p class="fpurple">cultivos beneficiados<br/>
                         en 18 estados</p>
                   </div>
                  </div>
                  <div class="row pt-4 pb-4">
                     <div class="col-3 border-purple">
-                      <span class="bnumber fpurple">1,590</span>
+                      <span class="bnumber fpurple txtbold">1,590</span>
                       <p class="fpurple">empleos generados</p>
                     </div>
                     <div class="col-3 border-purple">
-                      <span class="bnumber fpurple">59,000</span>
+                      <span class="bnumber fpurple txtbold">59,000</span>
                       <p class="fpurple">toneladas comercializadas</p>
                     </div>
                     <div class="col-3 border-purple">
-                      <span class="bnumber fpurple">1,196</span>
+                      <span class="bnumber fpurple txtbold">1,196</span>
                       <p class="fpurple">comunidades donde se ha<br/>
                        trabajado</p>
                     </div>
@@ -1740,22 +1970,22 @@
                  </div>
                  <div class="row pt-4 pb-4">
                     <div class="col-3 border-r-purple">
-                      <span class="snumber fpurple">569</span>
+                      <span class="snumber fpurple txtbold">569</span>
                       <p class="fpurple">millones de pesos de compras a <br/>
                         pequeños productores</p>
                     </div>
                     <div class="col-3 border-r-purple">
-                      <span class="snumber fpurple">4,963</span>
+                      <span class="snumber fpurple txtbold">4,963</span>
                       <p class="fpurple">productores<br/>
                         beneficiados</p>
                     </div>
                     <div class="col-3 border-r-purple">
-                      <span class="snumber fpurple">19%</span>
+                      <span class="snumber fpurple txtbold">19%</span>
                       <p class="fpurple">mujeres productoras<br/>
                       beneficiadas</p>
                     </div>
                     <div class="col-3">
-                      <span class="snumber fpurple">86%</span>
+                      <span class="snumber fpurple txtbold">86%</span>
                       <p class="fpurple">incremento<br/>
                         en el ingreso</p>
                     </div>
@@ -1784,16 +2014,16 @@
                     directas, asesoría técnica e inversiones específicas
                     como equipo y compra de insumos.</p>
                     <p>
-                      Durante 2021, capacitamos a 1,553 personas, de las
-                      cuales 30% fueron mujeres, en técnicas para reducir
+                      Durante 2021, <span class="blueswaltxt">capacitamos a 1,553 personas,</span> de las
+                      cuales <span class="blueswaltxt">30% fueron mujeres,</span> en técnicas para reducir
                       impacto medioambiental, mejorar su productividad,
                       garantizar la inocuidad de los productos que compramos
                       y aumentar sus ventas.
                     </p>
                     <p>
                       El total de nuestras compras a estos productores fue
-                      de 1,792 millones de pesos y representaron el 68% de
-                      las frutas, vegetales y granos vendidos por nuestras
+                      de <span class="blueswaltxt">1,792 millones de pesos</span> y representaron el <span class="blueswaltxt">68% de
+                      las frutas, vegetales y granos</span> vendidos por nuestras
                       tiendas en Centroamérica.
                     </p>
                 </div>
@@ -1810,17 +2040,17 @@
                     </div>
                     <div class="text-center">
                       <p class="faqua underline">2019</p>
-                      <p class="faqua"><span class="bnumber">37%</span><br/>
+                      <p class="faqua"><span class="bnumber txtbold">37%</span><br/>
                         $1,563 millones</p>
                     </div>
                     <div class="text-center">
                       <p class="faqua underline">2020</p>
-                      <p class="faqua"><span class="bnumber">6%</span><br/>
+                      <p class="faqua"><span class="bnumber txtbold">6%</span><br/>
                         $1,684 millones</p>
                     </div>
                     <div class="text-center">
                       <p class="faqua underline">2020</p>
-                      <p class="faqua"><span class="bnumber">5%</span><br/>
+                      <p class="faqua"><span class="bnumber txtbold">5%</span><br/>
                         $1,792 millones</p>
                     </div>
                   </div>
@@ -1861,22 +2091,22 @@
                     </div>
                     <div class="text-center">
                       <p class="faqua underline">2018</p>
-                      <p class="faqua"><span class="bnumber">9%</span><br/>
+                      <p class="faqua"><span class="bnumber txtbold">9%</span><br/>
                         $948 millones</p>
                     </div>
                     <div class="text-center">
                       <p class="faqua underline">2019</p>
-                      <p class="faqua"><span class="bnumber">10.5%</span><br/>
+                      <p class="faqua"><span class="bnumber txtbold">10.5%</span><br/>
                       $1,035 millones</p>
                     </div>
                     <div class="text-center">
                       <p class="faqua underline">2020</p>
-                      <p class="faqua"><span class="bnumber">12.1%</span><br/>
+                      <p class="faqua"><span class="bnumber txtbold">12.1%</span><br/>
                       $1,193 millones</p>
                     </div>
                     <div class="text-center">
                       <p class="faqua underline">2020</p>
-                      <p class="faqua"><span class="bnumber">10.5%</span><br/>
+                      <p class="faqua"><span class="bnumber txtbold">10.5%</span><br/>
                       $1,226 millones</p>
                     </div>
                   </div>
@@ -1887,41 +2117,41 @@
                       <p class="faqua underline mt-2">COMPRAS</pclass="faqua">
                     </div>
                     <div class="text-center pt-3">
-                      <p class="faqua mt-4"><span class="bnumber">7.3%</span><br/>
+                      <p class="faqua mt-4"><span class="bnumber txtbold">7.3%</span><br/>
                         $724 millones</p>
                     </div>
                     <div class="text-center pt-3">
-                      <p class="faqua mt-4"><span class="bnumber">9%</span><br/>
+                      <p class="faqua mt-4"><span class="bnumber txtbold">9%</span><br/>
                         $832 millones</p>
                     </div>
                     <div class="text-center pt-3">
-                      <p class="faqua mt-4"><span class="bnumber">5%%</span><br/>
+                      <p class="faqua mt-4"><span class="bnumber txtbold">5%%</span><br/>
                         $909 millones</p>
                     </div>
                     <div class="text-center pt-3">
-                      <p class="faqua mt-4"><span class="bnumber">8.29%</span><br/>
+                      <p class="faqua mt-4"><span class="bnumber txtbold">8.29%</span><br/>
                         $966 millones</p>
                     </div>
                   </div>
 
                   <div class="row pt-4 pb-4">
                     <div class="col-3 border-r-aqua">
-                      <span class="snumber faqua">454</span>
+                      <span class="snumber faqua txtbold">454</span>
                       <p class="faqua">pymes en la<br/>
                        actualidad</p>
                     </div>
                     <div class="col-3 border-r-aqua">
-                      <span class="snumber faqua">33%</span>
+                      <span class="snumber faqua txtbold">33%</span>
                       <p class="faqua">son lideradas por<br/>
                        mujeres</p>
                     </div>
                     <div class="col-3 border-r-aqua">
-                      <span class="snumber faqua">10.5%</span>
+                      <span class="snumber faqua txtbold">10.5%</span>
                       <p class="faqua">incremento en<br/>
                        ventas pymes</p>
                     </div>
                     <div class="col-3">
-                      <span class="snumber faqua">6,980</span>
+                      <span class="snumber faqua txtbold">6,980</span>
                       <p class="faqua">familias beneficiadas</p>
                     </div>
                  </div>
@@ -1934,7 +2164,6 @@
     </div>
   </div>
 </section>
-
 
 <!-- ======= SIGUIENTE ANTERIOR ======= -->
 <section id="contbtnsigantcap" class="bggrey1">
@@ -2247,8 +2476,7 @@
           }
         });
         
-      });
-      
+      });      
   </script>
   
   <script>
@@ -2384,40 +2612,7 @@
       changeSlides();
     }
   
-    // $(document).on("mousedown touchstart", ".slider", function(e) {
-    //   if (animating) return;
-    //   window.clearTimeout(autoSlideTimeout);
-    //   var startX = e.pageX || e.originalEvent.touches[0].pageX,
-    //       winW = $(window).width();
-    //   diff = 0;
-      
-    //   $(document).on("mousemove touchmove", function(e) {
-    //     var x = e.pageX || e.originalEvent.touches[0].pageX;
-    //     diff = (startX - x) / winW * 70;
-    //     if ((!curSlide && diff < 0) || (curSlide === numOfSlides && diff > 0)) diff /= 2;
-    //     $slider.css("transform", "translate3d("+ (-curSlide*100 - diff) +"%,0,0)");
-    //     $slideBGs.css("transform", "translate3d("+ (curSlide*50 + diff/2) +"%,0,0)");
-    //   });
-    // });
-    
-    // $(document).on("mouseup touchend", function(e) {
-    //   $(document).off("mousemove touchmove");
-    //   if (animating) return;
-    //   if (!diff) {
-    //     changeSlides(true);
-    //     return;
-    //   }
-    //   if (diff > -8 && diff < 8) {
-    //     changeSlides();
-    //     return;
-    //   }
-    //   if (diff <= -8) {
-    //     navigateLeft();
-    //   }
-    //   if (diff >= 8) {
-    //     navigateRight();
-    //   }
-    // });
+   
     
     $(document).on("click", ".slider-control", function() {
       if ($(this).hasClass("left")) {
@@ -2526,143 +2721,7 @@
          }
      </script>
   
-    <script>
-   
-   var data2 = [
-        {
-          primaryColor: "#253B80", 
-          secondaryColor: "#dfdfdf", 
-          progress: "26",
-          labelText: "México"
-        },
-        {
-          primaryColor: "#7dbed2", 
-          secondaryColor: "#dfdfdf", 
-          progress: "53",
-          labelText: "Centroamérica"
-        }
-      ];
-  
-      $(".radial2").radialBar({
-        data: data2,
-        width: "220",
-        height: "220",
-        strokeWidth: 12
-      });
-  
-  
-      var data4 = [
-        {
-          primaryColor: "#253B80", 
-          secondaryColor: "#dfdfdf", 
-          progress: "64",
-          labelText: "México"
-        },
-        {
-          primaryColor: "#7dbed2", 
-          secondaryColor: "#dfdfdf", 
-          progress: "19",
-          labelText: "Centroamérica"
-        }
-      ];
-  
-      $(".radial4").radialBar({
-        data: data4,
-        width: "220",
-        height: "220",
-        strokeWidth: 12
-      });
-  
-      var data5 = [
-        {
-          primaryColor: "#253B80", 
-          secondaryColor: "#dfdfdf", 
-          progress: "79",
-          labelText: "México"
-        },
-        {
-          primaryColor: "#7dbed2", 
-          secondaryColor: "#dfdfdf", 
-          progress: "65.8",
-          labelText: "Centroamérica"
-        }
-      ];
-  
-      $(".radial5").radialBar({
-        data: data5,
-        width: "220",
-        height: "220",
-        strokeWidth: 12
-      });
-  
-      var data6 = [
-        {
-          primaryColor: "#253B80", 
-          secondaryColor: "#dfdfdf", 
-          progress: "48.9",
-          labelText: "México"
-        },
-        {
-          primaryColor: "#7dbed2", 
-          secondaryColor: "#dfdfdf", 
-          progress: "46.7",
-          labelText: "Centroamérica"
-        }
-      ];
-  
-      $(".radial6").radialBar({
-        data: data6,
-        width: "220",
-        height: "220",
-        strokeWidth: 12
-      });
-  
-      var data7 = [
-        {
-          primaryColor: "#253B80", 
-          secondaryColor: "#dfdfdf", 
-          progress: "97.2",
-          labelText: "México"
-        },
-        {
-          primaryColor: "#7dbed2", 
-          secondaryColor: "#dfdfdf", 
-          progress: "79",
-          labelText: "Centroamérica"
-        }
-      ];
-  
-      $(".radial7").radialBar({
-        data: data7,
-        width: "220",
-        height: "220",
-        strokeWidth: 12
-      });
-  
-  
-      var data8 = [
-        {
-          primaryColor: "#253B80", 
-          secondaryColor: "#dfdfdf", 
-          progress: "10",
-          labelText: "México"
-        },
-        {
-          primaryColor: "#7dbed2", 
-          secondaryColor: "#dfdfdf", 
-          progress: "63",
-          labelText: "Centroamérica"
-        }
-      ];
-  
-      $(".radial8").radialBar({
-        data: data8,
-        width: "220",
-        height: "220",
-        strokeWidth: 12
-      });
-  
-    </script>
+    
   
   
     <script>
@@ -2801,571 +2860,6 @@
      
   
   </script>
-  
-  <script>
-  var canvas = document.getElementById("chDonut1");
-  var tooltipCanvas = document.getElementById("tooltip-canvas");
-  
-  var gradientBlue = canvas.getContext('2d').createLinearGradient(0, 0, 0, 150);
-  gradientBlue.addColorStop(1, '#263b80');
-  gradientBlue.addColorStop(1, '#263b80');
-  
-  var gradientRed = canvas.getContext('2d').createLinearGradient(0, 0, 0, 150);
-  gradientRed.addColorStop(1, '#7374a3');
-  gradientRed.addColorStop(1, '#7374a3');
-  
-  
-  window.arcSpacing = 0.10;
-  window.segmentHovered = false;
-     
-  
-  Chart.elements.Arc.prototype.draw = function() {
-    
-    var ctx = this._chart.ctx;
-    var vm = this._view;
-    var sA = vm.startAngle;
-    var eA = vm.endAngle;
-  
-    ctx.beginPath();
-    ctx.arc(vm.x, vm.y, vm.outerRadius, sA + window.arcSpacing, eA - window.arcSpacing);
-    ctx.strokeStyle = vm.backgroundColor;
-    ctx.lineWidth = vm.borderWidth;
-    ctx.lineCap = 'round';
-    ctx.stroke();
-    ctx.closePath();
-  };
-  
-  var config = {
-      type: 'doughnut',
-      data: {
-          labels: ['Pink', 'Grey'],
-          datasets: [
-            {
-                data: [46 , 54],
-                backgroundColor: [
-                  gradientRed,
-                  gradientBlue,
-                  
-                ],
-            }
-          ]
-      },
-      options: {
-          cutoutPercentage: 80,
-          elements: {
-            arc: {
-              borderWidth: 12,
-            },
-          },
-          legend: {
-            display: false,
-          },
-          animation: {
-            onComplete: function(animation) {
-              if (!window.segmentHovered) {
-                var value = this.config.data.datasets[0].data.reduce(function(a, b) { 
-                  return a + b;
-                }, 0);
-                var label = 'T O T A L';
-  
-                textInCenter(value, label);
-              }
-            },
-          },
-          tooltips: {
-            enabled: false,
-            custom: function(tooltip) {
-              if (tooltip.body) {
-                var line = tooltip.body[0].lines[0],
-                  parts = line.split(': ');
-                textInCenter(parts[1], parts[0].split('').join(' ').toUpperCase());
-                window.segmentHovered = true;
-              } else {
-                window.segmentHovered = false;
-              }
-            },
-          },
-      },
-  };
-  
-  window.chart = new Chart(canvas, config);
-  
-  </script>
-  
-  
-  <script>
-    var canvas = document.getElementById("chDonut2");
-    var tooltipCanvas = document.getElementById("tooltip-canvas");
-    
-    var gradientBlue = canvas.getContext('2d').createLinearGradient(0, 0, 0, 150);
-    gradientBlue.addColorStop(1, '#c5e3ed');
-    gradientBlue.addColorStop(1, '#c5e3ed');
-    
-    var gradientRed = canvas.getContext('2d').createLinearGradient(0, 0, 0, 150);
-    gradientRed.addColorStop(1, '#7dbed2');
-    gradientRed.addColorStop(1, '#7dbed2');
-    
-    
-    window.arcSpacing = 0.10;
-    window.segmentHovered = false;
-       
-    
-    Chart.elements.Arc.prototype.draw = function() {
-      
-      var ctx = this._chart.ctx;
-      var vm = this._view;
-      var sA = vm.startAngle;
-      var eA = vm.endAngle;
-    
-      ctx.beginPath();
-      ctx.arc(vm.x, vm.y, vm.outerRadius, sA + window.arcSpacing, eA - window.arcSpacing);
-      ctx.strokeStyle = vm.backgroundColor;
-      ctx.lineWidth = vm.borderWidth;
-      ctx.lineCap = 'round';
-      ctx.stroke();
-      ctx.closePath();
-    };
-    
-    var config = {
-        type: 'doughnut',
-        data: {
-            labels: ['Pink', 'Grey'],
-            datasets: [
-              {
-                  data: [36 , 64],
-                  backgroundColor: [
-                    gradientBlue,
-                    gradientRed,
-                    
-                  ],
-              }
-            ]
-        },
-        options: {
-            cutoutPercentage: 80,
-            elements: {
-              arc: {
-                borderWidth: 12,
-              },
-            },
-            legend: {
-              display: false,
-            },
-            animation: {
-              onComplete: function(animation) {
-                if (!window.segmentHovered) {
-                  var value = this.config.data.datasets[0].data.reduce(function(a, b) { 
-                    return a + b;
-                  }, 0);
-                  var label = 'T O T A L';
-    
-                  textInCenter(value, label);
-                }
-              },
-            },
-            tooltips: {
-              enabled: false,
-              custom: function(tooltip) {
-                if (tooltip.body) {
-                  var line = tooltip.body[0].lines[0],
-                    parts = line.split(': ');
-                  textInCenter(parts[1], parts[0].split('').join(' ').toUpperCase());
-                  window.segmentHovered = true;
-                } else {
-                  window.segmentHovered = false;
-                }
-              },
-            },
-        },
-    };
-    
-    window.chart = new Chart(canvas, config);
-    
-    </script>
-  
-  <script>
-    var canvas = document.getElementById("chDonut3");
-    var tooltipCanvas = document.getElementById("tooltip-canvas");
-    
-    var gradientBlue = canvas.getContext('2d').createLinearGradient(0, 0, 0, 150);
-  gradientBlue.addColorStop(1, '#7374a3');
-  gradientBlue.addColorStop(1, '#7374a3');
-  
-  var gradientRed = canvas.getContext('2d').createLinearGradient(0, 0, 0, 150);
-  gradientRed.addColorStop(1, '#263b80');
-  gradientRed.addColorStop(1, '#263b80');
-    
-    
-    window.arcSpacing = 0.10;
-    window.segmentHovered = false;
-       
-    
-    Chart.elements.Arc.prototype.draw = function() {
-      
-      var ctx = this._chart.ctx;
-      var vm = this._view;
-      var sA = vm.startAngle;
-      var eA = vm.endAngle;
-    
-      ctx.beginPath();
-      ctx.arc(vm.x, vm.y, vm.outerRadius, sA + window.arcSpacing, eA - window.arcSpacing);
-      ctx.strokeStyle = vm.backgroundColor;
-      ctx.lineWidth = vm.borderWidth;
-      ctx.lineCap = 'round';
-      ctx.stroke();
-      ctx.closePath();
-    };
-    
-    var config = {
-        type: 'doughnut',
-        data: {
-            labels: ['Pink', 'Grey'],
-            datasets: [
-              {
-                  data: [22.1 , 77.9],
-                  backgroundColor: [
-                    gradientBlue,
-                    gradientRed,
-                    
-                  ],
-              }
-            ]
-        },
-        options: {
-            cutoutPercentage: 80,
-            elements: {
-              arc: {
-                borderWidth: 12,
-              },
-            },
-            legend: {
-              display: false,
-            },
-            animation: {
-              onComplete: function(animation) {
-                if (!window.segmentHovered) {
-                  var value = this.config.data.datasets[0].data.reduce(function(a, b) { 
-                    return a + b;
-                  }, 0);
-                  var label = 'T O T A L';
-    
-                  textInCenter(value, label);
-                }
-              },
-            },
-            tooltips: {
-              enabled: false,
-              custom: function(tooltip) {
-                if (tooltip.body) {
-                  var line = tooltip.body[0].lines[0],
-                    parts = line.split(': ');
-                  textInCenter(parts[1], parts[0].split('').join(' ').toUpperCase());
-                  window.segmentHovered = true;
-                } else {
-                  window.segmentHovered = false;
-                }
-              },
-            },
-        },
-    };
-    
-    window.chart = new Chart(canvas, config);
-    
-  </script>  
-  
-  <script>
-    var canvas = document.getElementById("chDonut4");
-    var tooltipCanvas = document.getElementById("tooltip-canvas");
-    
-    var gradientBlue = canvas.getContext('2d').createLinearGradient(0, 0, 0, 150);
-    gradientBlue.addColorStop(1, '#c5e3ed');
-    gradientBlue.addColorStop(1, '#c5e3ed');
-    
-    var gradientRed = canvas.getContext('2d').createLinearGradient(0, 0, 0, 150);
-    gradientRed.addColorStop(1, '#7dbed2');
-    gradientRed.addColorStop(1, '#7dbed2');
-    
-    
-    window.arcSpacing = 0.10;
-    window.segmentHovered = false;
-       
-    
-    Chart.elements.Arc.prototype.draw = function() {
-      
-      var ctx = this._chart.ctx;
-      var vm = this._view;
-      var sA = vm.startAngle;
-      var eA = vm.endAngle;
-    
-      ctx.beginPath();
-      ctx.arc(vm.x, vm.y, vm.outerRadius, sA + window.arcSpacing, eA - window.arcSpacing);
-      ctx.strokeStyle = vm.backgroundColor;
-      ctx.lineWidth = vm.borderWidth;
-      ctx.lineCap = 'round';
-      ctx.stroke();
-      ctx.closePath();
-    };
-    
-    var config = {
-        type: 'doughnut',
-        data: {
-            labels: ['Pink', 'Grey'],
-            datasets: [
-              {
-                  data: [25.4 , 74.6],
-                  backgroundColor: [
-                    gradientBlue,
-                    gradientRed,
-                    
-                  ],
-              }
-            ]
-        },
-        options: {
-            cutoutPercentage: 80,
-            elements: {
-              arc: {
-                borderWidth: 12,
-              },
-            },
-            legend: {
-              display: false,
-            },
-            animation: {
-              onComplete: function(animation) {
-                if (!window.segmentHovered) {
-                  var value = this.config.data.datasets[0].data.reduce(function(a, b) { 
-                    return a + b;
-                  }, 0);
-                  var label = 'T O T A L';
-    
-                  textInCenter(value, label);
-                }
-              },
-            },
-            tooltips: {
-              enabled: false,
-              custom: function(tooltip) {
-                if (tooltip.body) {
-                  var line = tooltip.body[0].lines[0],
-                    parts = line.split(': ');
-                  textInCenter(parts[1], parts[0].split('').join(' ').toUpperCase());
-                  window.segmentHovered = true;
-                } else {
-                  window.segmentHovered = false;
-                }
-              },
-            },
-        },
-    };
-    
-    window.chart = new Chart(canvas, config);
-    
-  </script>
-  
-  <script>
-    var canvas = document.getElementById("chDonut5");
-    var tooltipCanvas = document.getElementById("tooltip-canvas");
-    
-    var gradientBlue = canvas.getContext('2d').createLinearGradient(0, 0, 0, 150);
-  gradientBlue.addColorStop(1, '#7374a3');
-  gradientBlue.addColorStop(1, '#7374a3');
-  
-  var gradientRed = canvas.getContext('2d').createLinearGradient(0, 0, 0, 150);
-  gradientRed.addColorStop(1, '#263b80');
-  gradientRed.addColorStop(1, '#263b80');
-    
-    
-    window.arcSpacing = 0.10;
-    window.segmentHovered = false;
-       
-    
-    Chart.elements.Arc.prototype.draw = function() {
-      
-      var ctx = this._chart.ctx;
-      var vm = this._view;
-      var sA = vm.startAngle;
-      var eA = vm.endAngle;
-    
-      ctx.beginPath();
-      ctx.arc(vm.x, vm.y, vm.outerRadius, sA + window.arcSpacing, eA - window.arcSpacing);
-      ctx.strokeStyle = vm.backgroundColor;
-      ctx.lineWidth = vm.borderWidth;
-      ctx.lineCap = 'round';
-      ctx.stroke();
-      ctx.closePath();
-    };
-    
-    var config = {
-        type: 'doughnut',
-        data: {
-            labels: ['Pink', 'Grey'],
-            datasets: [
-              {
-                  data: [5 , 97],
-                  backgroundColor: [
-                    gradientBlue,
-                    gradientRed,
-                    
-                  ],
-              }
-            ]
-        },
-        options: {
-            cutoutPercentage: 80,
-            elements: {
-              arc: {
-                borderWidth: 12,
-              },
-            },
-            legend: {
-              display: false,
-            },
-            animation: {
-              onComplete: function(animation) {
-                if (!window.segmentHovered) {
-                  var value = this.config.data.datasets[0].data.reduce(function(a, b) { 
-                    return a + b;
-                  }, 0);
-                  var label = 'T O T A L';
-    
-                  textInCenter(value, label);
-                }
-              },
-            },
-            tooltips: {
-              enabled: false,
-              custom: function(tooltip) {
-                if (tooltip.body) {
-                  var line = tooltip.body[0].lines[0],
-                    parts = line.split(': ');
-                  textInCenter(parts[1], parts[0].split('').join(' ').toUpperCase());
-                  window.segmentHovered = true;
-                } else {
-                  window.segmentHovered = false;
-                }
-              },
-            },
-        },
-    };
-    
-    window.chart = new Chart(canvas, config);
-    
-  </script>
-  
-  <script>
-    var canvas = document.getElementById("chDonut6");
-    var tooltipCanvas = document.getElementById("tooltip-canvas");
-    
-    var gradientBlue = canvas.getContext('2d').createLinearGradient(0, 0, 0, 150);
-    gradientBlue.addColorStop(1, '#c5e3ed');
-    gradientBlue.addColorStop(1, '#c5e3ed');
-    
-    var gradientRed = canvas.getContext('2d').createLinearGradient(0, 0, 0, 150);
-    gradientRed.addColorStop(1, '#7dbed2');
-    gradientRed.addColorStop(1, '#7dbed2');
-    
-    
-    window.arcSpacing = 0.10;
-    window.segmentHovered = false;
-       
-    
-    Chart.elements.Arc.prototype.draw = function() {
-      
-      var ctx = this._chart.ctx;
-      var vm = this._view;
-      var sA = vm.startAngle;
-      var eA = vm.endAngle;
-    
-      ctx.beginPath();
-      ctx.arc(vm.x, vm.y, vm.outerRadius, sA + window.arcSpacing, eA - window.arcSpacing);
-      ctx.strokeStyle = vm.backgroundColor;
-      ctx.lineWidth = vm.borderWidth;
-      ctx.lineCap = 'round';
-      ctx.stroke();
-      ctx.closePath();
-    };
-    
-    var config = {
-        type: 'doughnut',
-        data: {
-            labels: ['Pink', 'Grey'],
-            datasets: [
-              {
-                  data: [31 , 69],
-                  backgroundColor: [
-                    gradientBlue,
-                    gradientRed,
-                    
-                  ],
-              }
-            ]
-        },
-        options: {
-            cutoutPercentage: 80,
-            elements: {
-              arc: {
-                borderWidth: 12,
-              },
-            },
-            legend: {
-              display: false,
-            },
-            animation: {
-              onComplete: function(animation) {
-                if (!window.segmentHovered) {
-                  var value = this.config.data.datasets[0].data.reduce(function(a, b) { 
-                    return a + b;
-                  }, 0);
-                  var label = 'T O T A L';
-    
-                  textInCenter(value, label);
-                }
-              },
-            },
-            tooltips: {
-              enabled: false,
-              custom: function(tooltip) {
-                if (tooltip.body) {
-                  var line = tooltip.body[0].lines[0],
-                    parts = line.split(': ');
-                  textInCenter(parts[1], parts[0].split('').join(' ').toUpperCase());
-                  window.segmentHovered = true;
-                } else {
-                  window.segmentHovered = false;
-                }
-              },
-            },
-        },
-    };
-    
-    window.chart = new Chart(canvas, config);
-    
-  </script>
-  
-    <!-- <script>
-  
-   
-  $(function () { 
-    $('[data-toggle="tooltip"]').tooltip({trigger: 'manual'}).tooltip('hide');
-  });  
-  
-  $( window ).scroll(function() {   
-  if($( window ).scrollTop() > 10){     
-    $(".progressbar__value").each(function(){
-      each_bar_width = $(this).attr('aria-valuenow');
-      $(this).width(each_bar_width + '%');
-    });
-         
-    }  
-  });
-  
-  </script> -->
-  
-  
-  
-  
-  
   
   
     <script>
