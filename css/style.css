@@ -3038,6 +3038,30 @@ font-size: 12px;
   
 }
 
+#comunid03 {
+  height: auto;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+
+#comunid03 .owl-carousel {
+ margin-top: 20px;
+  
+}
+
+#integri03 {
+  height: auto;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+
+#integri03 .owl-carousel {
+ margin-top: 20px;
+  
+}
+
 
 .contodsvine {
   display: block;
@@ -6818,7 +6842,10 @@ height: 120px;
   margin-bottom: 0;
   line-height: 58px;
 }
-#ecosistemas1{border-top: 1px solid #0e62bc;}
+#ecosistemas1{
+  border-top: 1px solid #0e62bc;
+  min-height: 648px;
+}
 #ecosistema04 .box__padding,
 #ecosistema06 .box__padding,
 #ecosistema01 .box__padding{padding: 30px 20%;}
@@ -7335,7 +7362,7 @@ height: 120px;
   #habilitadores9 .hidden900,
   #cultura-cliente .hidden900{display: none;}
   #habilitadores5 .blueswaltxt br{display: none;}
-  #habilitadores5 ..whitetxt{font-size: 14px;}
+  #habilitadores5 .whitetxt{font-size: 14px;}
   #habilitadores8 .paddingportadas{padding: 15px 30px;}
   #habilitadores8 .blueswaltxt{margin-bottom: 30px;}
   #habilitadores13 .contdownl{padding: 15px 0;}
@@ -8899,6 +8926,188 @@ height: 120px;
  
 }
 
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#descargas {
+  
+  
+  color: #ffffff;
+  font-size: 14px;
+  
+  padding-top: 90px;
+  
+}
+#descargas  span.spanbold{text-transform: uppercase;}
+
+#descargas   p {
+  margin-bottom: 20px;
+  
+}
+
+
+#descargas  .contbtndownlo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto; 
+  column-gap: 10px;
+  row-gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#descargas  .contbtndownlo .icocifra {
+  width: 50px;
+  display: block;
+  margin: auto;
+}
+
+
+#descargas  .contbtndownlo a  {
+ 
+  transition: all .6s;
+  opacity: .6;
+
+}
+
+#descargas  .contbtndownlo a:hover  {
+ 
+
+  opacity: 1;
+
+}
+.visibleMobil{display: none;}
+
+#descargas  .contbtndownlo div {
+ 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 117px;
+
+}
+
+#descargas  .contbtndownlo .btndownloadcap1 {
+  background-image: url(../img/home/btnimgnuestrone.png);
+  
+
+}
+
+#descargas  .contbtndownlo .btndownloadcap2 {
+  background-image: url(../img/home/btnimganaren.png);
+  
+
+}
+
+#descargas  .contbtndownlo .btndownloadcap3 {
+  background-image: url(../img/home/btnimglider.png);
+  
+
+}
+
+#descargas  .contbtndownlo .btndownloadcap4 {
+  background-image: url(../img/home/btnimgecosist.png);
+  
+
+}
+
+#descargas  .contbtndownlo .btndownloadcap5 {
+  background-image: url(../img/home/btnimghabilitado.png);
+  
+
+}
+
+#descargas  .contbtndownlo .btndownloadcap6 {
+  background-image: url(../img/home/btnimgvalorfinan.png);
+  
+
+}
+
+#descargas  .contbtndownlo .btndownloadcap7 {
+  background-image: url(../img/home/btnimgoportuni.png);
+  
+
+}
+
+#descargas  .contbtndownlo .btndownloadcap8 {
+  background-image: url(../img/home/btnimgvaloramb.png);
+  
+
+}
+
+#descargas  .contbtndownlo .btndownloadcap9 {
+  background-image: url(../img/home/btnimgvalorsoc.png);
+  
+
+}
+
+#descargas  .contbtndownlo .btndownloadcap10 {
+  background-image: url(../img/home/btnimggobcor.png);
+  
+
+}
+
+
+
+#descargas  .contbtndownlo p {
+  line-height: 20px;
+  margin-top: 15px;
+  text-transform: uppercase;
+  font-family: Bogle-Bold;
+
+
+}
+
+#descargas  .btndowninfor {
+  background-image: url(../img/home/btnimgportainforme.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 182px;
+    margin: 19px -1px;
+
+}
+
+#descargas  .btndowninfor .icocifra {
+  width: 50px;
+  display: block;
+  margin: auto;
+}
+
+#descargas  .btnprincipaldark {
+  display: inline-block;
+}
+
+
+#descargas  p.txtbold {
+  float: left;
+padding-top: 4px;
+margin-right: 8px;
+}
+
+#descargas  .contcopir  {
+  margin-top: 40px;
+  
+ 
+}
+
+
+#descargas  .contcopir p {
+  font-size: 11px;
+  margin-bottom: 0;
+ 
+}
+
+#descargas  .contcopir p:first-child {
+  float: left;
+ 
+}
+#descargas  .contcopir p:nth-child(2) {
+  float: right;
+ 
+}
 
 /*--------------------------------------------------------------
 # Footer
