@@ -1,7 +1,7 @@
 $(document).ready(function () {
     var owl = $('.owlconsilado');
     owl.owlCarousel({
-        items: 2,
+        items: 3,
         loop: true,
         margin: 2,
         autoplay: true,
