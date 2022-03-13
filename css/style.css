@@ -3911,10 +3911,7 @@ margin: auto;
 }
 
 #nuestronegocio14 .bgblueligh {
-  background-image: url(../img/nuestro-negocio/imgtxtregenerativa.svg);
-  background-size: cover;
-  background-position: 0 -30px;
-  background-repeat: no-repeat;
+
   height: 370px;
 }
 
@@ -6800,7 +6797,7 @@ height: 120px;
 .box__comunidad{margin-bottom: 30px;}
 .box__comunidad h3{font-size: 16px;line-height: 1.2;}
 .map__comunidades{padding: 10%;}
-.pontebien__comunidades{max-width: 350px; text-align: justify;margin-top: 15%;margin-bottom: 10%;}
+.pontebien__comunidades{max-width: 350px; margin-top: 15%;margin-bottom: 10%;}
 .padding__portadas{padding: 10%;}
 .font__24{font-size: 24px;line-height: 1.2;}
 .padding__5{padding-top: 3%;padding-bottom: 3%;}
@@ -6812,7 +6809,7 @@ height: 120px;
 .text__center{text-align: center;display: block;}
 .date__comunidades{padding-top: 60%;}
 .date__comunidades h3{color: #a6bdd1}
-.comunidades__box__circle{background-color: #fff;width: 500px;height: 500px;border-radius: 50%;padding: 45% 20px;}
+.comunidades__box__circle{background-color: #fff;width: 500px;height: 500px;border-radius: 50%;padding: 37% 20px;}
 .color__blue{color: #263b80;}
 .color__blue2{color: #60b3c3;}
 .color__blue3{color: #263b80;}
@@ -9175,6 +9172,64 @@ margin-right: 8px;
   float: right;
  
 }
+
+/*--------------------------------------------------------------
+# OPORTUNIDAD
+--------------------------------------------------------------*/
+
+#oportunidad4   {
+  padding-top: 3%;
+  padding-bottom: 3%;
+ 
+}
+
+
+#oportunidad4  .imgcifrasopo4 {
+  width: 220px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+ 
+}
+
+#oportunidad4  .imgfacesopo4 {
+ width: 45%;
+ display: inline-block;
+ 
+ height: auto;
+ 
+}
+
+#oportunidad5   {
+  padding-top: 3%;
+  padding-bottom: 3%;
+ 
+}
+
+
+#oportunidad5  .imgcifrasopo4 {
+  width: 220px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+ 
+}
+
+#oportunidad5  .imgfacesopo4 {
+ width: 45%;
+ display: inline-block;
+ 
+ height: auto;
+ 
+}
+
+#oportunidad7 {
+  padding-top: 3%;
+  padding-bottom: 3%;
+ 
+}
+
+
+
+
 
 /*--------------------------------------------------------------
 # Footer
