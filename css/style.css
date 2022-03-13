@@ -9370,7 +9370,7 @@ margin-right: 8px;
   background-position: center;
  
 }
-
+#sustentabilidad{background: #e18337;}
 
 
 
@@ -9559,7 +9559,7 @@ display: none;
 
 
   .slider-control.right,
-  .slider-control.left{top: -100px;}
+  .slider-control.left{top: -400px;}
     .text__large{font-size: 18px;}
     .text__xlarge{font-size: 24px;}
     /* COMUNIDADES */
@@ -9577,7 +9577,7 @@ display: none;
     #subportas .whitetxt{margin-bottom: 0;text-align: left;}
 
     .box__textHero img{width: 100%;height: auto;}
-    .bg__hero{height: 60vh;background-repeat: no-repeat;background-size: 1000px;padding-top: 60%;background-position: bottom right;}
+    .bg__hero{height: 640px;background-repeat: no-repeat;background-size: 1000px;padding-top: 60%;background-position: bottom right;}
     #dateHero{height: auto;}
     .datesHero strong{font-size: 20px;line-height: 42px;}
     .datesHero{padding: 20px 0}
@@ -9650,7 +9650,6 @@ display: none;
     #valorfinanciero5 p{padding-top: 40px;}
     a.btnprincipaldark{margin: auto;}
     #valorfinanciero11 .imgposi{bottom: 0;}
-    #sustentabilidad{background: #459931;}
 
 
 
@@ -9751,11 +9750,20 @@ display: none;
   #contbtnsigantcap p{font-size: 14px;}
   .visibleMobil{display: block;}
   .conteneng .btndowlo2{display: none;}
+  #oportunidad2 .whitetxt{margin-top: 0;}
+  #oportunidad6 .whitetxt{padding: 0 !important}
+  #oportunidad7 .blueswaltxt{margin-top: 15px;}
+  #oportunidad8 .whitetxt br {display: none;}
+  #oportunidad8 .whitetxt {padding: 15px;}
+  #oportunidad9 .blueswaltxt{padding-top: 15px;}
+
+
 }/*-END  MOBILE-*/  
 @media screen and (max-width: 400px){
   .box__textHero{padding: 10% 0;}
-  .bg__hero{height: 70vh;padding-top: 60%;background-size: 900px}
+  .bg__hero{height: 500px;padding-top: 60%;background-size: 900px}
   #valorfinanciero .bg__hero{background-size: 1000px;}
+  #oportunidad .bg__hero{background-position: -440px;}
 
 }
 @media screen and (max-width: 1000px) {
