@@ -9752,6 +9752,14 @@ display: none;
   #contbtnsigantcap p{font-size: 14px;}
   .visibleMobil{display: block;}
   .conteneng .btndowlo2{display: none;}
+  #oportunidad2 .whitetxt{margin-top: 0;}
+  #oportunidad6 .whitetxt{padding: 0 !important}
+  #oportunidad7 .blueswaltxt{margin-top: 15px;}
+  #oportunidad8 .whitetxt br {display: none;}
+  #oportunidad8 .whitetxt {padding: 15px;}
+  #oportunidad9 .blueswaltxt{padding-top: 15px;}
+
+
 }/*-END  MOBILE-*/  
 @media screen and (max-width: 400px){
   .box__textHero{padding: 10% 0;}
