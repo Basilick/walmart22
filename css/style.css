@@ -1346,25 +1346,27 @@ display: none;
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+#nuestronegocio{background: #3c8ebd;}
 
 .bg__hero{
   height: 87vh;
   background-position: top right;background-size: cover;background-repeat: no-repeat;
 }
 .box__textHero{padding: 20% 0;}
-.box__textHero img{height: 350px;}
+.box__textHero img{height: 300px;}
 #dateHero{
   height: 130px;
-  background: #287cc3;
 
 }
-.datesHero{padding-top: 15px;}
-.datesHero strong{font-family: Bogle-Bold;font-size: 46px;color: #fff;line-height: 56px;}
+.datesHero{padding-top: 20px;}
+.datesHero p{color: #fff;}
+.datesHero strong{font-family: Bogle-Bold;font-size: 32px;color: #fff;line-height: 56px;}
 .datesHero span{font-family: Bogle-Bold;font-size: 46px;color: #fff;line-height: 56px;}
 
 
 .box__descarga{background-color: #4A5B6D;height: 130px;}
 .box__descarga img{width: 80px;padding: 25px 0;position: relative;}
+.box__descarga a.btnprincipal{width: 100%;padding: 5px 10px;}
 .box__btn{padding: 40px 0;}
 
 #homesection1 {
@@ -5971,7 +5973,7 @@ align-items: flex-start;
   top: 29px;
   right: 17%;
 }
-
+#ecosistemas{background: #f2aa41;}
 #valorfinanciero2 .bgbluecentro {
   width: 160px;
   height: 160px;
@@ -7380,7 +7382,10 @@ height: 120px;
 #innovacion_02 #materialidad{position:relative;
     margin-top:10px;
 }
-
+#habilitadores{background: #3372b9;}
+#integridad{background-color: #bcbcbd;}
+#omnicanal{background: #2870b5;}
+#valorfinanciero{background: #104787;}
 @media(min-width:640px){
     }
     
@@ -7389,12 +7394,13 @@ height: 120px;
 #innovacion_02 #materialidad .text{position:absolute;left:5%;top:10%}
 #innovacion_02 #materialidad .text h2{font-weight:700}
 #innovacion_02 #materialidad .text span{font-size:5em;margin-left:5%}
-#innovacion_02 #materialidad .cont{display:flex;justify-content:center;align-items:center;margin-top:3%}@media(max-width:960px){
-    #innovacion_02 #materialidad .cont{flex-direction:column}}@media(max-width:640px){
-    #innovacion_02 #materialidad .cont{flex-direction:column}}
+#innovacion_02 #materialidad .cont{display:flex;justify-content:center;align-items:center;margin-top:3%}
+    #innovacion_02 #materialidad .cont{flex-direction:column}
+    #innovacion_02 #materialidad .cont{flex-direction:column}
+    .datesHero{padding-top: 10px;}
 
 
-
+}
 @media(max-width:1600px){
     #innovacion_02 #materialidad .sparked{
         width: 100%;
@@ -9379,6 +9385,8 @@ margin-right: 8px;
   #innovacion_02 #materialidad{background-size: cover;}
   #nuestronegocio14 h3{margin-top: 10%;}
   #nuestronegocio25 .odscontbtt a {width: 129px;height: 130px;}
+  .box__textHero img{height: 350px;}
+  .datesHero strong{font-size: 46px;}
 
 
 
@@ -9395,6 +9403,14 @@ margin-right: 8px;
 @media (max-width: 900px){
   .box__susten{min-height: 740px;}
   .odscontbtt a{width: 140px; height: 140px;}
+  .datesHero strong{font-size: 32px;}
+  .box__textHero img{width: 100%;height: auto;margin-top: 30vh;}
+  a.btnprincipal{padding: 5px;font-size: 16px;width: 100%;}
+  .box__descarga img{padding: 35px 0;width: 60px;}
+  .datesHero strong{font-size: 24px;}
+  .datesHero{padding-top: 20px;}
+  .slider-control.left,
+  .slider-control.right{top: -100px}
 
   /* ECOSISTEMAS */
   #ecosistemas0 .txtprinban{margin-top: 20%;width: 500px;}
@@ -9482,6 +9498,8 @@ margin-right: 8px;
   .slider-control.left,
   .slider-control.right{top: 300px;}
   #comunidades .slideprintext{min-height: 300px;}
+  .box__textHero img{margin-top: 0;}
+  #dateHero{height: auto;}
 
   /* COMUNIDADES */
   .bgComunidad02{height: auto;}
@@ -9543,7 +9561,7 @@ display: none;
 
 
   .slider-control.right,
-  .slider-control.left{top: 160px;}
+  .slider-control.left{top: -100px;}
     .text__large{font-size: 18px;}
     .text__xlarge{font-size: 24px;}
     /* COMUNIDADES */
@@ -9560,7 +9578,12 @@ display: none;
     .pontebien__comunidades{margin: 0;}
     #subportas .whitetxt{margin-bottom: 0;text-align: left;}
 
-    .box__textHero{width: 100%;height: auto;}
+    .box__textHero img{width: 100%;height: auto;}
+    .bg__hero{height: 60vh;background-repeat: no-repeat;background-size: 1000px;padding-top: 60%;background-position: bottom right;}
+    #dateHero{height: auto;}
+    .datesHero strong{font-size: 20px;line-height: 42px;}
+    .datesHero{padding: 20px 0}
+    #dateHero a.btnprincipal{width: 100%;}
 
     /* ECOSISTEMA */
     #ecosistema03 .box__02,
@@ -9629,6 +9652,7 @@ display: none;
     #valorfinanciero5 p{padding-top: 40px;}
     a.btnprincipaldark{margin: auto;}
     #valorfinanciero11 .imgposi{bottom: 0;}
+    #sustentabilidad{background: #459931;}
 
 
 
@@ -9730,7 +9754,12 @@ display: none;
   .visibleMobil{display: block;}
   .conteneng .btndowlo2{display: none;}
 }/*-END  MOBILE-*/  
+@media screen and (max-width: 400px){
+  .box__textHero{padding: 10% 0;}
+  .bg__hero{height: 70vh;padding-top: 60%;background-size: 900px}
+  #valorfinanciero .bg__hero{background-size: 1000px;}
 
+}
 @media screen and (max-width: 1000px) {
   .wow{
       animation-name: none !important;
