@@ -1349,10 +1349,10 @@ display: none;
 #nuestronegocio{background: #3c8ebd;}
 
 .bg__hero{
-  height: 87vh;
+  height: 630px;
   background-position: top right;background-size: cover;background-repeat: no-repeat;
 }
-.box__textHero{padding: 20% 0;}
+.box__textHero{padding: 16% 0;}
 .box__textHero img{height: 300px;}
 #dateHero{
   height: 130px;
