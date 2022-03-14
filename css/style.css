@@ -7170,6 +7170,9 @@ height: 120px;
   padding-top: 5%;
   padding-bottom: 5%;
 }
+ul.listDescargas{list-style: none;padding: 15px;margin-top: 20px;}
+ul.listDescargas li a{list-style: none;padding: 8px 0;display: block;}
+ul.listDescargas li a:hover{color: #f7b744}
 .linkBlock:hover{text-decoration: underline;text-decoration-color: #fff;}
 #ecosistema012  {
   background-image: url(../img/ecosistema/bgcashi_bait.png);
