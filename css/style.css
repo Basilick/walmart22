@@ -7424,7 +7424,7 @@ a.btnintegridad{font-size: 12px !important;
 .boxGanar2 p{color: #fff;}
 .boxGanar2 header{min-height: 200px;}
 .boxGanar2 footer{min-height: 280px;}
-.boxGanarOrange .bgbluesky{padding: 40px 15px;height: 205px;}
+.boxGanarOrange .bgbluesky{padding: 40px 15px;height: 205px; display: block;}
 .boxGanarOrange .bgbluesky p{color:#ffffff}
 
 .boxGanar h4{font-size: 16px;font-family: Bogle-Bold; color: #fff;}
