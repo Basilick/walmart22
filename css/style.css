@@ -7417,8 +7417,10 @@ a.btnintegridad{font-size: 12px !important;
 ----------*/
 
 #descuento1 .bgwhite{padding: 40px;}
+.boxGanarbg{background-size: cover;height: 205px;background-position: center;}
 .boxGanar{padding: 15px;min-height: 310px;}
-.boxGanar2{padding: 15px;color: #fff;}
+.boxGanar2{padding: 30px;color: #fff;}
+.boxGanar2 .text__large{font-size: 22px;}
 .boxGanar2 p{color: #fff;}
 .boxGanar2 header{min-height: 200px;}
 .boxGanar2 footer{min-height: 280px;}
@@ -8952,7 +8954,7 @@ margin-right: 8px;
   .slider-control.right{top: -100px}
   .boxGanarOrange .bgbluesky{padding: 20px 15px; height: 120px;}
   .boxGanarOrange .bgbluesky p{font-size: 12px;}
-  .boxGanar2 header{min-height: 300px;}
+  .boxGanar2 header{min-height: 400px;}
   .boxGanar2 footer{min-height: 400px;}
 
   /* ECOSISTEMAS */
@@ -9032,6 +9034,7 @@ margin-right: 8px;
   #nuestronegocio3 .icohandy{margin-top: 0;margin-left: 0;}
   #nuestronegocio3 .txthighlightup{padding: 0;}
   #nuestronegocio3 .icoyellcirbig{margin-left: 0;}
+  .boxGanarbg{height: 120px;}
 
 
 }
@@ -9046,6 +9049,8 @@ margin-right: 8px;
   #comunidades .slideprintext{min-height: 300px;}
   .box__textHero img{margin-top: 0;}
   #dateHero{height: auto;}
+  .boxGanar2 footer,
+  .boxGanar2 header{min-height: auto;}
 
   /* COMUNIDADES */
   .bgComunidad02{height: auto;}
