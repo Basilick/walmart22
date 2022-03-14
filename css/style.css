@@ -1347,7 +1347,9 @@ display: none;
 # Hero Section
 --------------------------------------------------------------*/
 #nuestronegocio{background: #3c8ebd;}
-
+.dateheronuestronegocio{margin-top:10px;}
+.datesFinanciero{margin-top: 10px;}
+.datesOportunidad{margin-top: 7px;}
 .bg__hero{
   height: 630px;
   background-position: top right;background-size: cover;background-repeat: no-repeat;
@@ -1358,7 +1360,7 @@ display: none;
   height: 130px;
 
 }
-.datesHero{padding-top: 20px;}
+.datesHero{padding-top: 10px;}
 .datesHero p{color: #fff;}
 .datesHero strong{font-family: Bogle-Bold;font-size: 32px;color: #fff;line-height: 56px;}
 .datesHero span{font-family: Bogle-Bold;font-size: 46px;color: #fff;line-height: 56px;}
@@ -7434,10 +7436,6 @@ a.btnintegridad{font-size: 12px !important;
 .boxGanar h4{font-size: 16px;font-family: Bogle-Bold; color: #fff;}
 .boxGanar p{color: #fff;}
 
-.datesHero{padding: 0;}
-#descuento1
-
-
 #sustentabilidad00 {
   height: 100vh;
   background-size: cover;
@@ -8917,7 +8915,8 @@ margin-right: 8px;
   background-position: center;
  
 }
-#sustentabilidad{background: #e18337;}
+#comunidades{background: #e07c36;}
+#sustentabilidad{background: #459930;}
 
 
 
