@@ -7304,6 +7304,23 @@ a.btnintegridad{font-size: 12px !important;
 #   SUSTENTABILIDAD 
 ---------------------------------------------------
 ----------*/
+
+#descuento1 .bgwhite{padding: 40px;}
+.boxGanar{padding: 15px;min-height: 310px;}
+.boxGanar2{padding: 15px;color: #fff;}
+.boxGanar2 p{color: #fff;}
+.boxGanar2 header{min-height: 200px;}
+.boxGanar2 footer{min-height: 280px;}
+.boxGanarOrange .bgbluesky{padding: 40px 15px;height: 205px;}
+.boxGanarOrange .bgbluesky p{color:#ffffff}
+
+.boxGanar h4{font-size: 16px;font-family: Bogle-Bold; color: #fff;}
+.boxGanar p{color: #fff;}
+
+.datesHero{padding: 0;}
+#descuento1
+
+
 #sustentabilidad00 {
   height: 100vh;
   background-size: cover;
@@ -8560,7 +8577,7 @@ margin-right: 8px;
 /*--------------------------------------------------------------
 # GANAR EN DESCUENTO
 --------------------------------------------------------------*/
-
+.orangeBox .datesHero{padding-top: 0;}
 #descuent0 {
   height: 620px;
   padding-top: 8%;
@@ -8822,6 +8839,10 @@ margin-right: 8px;
   .datesHero{padding-top: 20px;}
   .slider-control.left,
   .slider-control.right{top: -100px}
+  .boxGanarOrange .bgbluesky{padding: 20px 15px; height: 120px;}
+  .boxGanarOrange .bgbluesky p{font-size: 12px;}
+  .boxGanar2 header{min-height: 300px;}
+  .boxGanar2 footer{min-height: 400px;}
 
   /* ECOSISTEMAS */
   #ecosistemas0 .txtprinban{margin-top: 20%;width: 500px;}
@@ -8892,7 +8913,7 @@ margin-right: 8px;
 
 
 
-  #descuento1{padding-top: 0;}
+
 
   #nuestronegocio8 h4{margin-bottom: 30px;}
   #mensajedirs {padding-bottom: 30px;}
