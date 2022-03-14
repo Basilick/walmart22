@@ -4751,7 +4751,8 @@ height: 120px;
   overflow: hidden;
 
   padding-top: 0;
-  
+  margin-top: 3%;
+  margin-bottom: 3%;
   height: auto;
   
   
@@ -4791,6 +4792,79 @@ height: 120px;
 #omnicanal2 .imgicotiye {
   width: 40px;
   
+}
+
+#omnicanal2 .contdownh1 img {
+  width: 50px;
+  margin: 15px;
+  
+}
+
+#omnicanal2 .contdownh1:hover {
+  text-decoration: underline;
+  color: #FFFFFF;
+  
+}
+
+#omnicanal42 {
+  background-image: url(../img/omnicanal/img_paralax_01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center top;
+  background-attachment: fixed;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  
+}
+#omnicanal42 .paddingportadas {
+  padding: 6% 10% 0px;
+}
+#omnicanal42 h3 {
+  margin-top: 20px;
+}
+#omnicanal42 .imgicon {
+  width: 80px;
+  margin-right: 20px;
+}
+
+#omnicanal42 .imgcelphone {
+  width: 200px;
+  position: absolute;
+  bottom: 20px;
+}
+
+#omnicanal43 {
+  background-image: url(../img/omnicanal/img_paralax_04.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center top;
+  background-attachment: fixed;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  
+}
+#omnicanal43 .paddingportadas {
+  padding: 6% 10% 0px;
+}
+#omnicanal43 h3 {
+  margin-top: 20px;
+}
+#omnicanal43 .imgicon {
+  width: 80px;
+  margin-right: 20px;
+}
+
+#omnicanal43 .imgappondeman {
+  width: 200px;
+  position: absolute;
+  left: 176px;
+  top: 230px;
+}
+
+
+
+.bleftdot {
+  border-left: 1px solid #FFFFFF;
 }
 
 .txtnumsupbig {
@@ -5133,6 +5207,14 @@ height: 120px;
   
   
 }
+#omnicanal2 .bglettters{
+  background-image: url(../img/omnicanal/texdeco_tiendas-01.svg);
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+  
+}
 #omnicanal12 .conthilicircle {
  
   width: 190px;
@@ -5201,7 +5283,7 @@ height: 120px;
   overflow: hidden;
 
   padding-top: 3%;
-  padding-top: 3%;
+  padding-bottom: 3%;
   
   height: auto;
   
@@ -5478,6 +5560,14 @@ padding: 10px;
   height: 82px;
 }
 
+
+#omnicanal21 .imglastbtns{
+  width: 260px;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+}
+
 #omnicanal22 {
   overflow: hidden;
 
@@ -5578,15 +5668,36 @@ padding: 10px;
 
   padding-top: 3%;
   padding-bottom: 3%;
-  margin-top: 3%;
+  
   height: auto;
   
   
 }
 
+
+#omnicanal27 .txtnumberf27 {
+  font-size: 24px;
+  margin-bottom: 0px;
+  line-height: 26px;
+  font-family: Bogle-Black;
+  
+  
+}
+
+
+
 #omnicanal27 .icoslogos {
  
   width: 40px;
+  display: block;
+  margin: 10px auto 5px;
+
+  
+}
+
+#omnicanal27 .icoslogosdoble {
+ 
+  width: 88px;
   display: block;
   margin: 10px auto 5px;
 
