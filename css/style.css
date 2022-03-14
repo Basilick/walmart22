@@ -3973,6 +3973,14 @@ margin: auto;
  height: auto;
 }
 
+#nuestronegocio16  .btnreadmore {
+  
+  position: absolute;
+  right: 20px;
+
+ }
+
+
 #nuestronegocio16 .btnsvgsus:hover #btnsvgsusten .bgbtnsus {
 
   fill: #6aab1a !important;
@@ -7133,7 +7141,7 @@ height: 120px;
 .box__susten header{background-color: #7ac143;padding: 30px;height: 160px;}
 .box__susten footer{background-color: #ffffff;padding: 30px;}
 .box__susten h4, .box__susten h3, .box__susten h5{margin: 0;font-family: Bogle-Bold;}
-.box__susten h3{color: #a6bdd1}
+.box__susten h3{color: #263b80;}
 .box__susten img{margin-top: -2px;}
 
 #sustentabilidad03 .list{list-style: none;padding: 0;display: -webkit-box;}
