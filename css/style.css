@@ -7170,7 +7170,7 @@ height: 120px;
   padding-top: 5%;
   padding-bottom: 5%;
 }
-
+.linkBlock:hover{text-decoration: underline;text-decoration-color: #fff;}
 #ecosistema012  {
   background-image: url(../img/ecosistema/bgcashi_bait.png);
   background-size: cover;
