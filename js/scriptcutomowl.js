@@ -32,6 +32,39 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
+    var owl = $('.owlmexico33');
+    owl.owlCarousel({
+        items: 5,
+        loop: true,
+        margin: 2,
+        autoplay: true,
+        slideTransition: 'linear',
+        autoplayTimeout: 0,
+        autoplaySpeed: 10000,
+        autoplayHoverPause: false
+
+    });
+
+});
+//Alternate Direction
+$(document).ready(function () {
+    var owl = $('.owlmexico332');
+    owl.owlCarousel({
+        items: 5,
+        rtl: true,
+        loop: true,
+        margin: 2,
+        autoplay: true,
+        slideTransition: 'linear',
+        autoplayTimeout: 0,
+        autoplaySpeed: 10000,
+        autoplayHoverPause: false
+
+    });
+
+});
+
+$(document).ready(function () {
     var owl = $('.owlmexico');
     owl.owlCarousel({
         items: 4,
