@@ -620,8 +620,10 @@
           <img src="img/home/iconbtnplay.svg" alt="" class="imgbtnplay"> 
         </div>
 
-        <a href="" class="btnprincipalwhite btnvervideo" data-target="#video1"  data-toggle="modal"  data-src="video/Ostale/Ostale_esp.mp4" alt="Play">Ver video</a>
+       
 
+        <a href="" class="btnprincipalwhite btnvervideo" data-target="#video1"  data-toggle="modal"  
+        data-src="video/mensaje/vamos.mp4" alt="Play">Ver video</a>
         
 
       </div>
@@ -2016,7 +2018,7 @@
           <div class="row conbordott mx-0">
 
             <div class="col-12 col-lg-4 text-center">
-              <a href="">
+              <a href="ganar_descuento.html">
                 <img src="svg/ico-podiumyell.svg" alt="" class="icobtn">
                 <p class="txthighlightup bluelitxt">GANAR EN DESCUENTO</p>
               </a>
@@ -2024,7 +2026,7 @@
             </div>
 
             <div class="col-12 col-lg-4 text-center">
-              <a href="">
+              <a href="omnicanal.html">
                 <img src="svg/ico-onlinecellshopyell.svg" alt="" class="icobtn">
                 <p class="txthighlightup bluelitxt">ser líderes OMNICANAL</p>
               </a>
@@ -2032,7 +2034,7 @@
             </div>
 
             <div class="col-12 col-lg-4 text-center">
-              <a href="">
+              <a href="ecosistema.html">
                 <img src="svg/icono_ecosistema.svg" alt="" class="icobtn">
                 <p class="txthighlightup bluelitxt">ECOSISTEMA PREFERIDO</p>
               </a>
@@ -2049,7 +2051,7 @@
           </div>
 
           
-            <a href="" class="row conbordott2 mx-0">
+            <a href="habilitadores.html" class="row conbordott2 mx-0">
             <div class="col-12 col-lg-3 text-center">
               
                 <img src="svg/icono_clientstars.svg" alt="" class="icobtn">
@@ -2131,33 +2133,25 @@
 </section><!-- SIGUIENTE ANTERIOR -->
 
 
-
-   
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
+<!-- Modal Video 1 -->
+<div class="modal fade" id="video1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
-
-      
-      <div class="modal-body">
-
-       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>        
-        <!-- 16:9 aspect ratio -->
-
-
-  <video  controls id="myVideo2">
-    <source src="video/concepto_desktop.mp4" type="video/mp4">
-  </video>
-  
-
-        
-        
-      </div>
-
+      <div class="modal-body">        
+           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>        
+            <!-- 16:9 aspect ratio -->
+            <div class="embed-responsive embed-responsive-16by9">
+              <video controls="" autoplay="true" muted="true" id="myVideo2">
+                <source  type="video/mp4">
+                  
+              </video>
+            </div>                
+      </div>        
     </div>
   </div>
-</div> 
+</div>
 
 
 </main><!-- End #main -->
@@ -2937,39 +2931,43 @@ if($( window ).scrollTop() > 10){
     
     
     <script>
+
+
+
     $( document ).ready(function() {
       new WOW().init();
     });
     </script>
     
+    
     <script>
-    $(document).ready(function() {
+      $(document).ready(function() {
     
-      // Gets the video src from the data-src on each button
-      
-      var $videoSrc;  
-      $('.video-btn').click(function() {
-          $videoSrc = $(this).data( "src" );
-      });
-      console.log($videoSrc);
-      
-      // when the modal is opened autoplay it  
-      $('#myModal').on('shown.bs.modal', function (e) {
-          
-      // set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
-      $("#video").attr('src',$videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0" ); 
-      })
-        
-      
-      // stop playing the youtube video when I close the modal
-      $('#myModal').on('hide.bs.modal', function (e) {
-          // a poor man's stop video
-          $("#video").attr('src',$videoSrc); 
-      }) 
+    // Gets the video src from the data-src on each button
     
+    var $videoSrc;  
+    $('.btnvervideo').click(function() {
+        $videoSrc = $(this).data( "src" );
+    });
+    console.log($videoSrc);
+    
+    // when the modal is opened autoplay it  
+    $('#video1').on('shown.bs.modal', function (e) {
         
-      // document ready  
-      });
+    // set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
+    $("#myVideo2").attr('src',$videoSrc ); 
+    })
+      
+    
+    // stop playing the youtube video when I close the modal
+    $('#video1').on('hide.bs.modal', function (e) {
+        // a poor man's stop video
+        $("#myVideo2").attr('src',"_blank"); 
+    }) 
+  
+      
+    // document ready  
+    });
       
     </script>
 
