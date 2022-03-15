@@ -1,4 +1,37 @@
 $(document).ready(function () {
+    var owl = $('.owlresults');
+    owl.owlCarousel({
+        items: 4,
+        loop: true,
+        margin: 2,
+        autoplay: true,
+        slideTransition: 'linear',
+        autoplayTimeout: 0,
+        autoplaySpeed: 10000,
+        autoplayHoverPause: false
+
+    });
+
+});
+//Alternate Direction
+$(document).ready(function () {
+    var owl = $('.owlresults2');
+    owl.owlCarousel({
+        items: 4,
+        rtl: true,
+        loop: true,
+        margin: 2,
+        autoplay: true,
+        slideTransition: 'linear',
+        autoplayTimeout: 0,
+        autoplaySpeed: 10000,
+        autoplayHoverPause: false
+
+    });
+
+});
+
+$(document).ready(function () {
     var owl = $('.owlconsilado');
     owl.owlCarousel({
         items: 3,
