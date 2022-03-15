@@ -8704,7 +8704,8 @@ margin-right: 8px;
   padding-bottom: 4%;
 }
 
-
+.displayMovil{display: none;}
+.displayDesktop{display: block;}
 
 
 
@@ -9320,7 +9321,7 @@ display: none;
   #footer .btnprincipaldark{margin: auto;display: block;}
   #footer .btndowninfor{height: 200px;}
   #footer .contbtndownlo a{width: 100px;}
-  #contbtnsigantcap p{font-size: 14px;}
+  #contbtnsigantcap p{font-size: 12px;}
   .visibleMobil{display: block;}
   .conteneng .btndowlo2{display: none;}
   #oportunidad2 .whitetxt{margin-top: 0;}
@@ -9350,7 +9351,14 @@ display: none;
   .secondary-nav{margin-top: 13px;margin-right: 5px;}
   #hero .slide .slide__text{padding-top: 0;}
 
-
+.vimeo-wrapper {
+    height: 90vh;
+  }
+  .conspemt__video {
+    bottom: 20%;
+  }
+  .displayMovil{display: block;}
+  .displayDesktop{display: none;}
 
 }/*-END  MOBILE-*/  
 @media screen and (max-width: 400px){
@@ -9360,6 +9368,10 @@ display: none;
   #oportunidad .bg__hero{background-position: -440px;}
   #hero .txtnumbg{font-size: 28px;}
   .slider-container{height: 900px;}
+  .vimeo-wrapper,
+  .vimeo-wrapper iframe,
+  #homesection1{height: 100vh;min-height: 100vh;}
+
 
 
 
