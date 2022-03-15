@@ -6844,6 +6844,12 @@ bottom: -115px;
 
 
 @media (max-width: 545px) {
+
+  #valorfinanciero33 .imgbtndown {
+    width: 57%;
+    margin-top: 20px;
+    /* width: 90%; */
+}
   
   #valor_financiero_02 .cardvf__playbutton2 {
   
@@ -9383,7 +9389,3 @@ display: none;
   }
 }
 
-Toucan
-Arriba del límite de 100 palabras
-Estamos trabajando para aumentar este límite y mantener cortos los tiempos de descarga. Mientras tanto, trata de subrayar hasta 100 palabras al mismo tiempo para traducir.
-No mostrar otra vez
