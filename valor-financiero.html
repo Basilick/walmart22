@@ -63,7 +63,7 @@
       <a class="navbar-brand" href="index.html"><img src="svg/logotipo_menu_walmart_wh.svg" alt="Walmart" ></a>
 
       
-      <!-- <p class="f14txt txtinffi">Informe Financiero y ASG 2020</p> -->
+      <p class="txtinffi">Informe 2021</p>
 
      
     
@@ -408,7 +408,12 @@
                       <ul>
                         <li><a href="sustentabilidad.html?scrollTo=sustentabilidad01">
                           <p>
-                            &bull; Prioridades 2040 Y Avances
+                            &bull; Prioridades 2040 y Avances
+                          </p>
+                        </a></li>
+                        <li><a href="sustentabilidad.html?scrollTo=sustentabilidad01">
+                          <p>
+                            &bull; Cambio Climático
                           </p>
                         </a></li>
                         
@@ -417,7 +422,11 @@
                             &bull; Economía Circular 
                           </p>
                         </a> </li>
-                       
+                        <li><a href="sustentabilidad.html?scrollTo=sustentabilidad03" >
+                          <p>
+                            &bull; Capital Natural 
+                          </p>
+                        </a> </li>
                         
                       </ul>
                     </div>
@@ -460,7 +469,7 @@
                       <ul>
                         <li><a href="integridad.html?scrollTo=integri03">
                           <p>
-                            &bull; Ética Y Cumplimiento
+                            &bull; Ética y Cumplimiento
                           </p>
                         </a></li>
                         <li><a href="integridad.html?scrollTo=integridad5">
@@ -1629,7 +1638,7 @@ gran ventaja competitiva.
 
 
 
- <!-- Modal Video 1 -->
+<!-- Modal Video 1 -->
 <div class="modal fade" id="video1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
@@ -1639,10 +1648,13 @@ gran ventaja competitiva.
             </button>        
             <!-- 16:9 aspect ratio -->
             <div class="embed-responsive embed-responsive-16by9">
-              <video controls="" autoplay="true" muted="true" id="myVideo2">
-                <source  type="video/mp4">
-                  
-              </video>
+             
+                <video src="https://player.vimeo.com/progressive_redirect/playback/688224898/rendition/1080p?loc=external&signature=42a76b0a71fc6cdf838288af6d91c0c12abe8f173bbe9e4c06231cc231b9bc66" type="mp4" controls autoplay="true" muted="true" id="playthis">
+                  <!-- <source  type="video/mp4"> -->
+                    
+                </video>
+                
+             
             </div>                
       </div>        
     </div>
@@ -2035,37 +2047,12 @@ if($( window ).scrollTop() > 10){
     });
     </script>
     
+   
     <script>
-    $(document).ready(function() {
-    
-      // Gets the video src from the data-src on each button
-      
-      var $videoSrc;  
-      $('.video-btn').click(function() {
-          $videoSrc = $(this).data( "src" );
-      });
-      console.log($videoSrc);
-      
-      // when the modal is opened autoplay it  
-      $('#myModal').on('shown.bs.modal', function (e) {
-          
-      // set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
-      $("#video").attr('src',$videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0" ); 
-      })
-        
-      
-      // stop playing the youtube video when I close the modal
-      $('#myModal').on('hide.bs.modal', function (e) {
-          // a poor man's stop video
-          $("#video").attr('src',$videoSrc); 
-      }) 
-    
-        
-      // document ready  
-      });
-      
+      $('.close').click( function(){
+          document.querySelector('#playthis').pause();
+        });
     </script>
-
 
 
 
