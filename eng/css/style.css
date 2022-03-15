@@ -997,7 +997,7 @@ margin: 10px;
 .activemenu a {
  color: #ffffff;
  font-family:Bogle-Bold;
- border-left: 1px solid; 
+ border-right: 1px solid; 
 }
 
 
@@ -1644,7 +1644,6 @@ display: none;
 
 
 #hero .text-low {
-  text-transform: lowercase;
   line-height: 1;
 }
 
@@ -2749,6 +2748,7 @@ align-items: flex-start;
 }
 .chartBarsWrap.chartBarsHorizontal .chartBars {
   height: 200px;
+  margin-left: 30px;
 }
 .chartBarsWrap.chartBarsHorizontal .chartBars .bars {
   border: 0;
@@ -4758,6 +4758,7 @@ height: 120px;
   
   
 }
+#omnicanal2 .contdownh1{padding: 20px 0;}
 
 #omnicanal2 .paddingportadas{
 
@@ -5778,7 +5779,7 @@ padding: 10px;
 }
 
 #habilitadores24  {
-  background-image: url(../img/habilitadores/img_paralax_02.jpg);
+  /*background-image: url(../img/habilitadores/img_paralax_02.jpg);*/
   background-size: cover;
   background-repeat: no-repeat;
   background-position:center top;
@@ -5815,6 +5816,7 @@ padding: 10px;
   float: none;
   margin-left: 10px;
  padding-left: 0;
+ padding-top: 10px;
   
  }
 
@@ -5853,7 +5855,7 @@ padding-top: 10px;
 
  .continparall .listicons li img{
   width: 35px;
-  height: 55px;
+  height: 50px;
 float: left;
 margin-right: 15px;
   
@@ -6179,24 +6181,26 @@ align-items: flex-start;
  padding-top: 20px;
 
 }
-
+#valorfinanciero2 .img-fluid{
+  width: 80%;
+}
 #valorfinanciero2 .bgbluemex {
-  width: 160px;
-  height: 160px;
+  width: 140px;
+  height: 140px;
   text-align: center;
   border-radius: 100%;
   position: absolute;
-  top: 29px;
-  right: 17%;
+  top: 60px;
+  right: 30%;
 }
 #ecosistemas{background: #f2aa41;}
 #valorfinanciero2 .bgbluecentro {
-  width: 160px;
-  height: 160px;
+  width: 140px;
+  height: 140px;
   text-align: center;
   border-radius: 100%;
   position: absolute;
-  top: 345px;
+  top: 300px;
   right: 60%;
 }
 
@@ -6214,7 +6218,7 @@ align-items: flex-start;
 }
 
 #valorfinanciero2 .text-small {
-
+  font-size: 11px;
   margin-top: 10px;
   margin-bottom: 0;
 
@@ -6294,14 +6298,13 @@ align-items: flex-start;
 }
 
 
-
-
 #valorfinanciero3 {
   overflow: hidden;
   height: auto;
   padding-top: 5%;
   padding-bottom: 3%;
 }
+#valorfinanciero3 .yellowtxt{font-size: 42px !important;line-height: 1;}
 
 #valorfinanciero3 .imgicon{
   width: 80px;
@@ -6650,7 +6653,7 @@ align-items: flex-start;
 
   position: absolute;
   top: -8px;
-  left: 30px;
+  left: 15px;
    z-index: 2;
 }
 
@@ -6658,7 +6661,7 @@ align-items: flex-start;
   
   position: absolute;
   top: 47px;
-  left: 30px;
+  left: 10px;
    z-index: 2;
 
 }
@@ -6667,7 +6670,7 @@ align-items: flex-start;
   
   position: absolute;
   top: 86px;
-  left: 30px;
+  left: 10px;
    z-index: 2;
 
 }
@@ -6676,7 +6679,7 @@ align-items: flex-start;
   
   position: absolute;
   top: 127px;
-  left: 30px;
+  left: 10px;
    z-index: 2;
 
 }
@@ -6685,7 +6688,7 @@ align-items: flex-start;
 
   position: absolute;
   top: 166px;
-  left: 30px;
+  left: 10px;
    z-index: 2;
 
 }
@@ -6765,7 +6768,6 @@ bottom: -115px;
   margin-bottom: 15px;
 
 } 
-
 
 /*--------------------------------------------------------------
 # MOBILE
@@ -7051,11 +7053,11 @@ height: 120px;
 .padding__portadas{padding: 10%;}
 .font__24{font-size: 24px;line-height: 1.2;}
 .padding__5{padding-top: 3%;padding-bottom: 3%;}
+.padding__7{padding-top: 7%;padding-bottom: 7%;}
 .padding__10{padding-top: 10%;padding-bottom: 10%;}
 .padding__30{padding-top: 30%;padding-bottom: 30%;}
 .padding__60{padding-top: 60%;padding-bottom: 60%;}
 .padding__90{padding-top: 90%;padding-bottom: 90%;}
-.text__justify{text-align: justify;}
 .text__center{text-align: center;display: block;}
 .date__comunidades{padding-top: 60%;}
 .date__comunidades h3{color: #a6bdd1}
@@ -7175,7 +7177,7 @@ ul.listDescargas{list-style: none;padding: 15px;margin-top: 20px;}
 ul.listDescargas li a{list-style: none;padding: 8px 0;display: block;}
 ul.listDescargas li a:hover{color: #f7b744}
 .linkBlock:hover{text-decoration: underline;text-decoration-color: #fff;}
-#ecosistema012  {
+#ecosistema013  {
   background-image: url(../img/ecosistema/bgcashi_bait.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -7380,7 +7382,7 @@ height: 120px;
   height: fit-content;
 }
 
-
+.boxGanar .row .lineBox{border-right: 1px solid #fff;min-height: 100%;}
 #integridad0 .txtnumbg {
   font-family: Bogle-Bold;
   font-size: 46px;
@@ -7422,12 +7424,13 @@ a.btnintegridad{font-size: 12px !important;
 
 #descuento1 .bgwhite{padding: 40px;}
 .boxGanarbg{background-size: cover;height: 205px;background-position: center;}
-.boxGanar{padding: 15px;min-height: 310px;}
+.boxGanar{padding: 15px;min-height: 310px;border-right: 1px solid #fff; border-bottom: 1px solid #fff;}
 .boxGanar2{padding: 30px;color: #fff;}
 .boxGanar2 .text__large{font-size: 22px;}
 .boxGanar2 p{color: #fff;}
-.boxGanar2 header{min-height: 200px;}
-.boxGanar2 footer{min-height: 280px;}
+.boxGanar2 header{min-height: 180px;}
+.boxGanar2 footer{min-height: 300px;position: relative;}
+.boxGanar2 footer .linkBlock{position: absolute;width: 100%;bottom: 0;}
 .boxGanarOrange .bgbluesky{padding: 40px 15px;height: 205px; display: block;}
 .boxGanarOrange .bgbluesky p{color:#ffffff}
 
@@ -7494,7 +7497,7 @@ height: 120px;
   line-height: 58px;
 }
 #sustentabilidad00{background-color: #469a2e;}
-#sustentabilidad01{background-color: #5fc92b;}
+#sustentabilidad01{background-color: #3aad2c;}
 #sustentabilidad01 p{color: #fff;}
 #sustentabilidad01 .table__sustentabilidad{margin-top:  2rem;height: 120px; border: 1px solid #fff;padding: 10px;}
 #sustentabilidad01 .table__sustentabilidad2{margin-top:  2rem;height: 120px; border: 1px solid #fff;padding: 10px;border-left: 1px solid transparent;}
@@ -7507,7 +7510,7 @@ height: 120px;
 .box__susten h3{color: #263b80;}
 .box__susten img{margin-top: -2px;}
 
-#sustentabilidad03 .list{list-style: none;padding: 0;display: -webkit-box;}
+#sustentabilidad03 .list{list-style: none;padding: 0;display: -webkit-box;font-size: 14px;color: #4a5b6d;}
 #sustentabilidad03 .list svg{margin-left: 20px;}
 #sustentabilidad04 .box__sustentabilidad {list-style: none;padding: 24px;color: #fff;border-right: 1px solid #fff;border-bottom: 1px solid #fff;}
 #sustentabilidad04 .box__sustentabilidad p{color: #ffffff;}
@@ -7519,7 +7522,7 @@ height: 120px;
 #sustentabilidad04 .blueextra{background-color: #0078c9;}
 #sustentabilidad04 .orangeextra{background-color: #ff7400;}
 #sustentabilidad05 .greenextra,
-#sustentabilidad04 .greenextra{background-color: #5fc92b;}
+#sustentabilidad04 .greenextra{background-color: #3aad2c;}
 #sustentabilidad04 .purpleextra{background-color: #9b59cf;}
 #sustentabilidad05 .box__padding{padding:10px 30px;color: #fff;}
 #sustentabilidad05 h3{font-size: 14px;}
@@ -8716,6 +8719,11 @@ margin-right: 8px;
 .displayMovil{display: none;}
 .displayDesktop{display: block;}
 
+.dateGrafica{color: #4d5d6f;
+    position: absolute;
+    left: -30px;
+    font-size: 20px;font-size: 11px;
+    padding: 9px 0;}
 
 
 
@@ -9294,7 +9302,7 @@ display: none;
 
 
   #valorfinanciero12 h3{margin-top: 30px;}
-  #valorfinanciero2 .bgbluecentro{top: 175px}
+  #valorfinanciero2 .bgbluecentro{top: 240px;width: 120px;height: 120px;}
   #valorfinanciero0 .txtprinban{width: 300px;}
 
 
@@ -9359,6 +9367,34 @@ display: none;
   #hero .txtprinban{height: 160px;}
   .secondary-nav{margin-top: 13px;margin-right: 5px;}
   #hero .slide .slide__text{padding-top: 0;}
+  #valorfinanciero2 .bgbluemex{width: 120px;height: 120px;top: 60px;right: 10%;}
+  #valorfinanciero3 .chartBarsWrap .txtcifra7{left: 2%}
+#valorfinanciero3 .chartBarsWrap .txtcifra1{left: 26%}
+#valorfinanciero3 .chartBarsWrap .txtcifra8{left:  14%;}
+  #valorfinanciero3 .chartBarsWrap .txtcifra2{left: 38%;}
+  #valorfinanciero3 .chartBarsWrap .txtcifra3{left: 50%;}
+  #valorfinanciero3 .chartBarsWrap .txtcifra4{left: 63%;}
+  #valorfinanciero3 .chartBarsWrap .txtcifra5{left: 75%; }
+    #valorfinanciero3 .chartBarsWrap .txtcifra6{left: 86%;}
+    #valorfinanciero3 .txtsubtitl{margin-left: 0;}
+
+    .box__susten{min-height: auto;}
+    #sustentabilidad03 .list{font-size: 12px;}
+    #omnicanal27 .imgsstores {width: 100%; height: 300px;}
+    #omnicanal43, #omnicanal42{background-image: none;}
+    #omnicanal43 .imgappondeman{width: 180px;top: 100px;z-index: 3;}
+    .continparall .listicons li img{height: 30px;}
+#homesection2 span.yellowtxt,
+    #homesection2 .txthighlightup{font-size: 18px;}
+    #homesection2 .txtspan2{font-size: 24px;}
+    .slider-pagi{right: 6px;}
+    #hero .slide .slide__text .btnprincipal{width: 200px;background: rgba(0,0,0,.3);}
+    .slide__content div {margin-bottom: 15px;}
+    .marginTopValor{margin-top: 100px;}
+    #valorfinanciero2 .txtunderline{padding-left: 25%;}
+    .padding__7{padding-left: 3%;padding-right: 3%;}
+
+
 
 .vimeo-wrapper {
     height: 90vh;
