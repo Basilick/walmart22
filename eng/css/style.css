@@ -6294,6 +6294,8 @@ align-items: flex-start;
 }
 
 
+
+
 #valorfinanciero3 {
   overflow: hidden;
   height: auto;
@@ -6756,13 +6758,14 @@ bottom: -115px;
 
 #valorfinanciero12 .descararchive {
  
-  color: #000;
+  color: #2073cb;
   text-decoration: underline;
   display: block;
   margin-top: 30px;
   margin-bottom: 15px;
 
 } 
+
 
 /*--------------------------------------------------------------
 # MOBILE
