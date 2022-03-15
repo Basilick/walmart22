@@ -791,7 +791,7 @@ button:focus {
 
 
 .mega-menu .cont1submenu img {
-  width: 350px;
+  width: 275px;
   margin: 7% auto;
   display: block;
   
@@ -1221,7 +1221,6 @@ margin: 10px;
 .menucont .btndowlo {
 
   display: none;
-  
 }
 
 .mega-menu .menu-leftdiv {
@@ -1318,11 +1317,13 @@ margin: 10px;
 .mega-menu .cont1submenu {
   grid-column: 1;
   grid-row: 1 / 2;
+  display: flex;
+  position: relative;
 }
 
 
 .mega-menu .cont1submenu img {
-  width: 275px;
+  width: 200px;
   margin: 3%;
   display: block;
 }
@@ -1644,6 +1645,7 @@ display: none;
 
 #hero .text-low {
   text-transform: lowercase;
+  line-height: 1;
 }
 
 
@@ -2134,7 +2136,6 @@ bottom: 51px;
 }
 @media (max-width: 991px) {
   #hero .slide:nth-child(1) .slide__text {
-    background-color: rgba(233, 156, 126, 0.8);
   }
 }
 #hero .slide:nth-child(2) {
@@ -2149,7 +2150,6 @@ bottom: 51px;
 }
 @media (max-width: 991px) {
   #hero .slide:nth-child(2) .slide__text {
-    background-color: rgba(225, 204, 174, 0.8);
   }
 }
 #hero .slide:nth-child(3) {
@@ -2164,7 +2164,6 @@ bottom: 51px;
 }
 @media (max-width: 991px) {
   #hero .slide:nth-child(3) .slide__text {
-    background-color: rgba(173, 197, 205, 0.8);
   }
 }
 #hero .slide:nth-child(4) {
@@ -2252,7 +2251,6 @@ bottom: 51px;
 
 @media (max-width: 991px) {
   .slide:nth-child(4) .slide__text {
-    background-color: rgba(203, 198, 195, 0.8);
   }
 }
 .slide__content {
@@ -8907,8 +8905,15 @@ margin-right: 8px;
 }
 #comunidades{background: #e07c36;}
 #sustentabilidad{background: #459930;}
-
-
+#hero .slide .slide__bg {background-position: top right;}
+.btnDescargas{color: #297dc4;
+    text-transform: uppercase;
+    padding: 15px;
+    border: 1px solid #297dc4;
+    height: 50px;
+    bottom: 10px;
+    position: absolute;
+    right: 12%;}
 
 @media (min-width: 1200px) {
 
@@ -8953,6 +8958,18 @@ margin-right: 8px;
   .datesHero br{display: none;}
   .box__descarga,
   #dateHero{height: auto;}
+  .slide__bg{background-size: 1200px;background-repeat: no-repeat;background-position: top right;}
+  #hero{height: 770px;}
+  #hero .txtprinban{height: 300px;width: 100%;}
+  #hero .slide__text-link{width: 160px;display: block;font-size: 14px;}
+  #hero{height: 800px;}
+  #hero .conttxttitles{min-height: 280px;}
+  #hero .bncifras,
+  #hero .contdesca{height: 140px;top: 0;}
+  #hero .txtnumbg{font-size: 36px;}
+  .slideprintext{margin-top: 30px;}
+  #hero .slide .slide__text{padding-top: 50px;}
+  .conteneng .btndowlo2{margin-left: 40px;}
 
 
   /* ECOSISTEMAS */
@@ -9086,7 +9103,7 @@ display: none;
 
 #footer p {
   padding-right: 0;
-  margin: 15px 9px;
+  margin: 15px 0;
 }  
 
 #footer p.bleft {
@@ -9307,6 +9324,25 @@ display: none;
   #oportunidad9 .blueswaltxt{padding-top: 15px;}
   .datesHero br{display: none;}
   .dateheronuestronegocio{margin-top: 0;}
+  .box__btn{padding: 38px 0;}
+  #hero .txtprinban{width: 100%;}
+  .slide__bg{background-size: 1000px;background-position: top right;background-repeat: no-repeat;}
+  a.btnprincipal{width: 240px;}
+  #hero{height: 750px;}
+  #hero .btnprincipal{margin-top: 0;}
+  .slider-control.right, .slider-control.left{top: 30px}
+  #hero .conttxttitles{min-height: 380px;}
+  #hero .contdesca{height: 230px; width: 50%;display: block;text-align: center;padding: 15px;}
+  #hero .bncifras{height: 230px; width: 50%;padding: 15px;font-size: 32px;line-height: 1;top: 0;display: inline-block;}
+  #hero .txtnumbg{font-size: 32px;line-height: 1;}
+  #hero .btnprincipal {width: 180px;font-size: 14px;}
+  #hero .conttxttitles{min-height: 400px;}
+  .slide__text-link{margin-top: 20px !important;}
+  .slide__text{top: 250px;padding: 0}
+  #hero .txtprinban{height: 160px;}
+  .secondary-nav{margin-top: 13px;margin-right: 5px;}
+  #hero .slide .slide__text{padding-top: 30px;}
+
 
 
 }/*-END  MOBILE-*/  
@@ -9315,6 +9351,10 @@ display: none;
   .bg__hero{height: 500px;padding-top: 60%;background-size: 900px}
   #valorfinanciero .bg__hero{background-size: 1000px;}
   #oportunidad .bg__hero{background-position: -440px;}
+  #hero .txtnumbg{font-size: 28px;}
+  .slider-container{height: 900px;}
+
+
 
 }
 @media screen and (max-width: 1000px) {
