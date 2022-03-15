@@ -6932,10 +6932,7 @@ bottom: -115px;
 # COMUNIDADES 
 ---------------------------------------------------
 ----------*/
-#comunidades {
-  
-  height: 100vh;
-  
+#comunidades {  
   background-size: cover;
   background-color:#e07435;
   
@@ -6948,12 +6945,6 @@ bottom: -115px;
   
 }
 
-
-#comunidades  {
-  background-image: url(../img/home/slidebgprin1.jpg);
-  background-size: cover;
-  height: 100vh;
- }
 
 #comunidades  .vh100 {
   
@@ -7785,7 +7776,6 @@ height: 120px;
   .contodsvine{height: 60px;}
   .date__comunidades{padding-top: 20%;}
   .comunidades__box__circle{padding: 25% 20px;margin: auto;}
-  #comunidades, #comunidades .vh100{height: 430px;}
   #subportas{padding-top: 10%;}
   #comunidades br{display: none;}
   #comunidades .slideprintext{min-height: 200px;}
@@ -8948,17 +8938,22 @@ margin-right: 8px;
   .box__susten{min-height: 740px;}
   .odscontbtt a{width: 140px; height: 140px;}
   .datesHero strong{font-size: 32px;}
-  .box__textHero img{width: 100%;height: auto;margin-top: 30vh;}
+  .box__textHero img{width: 100%;height: auto;margin-top: 100px;}
   a.btnprincipal{padding: 5px;font-size: 16px;width: 100%;}
   .box__descarga img{padding: 35px 0;width: 60px;}
   .datesHero strong{font-size: 24px;}
-  .datesHero{padding-top: 20px;}
   .slider-control.left,
-  .slider-control.right{top: -100px}
+  .slider-control.right{top: -600px}
   .boxGanarOrange .bgbluesky{padding: 20px 15px; height: 120px;}
   .boxGanarOrange .bgbluesky p{font-size: 12px;}
   .boxGanar2 header{min-height: 400px;}
   .boxGanar2 footer{min-height: 400px;}
+  .datesHero{padding-top: 0;}
+  .box__btn{padding: 25px 0;}
+  .datesHero br{display: none;}
+  .box__descarga,
+  #dateHero{height: auto;}
+
 
   /* ECOSISTEMAS */
   #ecosistemas0 .txtprinban{margin-top: 20%;width: 500px;}
@@ -9058,7 +9053,6 @@ margin-right: 8px;
   /* COMUNIDADES */
   .bgComunidad02{height: auto;}
   #comunidades .txtprinban{width: 400px;margin-top: 10%;}
-  #comunidades, #comunidades .vh100{height: 100vh;}
 
 
 
@@ -9125,7 +9119,6 @@ display: none;
     .bgComunidad02{height: auto;}
     .slide__text-link{margin: 10px auto;}
     #comunidades .txtprinban{width: 200px;}
-    #comunidades, #comunidades .vh100{height: 30vh;}
     #comunidades4 .col-md-7{margin:0 15px;}
     .box__head__comunidades{padding: 15px 0;}
     #subportas{padding-top: 15px;}
@@ -9135,7 +9128,7 @@ display: none;
     .box__textHero img{width: 100%;height: auto;}
     .bg__hero{height: 640px;background-repeat: no-repeat;background-size: 1000px;padding-top: 60%;background-position: bottom right;}
     #dateHero{height: auto;}
-    .datesHero strong{font-size: 20px;line-height: 42px;}
+    .datesHero strong{font-size: 20px;line-height: 1;}
     .datesHero{padding: 20px 0}
     #dateHero a.btnprincipal{width: 100%;}
 
@@ -9312,6 +9305,8 @@ display: none;
   #oportunidad8 .whitetxt br {display: none;}
   #oportunidad8 .whitetxt {padding: 15px;}
   #oportunidad9 .blueswaltxt{padding-top: 15px;}
+  .datesHero br{display: none;}
+  .dateheronuestronegocio{margin-top: 0;}
 
 
 }/*-END  MOBILE-*/  
