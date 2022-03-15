@@ -1361,10 +1361,10 @@ display: none;
   height: 130px;
 
 }
-.datesHero{padding-top: 10px;}
+.datesHero{padding-top: 25px;}
 .datesHero p{color: #fff;}
-.datesHero strong{font-family: Bogle-Bold;font-size: 32px;color: #fff;line-height: 56px;}
-.datesHero span{font-family: Bogle-Bold;font-size: 46px;color: #fff;line-height: 56px;}
+.datesHero strong{font-family: Bogle-Bold;font-size: 32px;color: #fff;line-height: 40px;}
+.datesHero span{font-family: Bogle-Bold;font-size: 46px;color: #fff;line-height: 40px;}
 
 
 .box__descarga{background-color: #4A5B6D;height: 130px;}
@@ -8680,7 +8680,7 @@ margin-right: 8px;
 /*--------------------------------------------------------------
 # GANAR EN DESCUENTO
 --------------------------------------------------------------*/
-.orangeBox .datesHero{padding-top: 0;}
+.orangeBox .datesHero{padding-top: 25px;}
 #descuent0 {
   height: 620px;
   padding-top: 8%;
@@ -8925,7 +8925,7 @@ margin-right: 8px;
   #nuestronegocio14 h3{margin-top: 10%;}
   #nuestronegocio25 .odscontbtt a {width: 129px;height: 130px;}
   .box__textHero img{height: 350px;}
-  .datesHero strong{font-size: 46px;}
+  .datesHero strong{font-size: 40px;}
 
 
 
@@ -8953,7 +8953,7 @@ margin-right: 8px;
   .boxGanarOrange .bgbluesky p{font-size: 12px;}
   .boxGanar2 header{min-height: 400px;}
   .boxGanar2 footer{min-height: 400px;}
-  .datesHero{padding-top: 0;}
+  .datesHero{padding-top: 10px;}
   .box__btn{padding: 25px 0;}
   .datesHero br{display: none;}
   .box__descarga,
