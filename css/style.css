@@ -9,7 +9,7 @@
   font-family: Bogle-Regular;
   font-style: normal;
   font-weight: normal;
-	src: url('../fonts/bogle-regular.woff2') format("opentype");
+  src: url('../fonts/bogle-regular.woff2') format("opentype");
 }
 
 
@@ -17,7 +17,7 @@
   font-family: Bogle-Regulari;
   font-style: normal;
   font-weight: normal;
-	src: url('../fonts/bogle-regularitalic.woff2') format("opentype");
+  src: url('../fonts/bogle-regularitalic.woff2') format("opentype");
 }
 
 
@@ -25,7 +25,7 @@
   font-family: Bogle-Bold;
   font-style: normal;
   font-weight: normal;
-	src: url('../fonts/bogle-bold.woff2') format("opentype");
+  src: url('../fonts/bogle-bold.woff2') format("opentype");
 }
 
 
@@ -33,7 +33,7 @@
   font-family: Bogle-Boldi;
   font-style: normal;
   font-weight: normal;
-	src: url('../fonts/bogle-bolditalic.woff2') format("opentype");
+  src: url('../fonts/bogle-bolditalic.woff2') format("opentype");
 }
 
 
@@ -41,7 +41,7 @@
   font-family: Bogle-Black;
   font-style: normal;
   font-weight: normal;
-	src: url('../fonts/bogle-black.woff2') format("opentype");
+  src: url('../fonts/bogle-black.woff2') format("opentype");
 }
 
 
@@ -49,7 +49,7 @@
   font-family: Bogle-Blacki;
   font-style: normal;
   font-weight: normal;
-	src: url('../fonts/bogle-blackitalic.woff2') format("opentype");
+  src: url('../fonts/bogle-blackitalic.woff2') format("opentype");
 }
 
 
@@ -57,7 +57,7 @@
   font-family: Bogle-Light;
   font-style: normal;
   font-weight: normal;
-	src: url('../fonts/bogle-light.woff2') format("opentype");
+  src: url('../fonts/bogle-light.woff2') format("opentype");
 }
 
 
@@ -66,7 +66,7 @@
   font-family: Bogle-Thin;
   font-style: normal;
   font-weight: normal;
-	src: url('../fonts/bogle-thin.woff2') format("opentype");
+  src: url('../fonts/bogle-thin.woff2') format("opentype");
 }
 
 
@@ -1361,10 +1361,10 @@ display: none;
   height: 130px;
 
 }
-.datesHero{padding-top: 10px;}
+.datesHero{padding-top: 25px;}
 .datesHero p{color: #fff;}
-.datesHero strong{font-family: Bogle-Bold;font-size: 32px;color: #fff;line-height: 56px;}
-.datesHero span{font-family: Bogle-Bold;font-size: 46px;color: #fff;line-height: 56px;}
+.datesHero strong{font-family: Bogle-Bold;font-size: 32px;color: #fff;line-height: 40px;}
+.datesHero span{font-family: Bogle-Bold;font-size: 46px;color: #fff;line-height: 40px;}
 
 
 .box__descarga{background-color: #4A5B6D;height: 130px;}
@@ -1660,7 +1660,7 @@ display: none;
 
 #hero .imgdowninf {
   width: 80px;
-    height: fit-content;
+    height: 80px;
 }
 
 
@@ -1840,7 +1840,7 @@ bottom: 51px;
   border-radius: inherit;
   transition: opacity .3s, transform .3s;
   animation: pulse-animation 2s cubic-bezier(0.24, 0, 0.38, 1) infinite;
-	z-index: -1;
+  z-index: -1;
 }
 
 
@@ -3071,7 +3071,7 @@ font-size: 12px;
   border-radius: inherit;
   transition: opacity .3s, transform .3s;
   animation: pulse-animation 2s cubic-bezier(0.24, 0, 0.38, 1) infinite;
-	z-index: -1;
+  z-index: -1;
 }
 
 
@@ -7583,7 +7583,7 @@ height: 120px;
   
   @media(max-width:640px){
     #innovacion_02 #filters a{display:block}}
-#innovacion_02 #filters a:hover{background-color:#ffc222;color:¢ #00539b;text-decoration:none}
+#innovacion_02 #filters a:hover{background-color:#ffc222;color:Â¢ #00539b;text-decoration:none}
 
 
 #innovacion_02 input[type=checkbox] {
@@ -8680,7 +8680,7 @@ margin-right: 8px;
 /*--------------------------------------------------------------
 # GANAR EN DESCUENTO
 --------------------------------------------------------------*/
-.orangeBox .datesHero{padding-top: 0;}
+.orangeBox .datesHero{padding-top: 25px;}
 #descuent0 {
   height: 620px;
   padding-top: 8%;
@@ -8906,14 +8906,7 @@ margin-right: 8px;
 #comunidades{background: #e07c36;}
 #sustentabilidad{background: #459930;}
 #hero .slide .slide__bg {background-position: top right;}
-.btnDescargas{color: #297dc4;
-    text-transform: uppercase;
-    padding: 15px;
-    border: 1px solid #297dc4;
-    height: 50px;
-    bottom: 10px;
-    position: absolute;
-    right: 12%;}
+
 
 @media (min-width: 1200px) {
 
@@ -8925,17 +8918,18 @@ margin-right: 8px;
   #nuestronegocio14 h3{margin-top: 10%;}
   #nuestronegocio25 .odscontbtt a {width: 129px;height: 130px;}
   .box__textHero img{height: 350px;}
-  .datesHero strong{font-size: 46px;}
+  .datesHero strong{font-size: 40px;}
 
 
 
 }
 
 
-
+.btnDescargas{display: none;}
 @media (min-width: 992px) {
   #innovacion_02 #materialidad{background-size: cover;}
   #nuestronegocio20{height: auto;}
+
   
 }
 
@@ -8953,7 +8947,7 @@ margin-right: 8px;
   .boxGanarOrange .bgbluesky p{font-size: 12px;}
   .boxGanar2 header{min-height: 400px;}
   .boxGanar2 footer{min-height: 400px;}
-  .datesHero{padding-top: 0;}
+  .datesHero{padding-top: 10px;}
   .box__btn{padding: 25px 0;}
   .datesHero br{display: none;}
   .box__descarga,
@@ -9052,10 +9046,13 @@ margin-right: 8px;
   .boxGanarbg{height: 120px;}
 
 
+
+
 }
 
 
 @media (max-width: 767px){
+  .btnDescargas{display: none;}
   .date__comunidades{padding-top: 5%;}
   .comunidades__box__circle{margin: auto;padding: 30% 20px}
   #footer .contbtndownlo{grid-template-columns:1fr 1fr 1fr 1fr;}
@@ -9123,7 +9120,17 @@ display: none;
   #homesection2{height: auto;}
   #homesection2 .txthighlightup{margin-top: 0;}
 
-
+  .btnDescargas {
+    color: #297dc4;
+    text-transform: uppercase;
+    padding: 15px;
+    border: 1px solid #297dc4;
+    height: 50px;
+    bottom: 10px;
+    display: block;
+    position: absolute;
+    right: 12%;
+}
 
   .slider-control.right,
   .slider-control.left{top: -400px;}
@@ -9341,7 +9348,7 @@ display: none;
   .slide__text{top: 250px;padding: 0}
   #hero .txtprinban{height: 160px;}
   .secondary-nav{margin-top: 13px;margin-right: 5px;}
-  #hero .slide .slide__text{padding-top: 30px;}
+  #hero .slide .slide__text{padding-top: 0;}
 
 
 
@@ -9364,3 +9371,7 @@ display: none;
   }
 }
 
+Toucan
+Arriba del límite de 100 palabras
+Estamos trabajando para aumentar este límite y mantener cortos los tiempos de descarga. Mientras tanto, trata de subrayar hasta 100 palabras al mismo tiempo para traducir.
+No mostrar otra vez
