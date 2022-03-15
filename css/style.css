@@ -9338,7 +9338,7 @@ display: none;
   a.btnprincipal{width: 240px;}
   #hero{height: 750px;}
   #hero .btnprincipal{margin-top: 0;}
-  .slider-control.right, .slider-control.left{top: 30px}
+  .sliderHome .slider-control.right, .sliderHome .slider-control.left{top: 30px}
   #hero .conttxttitles{min-height: 380px;}
   #hero .contdesca{height: 230px; width: 50%;display: block;text-align: center;padding: 15px;}
   #hero .bncifras{height: 230px; width: 50%;padding: 15px;font-size: 32px;line-height: 1;top: 0;display: inline-block;}
