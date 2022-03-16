@@ -6190,6 +6190,7 @@ align-items: flex-start;
 
 }
 
+
 #valorfinanciero2 .txtvinetas {
 
  padding-top: 20px;
@@ -6475,7 +6476,7 @@ align-items: flex-start;
 #valorfinanciero33 .owl-carousel .owl-item img {
   display: block;
   width: 100%;
-  max-height: 58px;
+  max-height: 66px;
 }
 
 #valorfinanciero33 .imgbtndown {
@@ -8318,6 +8319,19 @@ height: 120px;
   margin-top: 18px;
 }
 
+
+#omnicanal2 .bglettters{
+ 
+  padding-bottom: 80px;
+  
+}
+
+#omnicanal42 .imgcelphone {
+  width: 144px;
+  bottom: 114px;
+  right: 20px;
+}
+
 }/*-END  MOBILE-*/
 
 
@@ -8456,6 +8470,15 @@ height: 120px;
 
 
 @media (max-width: 450px) {
+
+  #habilitadores23 {
+    background-image: none;
+    background-color: #FFFFFF;
+}
+#habilitadores25 {
+  background-image: none;
+  background-color: #FFFFFF;
+}
   
   #odsinfos {
     margin-left: 0;
@@ -8475,7 +8498,15 @@ height: 120px;
 #valorcomp2 .btndownods .fa-file-pdf {
   margin-left: 5px;
 }
- 
+
+#ecosistema01 {
+  background-image: none;
+  
+}
+
+#ecosistema013 {
+  background-image: none;
+}
 
 
 }/*-END  MOBILE-*/
@@ -8768,6 +8799,18 @@ margin-right: 8px;
  
 }
 
+.imgCenter{display: block;margin: 10px auto;}
+#oportunidad7 .chartBars .colorMexico{color: #13539b}
+#oportunidad7 .chartBars .colorCentroamerica{color: #6fccdd}
+#oportunidad7 .chartBars .colorconsolidado{color: #a6bdd1}
+#oportunidad7 .chartBarsWrap.chartBarsHorizontal{padding: 0 15px;}
+#oportunidad7 .chartBars .bars li .whiteBarFlat{border: 1px solid #a6bdd1;;}
+#oportunidad7 .chartBarsWrap.chartBarsHorizontal .mexico{background: #13539b;}
+#oportunidad7 .chartBarsWrap.chartBarsHorizontal .cetroamerica1{background: #6fccdd;}
+#oportunidad7 .chartBarsWrap.chartBarsHorizontal .consolidado{background: #a6bdd1;}
+#oportunidad7 .chartBarsWrap.chartBarsHorizontal .txtcifra1{position: absolute;top: 10px;z-index: 3;left: 30px}
+#oportunidad7 .chartBarsWrap.chartBarsHorizontal .txtcifra2{position: absolute;top: 90px;z-index: 3;left: 30px}
+#oportunidad7 .chartBarsWrap.chartBarsHorizontal .txtcifra3{position: absolute;top: 150px;z-index: 3;left: 30px}
 /*--------------------------------------------------------------
 # GANAR EN DESCUENTO
 --------------------------------------------------------------*/
@@ -9292,6 +9335,11 @@ display: none;
     #sustentabilidad03 .col-md-2{margin-left: 15px;}
     #sustentabilidad04 .box__sustentabilidad{padding: 15px;}
 
+    #valorfinanciero2 .bgbluecentro {
+      top: 240px;
+      width: 120px;
+      height: 120px;
+  }
 
     /* OMNICANAL*/
     #omnicanal13 .bgblueturque,
@@ -9462,7 +9510,14 @@ display: none;
     #omnicanal27 .imgsstores {width: 100%; height: 300px;}
     #omnicanal43, #omnicanal42{background-image: none;}
     #omnicanal43 .imgappondeman{width: 180px;top: 100px;z-index: 3;}
-    .continparall .listicons li img{height: 30px;}
+    .continparall .listicons li img{height: 30px;
+    
+    }
+
+    .continparall .listicons li:nth-child(2) img{height: 48px;
+    
+    }
+
 #homesection2 span.yellowtxt,
     #homesection2 .txthighlightup{font-size: 18px;}
     #homesection2 .txtspan2{font-size: 24px;}
@@ -9484,7 +9539,7 @@ display: none;
 
 
 .vimeo-wrapper {
-    height: 90vh;
+    height: 100vh;
   }
   .conspemt__video {
     bottom: 20%;
