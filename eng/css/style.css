@@ -3861,7 +3861,7 @@ margin: auto;
 
   display: block;
   margin-top: 25px;
-  margin-left: 40px;
+  margin-left: 25px;
 
 }
 
@@ -6849,6 +6849,11 @@ bottom: -115px;
 
 
 @media (max-width: 545px) {
+
+  #nuestronegocio15 .conthiglbig h4 {
+    font-size: 20px;
+    line-height: 1.5em;
+}
 
   #mensajedirs .txtname1 {
    top: 65%;
