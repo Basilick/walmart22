@@ -1637,9 +1637,9 @@ display: none;
 }
 #hero .txtnumbg {
   font-family: Bogle-Bold;
-  font-size: 46px;
-  margin-bottom: 0;
-  line-height: 52px;
+  font-size: 41px;
+  margin-bottom: 7px;
+  line-height: 33px;
 }
 
 
@@ -9388,16 +9388,19 @@ display: none;
     #homesection2 .txthighlightup{font-size: 18px;}
     #homesection2 .txtspan2{font-size: 24px;}
     .slider-pagi{right: 6px;}
-    #hero .slide .slide__text .btnprincipal{width: 200px;background: rgba(0,0,0,.3);}
+    #hero .slide .slide__text .btnprincipal{width: 200px;background: rgba(0,0,0,.3);position: fixed; bottom: 80px;height: 33px;left: 15px;}
     .slide__content div {margin-bottom: 15px;}
     .marginTopValor{margin-top: 100px;}
     #valorfinanciero2 .txtunderline{padding-left: 25%;}
     .padding__7{padding-left: 3%;padding-right: 3%;}
+    .boxGanar2 footer .linkBlock{position: relative;}
+    #mensajedirs .txtname2{left: 52%;}
+    #mensajedirs .txtname1{left: 4%;}
 
 
 
 .vimeo-wrapper {
-    height: 90vh;
+    height: 100vh;
   }
   .conspemt__video {
     bottom: 20%;
