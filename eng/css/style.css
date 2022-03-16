@@ -3962,12 +3962,25 @@ margin: auto;
  height: auto;
 }
 
+#nuestronegocio16 #vectempresareg {
+  display: block;
+}
+
+#nuestronegocio16 .imgmobrege {
+  display: none;
+}
+
 #nuestronegocio16  .btnreadmore {
-  
+  display: block;
   position: absolute;
   right: 20px;
 
  }
+
+ #nuestronegocio16  .btnreadmore2 {
+  display: none;
+
+ } 
 
 
 #nuestronegocio16 .btnsvgsus:hover #btnsvgsusten .bgbtnsus {
@@ -6849,6 +6862,32 @@ bottom: -115px;
 
 
 @media (max-width: 545px) {
+
+  #nuestronegocio16 {
+    background-color: #2073CB;
+    margin-top: 0;
+  }
+
+
+  #nuestronegocio16 .btnreadmore {
+    display:none;
+   
+  }
+
+  #nuestronegocio16 .btnreadmore2 {
+    display:block;
+    margin: auto;
+   margin-bottom: 20px;
+  }
+
+  #nuestronegocio16 #vectempresareg {
+    display: none;
+  }
+  #nuestronegocio16 .imgmobrege {
+    display: block;
+  }
+
+  
 
   #nuestronegocio15 .conthiglbig h4 {
     font-size: 20px;
