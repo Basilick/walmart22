@@ -997,7 +997,7 @@ margin: 10px;
 .activemenu a {
  color: #ffffff;
  font-family:Bogle-Bold;
- border-right: 1px solid; 
+ border-left: 1px solid; 
 }
 
 
@@ -1637,14 +1637,14 @@ display: none;
 }
 #hero .txtnumbg {
   font-family: Bogle-Bold;
-  font-size: 46px;
-  margin-bottom: 0;
-  line-height: 52px;
+  font-size: 41px;
+  margin-bottom: 7px;
+  line-height: 33px;
 }
 
 
 #hero .text-low {
-  line-height: 1;
+  line-height: 18px;
 }
 
 
@@ -3861,7 +3861,7 @@ margin: auto;
 
   display: block;
   margin-top: 25px;
-  margin-left: 40px;
+  margin-left: 25px;
 
 }
 
@@ -6850,6 +6850,23 @@ bottom: -115px;
 
 @media (max-width: 545px) {
 
+  #nuestronegocio15 .conthiglbig h4 {
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+  #mensajedirs .txtname1 {
+   top: 65%;
+    left: 4%;
+  
+  }
+  #mensajedirs .txtname2 {
+    top: 65%;
+    left: 52%;
+  
+  }
+  
+
   #valorfinanciero33 .imgbtndown {
     width: 57%;
     margin-top: 20px;
@@ -9388,7 +9405,15 @@ display: none;
     #homesection2 .txthighlightup{font-size: 18px;}
     #homesection2 .txtspan2{font-size: 24px;}
     .slider-pagi{right: 6px;}
-    #hero .slide .slide__text .btnprincipal{width: 200px;background: rgba(0,0,0,.3);}
+
+    #hero .slide .slide__text .btnprincipal{
+      position: fixed;
+      bottom: 80px;
+      left: 15px;
+      height: 33px;
+      width: 200px;
+      background: rgba(0,0,0,.3);
+    }
     .slide__content div {margin-bottom: 15px;}
     .marginTopValor{margin-top: 100px;}
     #valorfinanciero2 .txtunderline{padding-left: 25%;}
