@@ -2986,6 +2986,7 @@ li.creativity .piesite > #slice > .pie {
 /*--------------------------------------------------------------
 # SECCION Ver video
 --------------------------------------------------------------*/
+#oportunidad{background: #629fcb;}
 
 .modal-dialog {
   max-width: 800px;
@@ -7715,8 +7716,12 @@ height: 120px;
 
 #innovacion_02 .filters2 {
   margin-top: 10px;
-   
+  display: block;
 
+}
+
+.txtdblodesk {
+  display: block;
 }
 
 #innovacion_02 .filters2 ul{
@@ -7875,6 +7880,12 @@ height: 120px;
   background-image: url(../img/materialidad/bgblusqueres.svg); 
   background-repeat: no-repeat; 
   background-size: cover;
+ 
+}
+
+#innovacion_02 #materialidad #filters{
+  display: block;
+ 
 }
 
 #innovacion_02 #materialidad .sparked .titles span{margin-left:5%}
@@ -8230,6 +8241,7 @@ height: 120px;
 
 @media (max-width: 450px) {
 
+
  
 
   #innovacion_01  .pad95 {
@@ -8292,8 +8304,19 @@ height: 120px;
     
   
   }
-  
 
+
+#innovacion_02 .filters2 {
+  display: none;
+}
+
+.txtdblodesk {
+  display: none;
+}
+
+#intersecllax2 h3 {
+  margin-top: 18px;
+}
 
 }/*-END  MOBILE-*/
 
@@ -8710,10 +8733,10 @@ margin-right: 8px;
 }
 
 #oportunidad4  .imgfacesopo4 {
- width: 45%;
+ width: 100px;
  display: inline-block;
  
- height: auto;
+ height: 99px;
  
 }
 
@@ -8735,7 +8758,7 @@ margin-right: 8px;
  width: 45%;
  display: inline-block;
  
- height: auto;
+ height: 99px;
  
 }
 
@@ -9209,7 +9232,7 @@ display: none;
   .slider-control.right,
   .slider-control.left{top: -400px;}
     .text__large{font-size: 18px;}
-    .text__xlarge{font-size: 24px;}
+    .text__xlarge{font-size: 20px;}
     /* COMUNIDADES */
     .date__comunidades{padding-top: 10%;text-align: center;}
     .comunidades__box__circle{margin:30px auto; width: 340px;height: 340px; border-radius: 50%;padding: 30% 15px;}
@@ -9248,7 +9271,7 @@ display: none;
 
     /* INTEGRIDAD */
     #integridad0{height: 40vh;}
-    #integridad02 ul.list__integridad li{width: 32%;display: inline-block;}
+    #integridad02 ul.list__integridad li{width: 49%;display: inline-block;}
     #integridad02 ul.list__integridad{display: block;}
     #integridad0 .txtprinban{width: 200px;margin-top: 25%;}
     #integridad03 .box__integridad{min-height: auto;}
