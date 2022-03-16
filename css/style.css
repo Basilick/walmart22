@@ -6636,6 +6636,7 @@ align-items: flex-start;
 
 #valorfinanciero9 .chartBarsWrap {
   margin: 0;
+  margin-left: 30px;
 }
 
 #valorfinanciero9 .chartBars .bars {
@@ -9427,13 +9428,22 @@ display: none;
   width: 25%;
 
 }
+#habilitadores23,
+#ecosistema01,
+#habilitadores24,
+#habilitadores25{background-image: none;}
 .padding__portadas{padding: 15px 0}
 .nav-tabs li a {
  font-size: 10px;
  text-align: center;
 }
+#omnicanal2 .bglettters{padding-bottom: 80px}
+#omnicanal42 .imgcelphone{width: 114px;bottom: 114px;right: 20px;}
+#omnicanal43 .paddingportadas{padding: 15px;}
 
-
+#valorfinanciero .bg__hero{background-size: 1170px;background-position: top right;
+    background-position-x: -700px;}
+    #valorfinanciero9 .chartBarsWrap{margin-left: 30px;}
 
 .vimeo-wrapper {
     height: 100vh;
