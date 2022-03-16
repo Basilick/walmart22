@@ -9083,7 +9083,7 @@ margin-right: 8px;
   .datesHero strong{font-size: 24px;}
   .slider-control.left,
   .slider-control.right{top: -600px}
-  .boxGanarOrange .bgbluesky{padding: 20px 15px; height: 120px;}
+  .boxGanarOrange .bgbluesky{padding: 20px 15px; height: auto;}
   .boxGanarOrange .bgbluesky p{font-size: 12px;}
   .boxGanar2 header{min-height: 400px;}
   .boxGanar2 footer{min-height: 400px;}
@@ -9426,12 +9426,30 @@ display: none;
   #nuestronegocio3 .contborwhite{padding: 15px;}
   #nuestronegocio11 .blueswaltxt br{display: none;}
 
+  #oportunidad .bg__hero {
+    background-position-x: -540px;
+}
+
+#omnicanal14 p {
+ 
+  margin-bottom: 3px;
+}
+
+#omnicanal14 .ptop {
+ 
+  margin-top: 20px;
+}
+
 
 
   #valorfinanciero12 h3{margin-top: 30px;}
   #valorfinanciero2 .bgbluecentro{top: 240px;width: 120px;height: 120px;}
   #valorfinanciero0 .txtprinban{width: 300px;}
-
+  #valorfinanciero .bg__hero {
+    background-size: 1170px;
+    background-position: top right;
+    background-position-x: -700px;
+}
 
   #ecosistema02 .box__padding,
   #ecosistema02 .bggrey1,
@@ -9536,7 +9554,7 @@ display: none;
     #valorfinanciero2 .txtunderline{padding-left: 25%;}
     .padding__7{padding-left: 3%;padding-right: 3%;}
 
-
+    .boxGanar2 footer .linkBlock{position: relative;}
 
 .vimeo-wrapper {
     height: 100vh;
@@ -9551,7 +9569,7 @@ display: none;
 @media screen and (max-width: 400px){
   .box__textHero{padding: 10% 0;}
   .bg__hero{height: 500px;padding-top: 60%;background-size: 900px}
-  #valorfinanciero .bg__hero{background-size: 1000px;}
+  #valorfinanciero .bg__hero{background-size: 1000px; background-position-x: right;}
   #oportunidad .bg__hero{background-position: -440px;}
   #hero .txtnumbg{font-size: 28px;}
   .slider-container{height: 900px;}

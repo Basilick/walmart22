@@ -9409,7 +9409,9 @@ display: none;
     .marginTopValor{margin-top: 100px;}
     #valorfinanciero2 .txtunderline{padding-left: 25%;}
     .padding__7{padding-left: 3%;padding-right: 3%;}
+
     .boxGanar2 footer .linkBlock{position: relative;}
+    
     #mensajedirs .txtname2{left: 52%;}
     #mensajedirs .txtname1{left: 4%;}
     #nuestronegocio15 .conthiglbig h4{font-size: 20px;}
@@ -9422,6 +9424,15 @@ display: none;
     .textEmpresa{font-size: 18px;line-height: 1.3}
     #oportunidad{background: #629fcb;}
     #oportunidad .bg__hero{background-position-x: -540px}
+    #omnicanal14 p {
+ 
+      margin-bottom: 3px;
+    }
+    
+    #omnicanal14 .ptop {
+     
+      margin-top: 20px;
+    }
     #oportunidad5 .imgfacesopo4,
     #oportunidad4 .imgfacesopo4{margin-top: 30px;}
     .nav-tabs li {
@@ -9458,7 +9469,7 @@ display: none;
 @media screen and (max-width: 400px){
   .box__textHero{padding: 10% 0;}
   .bg__hero{height: 500px;padding-top: 60%;background-size: 900px}
-  #valorfinanciero .bg__hero{background-size: 1000px;}
+  #valorfinanciero .bg__hero{background-size: 1000px; background-position-x: right;}
   #oportunidad .bg__hero{background-position: -440px;}
   #hero .txtnumbg{font-size: 28px;}
   .slider-container{height: 900px;}
