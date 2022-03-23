@@ -9347,7 +9347,7 @@ display: none;
   #capAsociados .blueswaltxt br{display: none;}
 
 
-
+  #descargas .contbtndownlo{grid-template-columns: 1fr 1fr 1fr;}
 
   #footer .contbtndownlo{grid-template-columns: 1fr 1fr 1fr;}
   #footer p.txtbold{float: none;text-align: center;}
